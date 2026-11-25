@@ -1,10 +1,14 @@
 import os
-import streamlit as st
-import pandas as pd
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
-# -----------------------------------
-# MATCHIQ FOOTBALL PREDICTION PLATFORM
-# -----------------------------------
+import requests
+import pandas as pd
+import streamlit as st
+
+# ==========================================
+# MATCHIQ - FOOTBALL INTELLIGENCE PLATFORM
+# ==========================================
 
 st.set_page_config(
     page_title="MATCHIQ",
@@ -12,17 +16,25 @@ st.set_page_config(
     layout="wide"
 )
 
+API_BASE = "https://v3.football.api-sports.io"
+DATA_FOLDER = os.path.dirname(os.path.abspath(__file__))
+
 st.title("⚽ MATCHIQ")
 st.caption("Football Intelligence & Prediction Platform")
 
-DATA_FOLDER = os.path.dirname(os.path.abspath(__file__))
 
+# ==========================================
+# DATA LOADING
+# ==========================================
 
 def load_data(filename):
     path = os.path.join(DATA_FOLDER, filename)
 
     if os.path.exists(path):
-        return pd.read_csv(path)
+        try:
+            return pd.read_csv(path)
+        except Exception:
+            return pd.DataFrame()
 
     return pd.DataFrame()
 
@@ -32,27 +44,117 @@ historical = load_data("MATCHIQ_Historical_Database.csv")
 upcoming = load_data("MATCHIQ_Upcoming_Fixtures.csv")
 
 
-# -----------------------------------
+# ==========================================
+# API CONFIGURATION
+# ==========================================
+
+def get_api_key():
+    try:
+        return st.secrets.get("API_FOOTBALL_KEY", "")
+    except Exception:
+        return ""
+
+
+def api_get(endpoint, params=None):
+    key = get_api_key()
+
+    if not key:
+        raise ValueError(
+            "API key not found. Check Streamlit Secrets."
+        )
+
+    headers = {
+        "x-apisports-key": key
+    }
+
+    response = requests.get(
+        f"{API_BASE}/{endpoint}",
+        headers=headers,
+        params=params,
+        timeout=30
+    )
+
+    response.raise_for_status()
+
+    result = response.json()
+
+    errors = result.get("errors")
+
+    if errors:
+        raise ValueError(str(errors))
+
+    return result
+
+
+# ==========================================
+# LIVE FIXTURE RETRIEVAL
+# ==========================================
+
+def get_live_fixtures():
+    now = datetime.now(ZoneInfo("Africa/Lagos"))
+    today = now.strftime("%Y-%m-%d")
+
+    result = api_get(
+        "fixtures",
+        {
+            "date": today,
+            "timezone": "Africa/Lagos"
+        }
+    )
+
+    records = []
+
+    for item in result.get("response", []):
+        fixture = item.get("fixture", {})
+        league = item.get("league", {})
+        teams = item.get("teams", {})
+        goals = item.get("goals", {})
+        status = fixture.get("status", {})
+
+        records.append({
+            "fixture_id": fixture.get("id"),
+            "date": fixture.get("date"),
+            "league_id": league.get("id"),
+            "league": league.get("name"),
+            "country": league.get("country"),
+            "season": league.get("season"),
+            "home_team_id": teams.get("home", {}).get("id"),
+            "home_team": teams.get("home", {}).get("name"),
+            "away_team_id": teams.get("away", {}).get("id"),
+            "away_team": teams.get("away", {}).get("name"),
+            "home_goals": goals.get("home"),
+            "away_goals": goals.get("away"),
+            "status": status.get("short"),
+            "data_status": "CURRENT FIXTURE RETRIEVED",
+            "prediction_status": "NOT GENERATED"
+        })
+
+    return pd.DataFrame(records)
+
+
+# ==========================================
 # SIDEBAR
-# -----------------------------------
+# ==========================================
 
 st.sidebar.title("MATCHIQ")
+
 page = st.sidebar.radio(
     "Navigation",
     [
         "Overview",
         "Historical Predictions",
-        "Upcoming Fixtures"
+        "Upcoming Fixtures",
+        "Live API Connection"
     ]
 )
 
 st.sidebar.markdown("---")
-st.sidebar.caption("MATCHIQ | Football Analytics")
+st.sidebar.caption("MATCHIQ Football Analytics")
 
 
-# -----------------------------------
+# ==========================================
 # OVERVIEW
-# -----------------------------------
+# ==========================================
 
 if page == "Overview":
 
@@ -60,82 +162,51 @@ if page == "Overview":
 
     col1, col2, col3 = st.columns(3)
 
-    with col1:
-        st.metric(
-            "Historical Matches",
-            f"{len(historical):,}"
-        )
+    col1.metric("Historical Matches", f"{len(historical):,}")
+    col2.metric("Historical Predictions", f"{len(predictions):,}")
+    col3.metric("Uploaded Upcoming Fixtures", f"{len(upcoming):,}")
 
-    with col2:
-        st.metric(
-            "Generated Predictions",
-            f"{len(predictions):,}"
-        )
+    st.divider()
 
-    with col3:
-        st.metric(
-            "Upcoming Fixtures",
-            f"{len(upcoming):,}"
-        )
-
-    st.markdown("---")
-    st.subheader("Model Performance")
+    st.subheader("Historical Model Performance")
 
     col1, col2, col3 = st.columns(3)
 
-    with col1:
-        st.metric("V3 Accuracy", "45.34%")
-
-    with col2:
-        st.metric("Brier Score", "0.6504")
-
-    with col3:
-        st.metric("Log Loss", "1.0851")
+    col1.metric("V3 Accuracy", "45.34%")
+    col2.metric("Brier Score", "0.6504")
+    col3.metric("Log Loss", "1.0851")
 
     st.info(
-        "Chronological holdout performance: 51.01% accuracy "
-        "across 447 matches. This is a historical evaluation, "
+        "Chronological holdout accuracy was 51.01% "
+        "across 447 matches. This is historical evaluation, "
         "not a guarantee of future performance."
     )
 
-    st.markdown("---")
     st.subheader("About MATCHIQ")
 
     st.write(
-        "MATCHIQ is a football analytics platform designed "
-        "to evaluate historical match performance and generate "
-        "statistical football predictions."
+        "MATCHIQ combines football data retrieval, "
+        "historical analysis and statistical prediction models."
     )
 
     st.write(
-        "The current prediction engine uses a Poisson-based "
-        "model with upgraded venue-performance features."
+        "The current historical model uses an upgraded "
+        "Poisson prediction engine."
     )
 
-    if not predictions.empty:
-        st.subheader("Recent Historical Predictions")
-        st.dataframe(
-            predictions.head(10),
-            use_container_width=True
-        )
 
-
-# -----------------------------------
+# ==========================================
 # HISTORICAL PREDICTIONS
-# -----------------------------------
+# ==========================================
 
 elif page == "Historical Predictions":
 
     st.header("Historical Predictions")
 
     if predictions.empty:
-        st.warning("Historical prediction data is not available.")
-    else:
-        st.write(
-            "Explore the historical predictions generated by "
-            "the MATCHIQ V3 model."
-        )
+        st.warning("Historical prediction data is unavailable.")
 
+    else:
         search = st.text_input("Search team or competition")
 
         filtered = predictions.copy()
@@ -145,21 +216,22 @@ elif page == "Historical Predictions":
                 include=["object"]
             ).columns
 
-            mask = filtered[text_columns].astype(str).apply(
-                lambda column: column.str.contains(
-                    search,
-                    case=False,
-                    na=False
-                )
-            ).any(axis=1)
+            if len(text_columns):
+                mask = filtered[text_columns].astype(str).apply(
+                    lambda col: col.str.contains(
+                        search,
+                        case=False,
+                        na=False
+                    )
+                ).any(axis=1)
 
-            filtered = filtered[mask]
+                filtered = filtered[mask]
 
         st.metric("Matching Records", len(filtered))
 
         st.dataframe(
             filtered,
-            use_container_width=True
+            width="stretch"
         )
 
         st.download_button(
@@ -170,31 +242,24 @@ elif page == "Historical Predictions":
         )
 
 
-# -----------------------------------
+# ==========================================
 # UPCOMING FIXTURES
-# -----------------------------------
+# ==========================================
 
 elif page == "Upcoming Fixtures":
 
     st.header("Upcoming Fixtures")
 
+    st.caption(
+        "Uploaded historical fixture snapshot. "
+        "Use Live API Connection to retrieve today's fixtures."
+    )
+
     if upcoming.empty:
-        st.warning(
-            "Upcoming fixture data is not available yet. "
-            "Update the fixture CSV from the data engine."
-        )
+        st.warning("No uploaded upcoming fixture records found.")
+
     else:
-        st.write(
-            "Fixtures retrieved from the football data provider."
-        )
-
-        st.caption(
-            "A listed fixture is not necessarily a model prediction. "
-            "Fixtures without sufficient current historical data "
-            "should not be treated as reliable betting selections."
-        )
-
-        search = st.text_input("Search upcoming teams or leagues")
+        search = st.text_input("Search teams or competitions")
 
         filtered = upcoming.copy()
 
@@ -203,21 +268,22 @@ elif page == "Upcoming Fixtures":
                 include=["object"]
             ).columns
 
-            mask = filtered[text_columns].astype(str).apply(
-                lambda column: column.str.contains(
-                    search,
-                    case=False,
-                    na=False
-                )
-            ).any(axis=1)
+            if len(text_columns):
+                mask = filtered[text_columns].astype(str).apply(
+                    lambda col: col.str.contains(
+                        search,
+                        case=False,
+                        na=False
+                    )
+                ).any(axis=1)
 
-            filtered = filtered[mask]
+                filtered = filtered[mask]
 
-        st.metric("Available Fixtures", len(filtered))
+        st.metric("Available Records", len(filtered))
 
         st.dataframe(
             filtered,
-            use_container_width=True
+            width="stretch"
         )
 
         st.download_button(
@@ -228,11 +294,109 @@ elif page == "Upcoming Fixtures":
         )
 
 
-# -----------------------------------
-# FOOTER
-# -----------------------------------
+# ==========================================
+# LIVE API CONNECTION
+# ==========================================
 
-st.markdown("---")
+elif page == "Live API Connection":
+
+    st.header("Live Football Data Connection")
+
+    st.write(
+        "Connect MATCHIQ to API-Football and retrieve "
+        "the latest fixtures for the current date."
+    )
+
+    if get_api_key():
+        st.success("API key detected in Streamlit Secrets.")
+    else:
+        st.error(
+            "API key not detected. Check the API_FOOTBALL_KEY "
+            "entry in Streamlit Secrets."
+        )
+
+    if st.button(
+        "Test API Connection and Retrieve Today's Fixtures",
+        type="primary"
+    ):
+
+        if not get_api_key():
+            st.error("API key is missing.")
+
+        else:
+            with st.spinner("Connecting to API-Football..."):
+
+                try:
+                    status_result = api_get("status")
+
+                    st.success(
+                        "API authentication successful."
+                    )
+
+                    st.subheader("API Account Information")
+
+                    st.json(status_result.get("response", {}))
+
+                    live_df = get_live_fixtures()
+
+                    st.session_state["live_fixtures"] = live_df
+
+                    st.success(
+                        f"Successfully retrieved {len(live_df)} "
+                        "fixtures for today."
+                    )
+
+                except requests.exceptions.HTTPError as error:
+                    st.error(
+                        f"API HTTP error: {error}. "
+                        "Check your subscription and API access."
+                    )
+
+                except requests.exceptions.RequestException as error:
+                    st.error(f"Connection error: {error}")
+
+                except Exception as error:
+                    st.error(f"API retrieval error: {error}")
+
+    if "live_fixtures" in st.session_state:
+
+        live_df = st.session_state["live_fixtures"]
+
+        st.divider()
+        st.subheader("Retrieved Live Fixtures")
+
+        st.metric("Fixtures Retrieved", len(live_df))
+
+        if live_df.empty:
+            st.info("The API returned no fixtures for today.")
+
+        else:
+            st.dataframe(
+                live_df,
+                width="stretch"
+            )
+
+            st.download_button(
+                "Download Live Fixtures",
+                data=live_df.to_csv(index=False).encode("utf-8"),
+                file_name="MATCHIQ_Live_Fixtures.csv",
+                mime="text/csv"
+            )
+
+        st.warning(
+            "Retrieving fixtures does not automatically generate "
+            "predictions. Recent team data and model validation "
+            "must be completed first."
+        )
+
+
+# ==========================================
+# FOOTER
+# ==========================================
+
+st.divider()
+
 st.caption(
-    "MATCHIQ | Statistical analysis, not guaranteed outcomes."
+    "MATCHIQ | Statistical football intelligence. "
+    "Predictions are not guaranteed outcomes."
 )

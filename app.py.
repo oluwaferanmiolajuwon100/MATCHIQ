@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import os
@@ -10,7 +9,9 @@ st.set_page_config(
 )
 
 st.title("⚽ MATCHIQ")
-st.subheader("Football Intelligence & Statistical Prediction Platform")
+st.subheader(
+    "Football Intelligence & Statistical Prediction Platform"
+)
 
 def load_data(filename):
     if os.path.exists(filename):
@@ -23,30 +24,59 @@ fixtures = load_data("MATCHIQ_Upcoming_Fixtures.csv")
 
 page = st.sidebar.radio(
     "Navigation",
-    ["Overview", "Historical Predictions", "Upcoming Fixtures"]
+    [
+        "Overview",
+        "Historical Predictions",
+        "Upcoming Fixtures"
+    ]
 )
 
 if page == "Overview":
     st.header("MATCHIQ Overview")
+
     a, b, c = st.columns(3)
+
     a.metric("Historical Matches", len(history))
     b.metric("Historical Predictions", len(predictions))
     c.metric("Upcoming Fixtures", len(fixtures))
 
     st.subheader("Poisson V3 Performance")
+
     st.write("Historical accuracy: 45.34%")
     st.write("Chronological holdout accuracy: 51.01%")
-    st.info("Historical results do not guarantee future performance.")
+
+    st.info(
+        "Historical results do not guarantee future performance."
+    )
 
 elif page == "Historical Predictions":
     st.header("Historical Predictions")
-    st.dataframe(predictions, use_container_width=True)
+
+    if predictions.empty:
+        st.warning("Historical prediction data is unavailable.")
+    else:
+        st.dataframe(
+            predictions,
+            use_container_width=True
+        )
 
 elif page == "Upcoming Fixtures":
     st.header("Upcoming Fixtures")
+
     st.warning(
         "Current team data is unavailable. "
         "No predictions have been generated."
     )
-    st.dataframe(fixtures, use_container_width=True)
 
+    if fixtures.empty:
+        st.info("No upcoming fixtures are available.")
+    else:
+        st.dataframe(
+            fixtures,
+            use_container_width=True
+        )
+
+st.divider()
+st.caption(
+    "MATCHIQ | Statistical Analysis & Football Intelligence"
+)

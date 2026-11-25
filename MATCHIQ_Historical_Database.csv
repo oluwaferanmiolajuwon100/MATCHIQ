@@ -1,0 +1,1741 @@
+fixture_id,date,league_id,league,country,season,home_team_id,home_team,away_team_id,away_team,home_goals,away_goals,status
+1153068,2024-01-19 23:00:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1133,Jaguares,0,1,FT
+1153064,2024-01-20 01:15:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1127,Deportivo Cali,2,2,FT
+1153062,2024-01-20 21:00:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1132,Chico,2,1,FT
+1153061,2024-01-20 23:10:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1147,Fortaleza FC,1,2,FT
+1153067,2024-01-21 01:20:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1144,Águilas Doradas,0,1,FT
+1153066,2024-01-21 21:00:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1128,Independiente Medellin,5,0,FT
+1153065,2024-01-21 23:10:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1131,Bucaramanga,2,0,FT
+1153070,2024-01-22 01:20:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1141,Alianza Valledupar,3,1,FT
+1153069,2024-01-22 23:10:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1129,Envigado,0,0,FT
+1153063,2024-01-23 01:20:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1139,Santa Fe,0,1,FT
+1153079,2024-01-25 23:10:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1140,Patriotas,2,0,FT
+1153075,2024-01-26 01:20:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1136,Once Caldas,1,0,FT
+1153072,2024-01-26 23:10:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1142,Deportes Tolima,1,4,FT
+1153073,2024-01-27 01:20:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1127,Deportivo Cali,3,3,FT
+1153077,2024-01-27 21:00:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1129,Envigado,3,1,FT
+1153074,2024-01-27 23:10:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1134,Internacional de Bogota,0,0,FT
+1153080,2024-01-28 01:20:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1462,Deportivo Pereira,1,0,FT
+1153078,2024-01-28 21:00:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1135,Junior,2,2,FT
+1153076,2024-01-28 23:10:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1137,Atletico Nacional,4,1,FT
+1153071,2024-01-29 01:20:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1125,Millonarios,0,0,FT
+1153087,2024-01-30 21:00:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1144,Águilas Doradas,0,0,FT
+1153081,2024-01-30 23:15:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1147,Fortaleza FC,2,0,FT
+1153088,2024-01-31 01:30:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1139,Santa Fe,1,0,FT
+1153083,2024-01-31 21:00:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1126,Deportivo Pasto,0,1,FT
+1153086,2024-01-31 23:10:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1141,Alianza Valledupar,1,1,FT
+1153082,2024-02-01 01:20:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1138,America de Cali,2,1,FT
+1153090,2024-02-01 21:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1132,Chico,2,0,FT
+1153089,2024-02-01 23:10:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1136,Once Caldas,1,1,FT
+1153084,2024-02-02 01:20:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1128,Independiente Medellin,3,0,FT
+1153085,2024-02-02 23:10:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1131,Bucaramanga,0,1,FT
+1153091,2024-02-03 23:00:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1125,Millonarios,2,0,FT
+1153096,2024-02-04 01:10:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1140,Patriotas,1,0,FT
+1153099,2024-02-04 21:00:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1129,Envigado,1,1,FT
+1153095,2024-02-04 23:10:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1137,Atletico Nacional,0,3,FT
+1153094,2024-02-05 01:20:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1135,Junior,0,1,FT
+1153098,2024-02-05 21:00:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1462,Deportivo Pereira,1,2,FT
+1153093,2024-02-05 23:10:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1133,Jaguares,1,1,FT
+1153100,2024-02-06 01:20:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1127,Deportivo Cali,1,0,FT
+1153092,2024-02-06 23:10:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1134,Internacional de Bogota,0,0,FT
+1153097,2024-02-07 01:20:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1131,Bucaramanga,0,1,FT
+1153110,2024-02-07 21:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1141,Alianza Valledupar,1,2,FT
+1153106,2024-02-08 01:00:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1138,America de Cali,1,0,FT
+1153103,2024-02-08 21:00:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1147,Fortaleza FC,2,0,FT
+1153104,2024-02-08 23:10:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1126,Deportivo Pasto,2,0,FT
+1153107,2024-02-09 01:20:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1137,Atletico Nacional,0,0,FT
+1153105,2024-02-09 23:10:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1144,Águilas Doradas,1,0,FT
+1153101,2024-02-10 01:20:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1132,Chico,4,0,FT
+1153108,2024-02-10 21:00:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1142,Deportes Tolima,1,1,FT
+1153102,2024-02-10 23:10:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1136,Once Caldas,1,1,FT
+1153109,2024-02-11 01:20:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1139,Santa Fe,1,1,FT
+1153119,2024-02-11 21:00:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1135,Junior,2,0,FT
+1153120,2024-02-11 23:10:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1125,Millonarios,0,1,FT
+1153114,2024-02-12 01:20:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1462,Deportivo Pereira,1,2,FT
+1153113,2024-02-13 01:10:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1129,Envigado,0,1,FT
+1153115,2024-02-13 23:10:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1134,Internacional de Bogota,1,1,FT
+1153117,2024-02-14 01:20:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1127,Deportivo Cali,1,0,FT
+1153112,2024-02-14 23:10:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1140,Patriotas,1,0,FT
+1153118,2024-02-15 01:20:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1128,Independiente Medellin,3,0,FT
+1153111,2024-02-15 23:10:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1133,Jaguares,2,0,FT
+1153116,2024-02-16 01:20:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1131,Bucaramanga,0,0,FT
+1153126,2024-02-16 23:10:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1144,Águilas Doradas,0,1,FT
+1153121,2024-02-17 01:20:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1137,Atletico Nacional,3,2,FT
+1153129,2024-02-17 23:05:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1147,Fortaleza FC,2,2,FT
+1153123,2024-02-18 01:15:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1139,Santa Fe,1,0,FT
+1153128,2024-02-18 19:00:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1140,Patriotas,1,0,FT
+1153130,2024-02-18 21:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1138,America de Cali,1,1,FT
+1153125,2024-02-18 23:10:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1136,Once Caldas,3,0,FT
+1153124,2024-02-19 01:20:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1142,Deportes Tolima,0,1,FT
+1153127,2024-02-19 21:00:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1141,Alianza Valledupar,1,0,FT
+1153122,2024-02-20 01:20:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1126,Deportivo Pasto,1,0,FT
+1153137,2024-02-22 00:45:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1135,Junior,3,0,FT
+1150754,2024-02-22 01:00:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,1606,Real Salt Lake,2,0,FT
+1153131,2024-02-22 21:00:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1131,Bucaramanga,0,0,FT
+1153136,2024-02-22 23:10:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1134,Internacional de Bogota,0,1,FT
+1153132,2024-02-23 01:20:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1462,Deportivo Pereira,1,2,FT
+1153139,2024-02-23 21:00:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1132,Chico,1,1,FT
+1153135,2024-02-23 23:10:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1129,Envigado,2,0,FT
+1153133,2024-02-24 01:20:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1127,Deportivo Cali,0,1,FT
+1153788,2024-02-24 05:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,4326,Vanraure Hachinohe,4,1,FT
+1153796,2024-02-24 05:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,4324,Sagamihara,0,1,FT
+1153793,2024-02-24 05:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,2235,FC Ryukyu,1,2,FT
+1153791,2024-02-24 06:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,4318,Fukushima United,4,1,FT
+1150755,2024-02-24 19:00:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,1608,Atlanta United FC,1,0,FT
+1150756,2024-02-24 21:30:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1595,Seattle Sounders,2,1,FT
+1150767,2024-02-24 22:00:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,1602,New York Red Bulls,0,0,FT
+1153134,2024-02-24 23:10:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1128,Independiente Medellin,2,0,FT
+1150759,2024-02-25 00:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,1614,CF Montreal,0,0,FT
+1150760,2024-02-25 00:30:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,1607,Chicago Fire,2,2,FT
+1150758,2024-02-25 00:30:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,1609,New England Revolution,3,1,FT
+1150757,2024-02-25 00:30:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,1604,New York City FC,1,0,FT
+1153138,2024-02-25 01:20:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1125,Millonarios,1,0,FT
+1150762,2024-02-25 01:30:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,1596,San Jose Earthquakes,2,1,FT
+1150763,2024-02-25 01:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,1611,Sporting Kansas City,1,1,FT
+1150764,2024-02-25 01:30:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,1606,Real Salt Lake,1,1,FT
+1150761,2024-02-25 01:30:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,1612,Minnesota United FC,1,2,FT
+1150765,2024-02-25 03:30:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,1610,Colorado Rapids,4,1,FT
+1153795,2024-02-25 04:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,4319,Gainare Tottori,1,0,FT
+1153790,2024-02-25 05:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,300,Kanazawa,3,0,FT
+1153789,2024-02-25 05:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,4322,Kataller Toyama,1,1,FT
+1153797,2024-02-25 05:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,304,Matsumoto Yamaga,1,2,FT
+1153794,2024-02-25 05:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,4321,Grulla Morioka,1,1,FT
+1153792,2024-02-25 10:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,4323,Parceiro Nagano,2,1,FT
+1150766,2024-02-25 19:30:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,1601,Toronto FC,0,0,FT
+1153145,2024-02-25 21:30:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1138,America de Cali,1,1,FT
+1153148,2024-02-25 23:30:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1137,Atletico Nacional,2,0,FT
+1153143,2024-02-26 01:30:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1135,Junior,3,3,FT
+1150768,2024-02-26 02:00:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,9568,Inter Miami,1,1,FT
+1153147,2024-02-26 23:10:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1139,Santa Fe,1,2,FT
+1153141,2024-02-27 01:20:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1142,Deportes Tolima,1,2,FT
+1153150,2024-02-27 21:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1140,Patriotas,1,0,FT
+1153146,2024-02-28 01:15:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1136,Once Caldas,0,2,FT
+1153144,2024-02-28 20:15:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1141,Alianza Valledupar,1,2,FT
+1153149,2024-03-01 00:45:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1126,Deportivo Pasto,1,0,FT
+1153160,2024-03-01 21:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1133,Jaguares,2,2,FT
+1153157,2024-03-01 23:10:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1142,Deportes Tolima,1,1,FT
+1153151,2024-03-02 01:20:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1136,Once Caldas,0,1,FT
+1166883,2024-03-02 05:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,297,FC Gifu,1,0,FT
+1166886,2024-03-02 05:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,4322,Kataller Toyama,0,0,FT
+1166887,2024-03-02 05:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,4321,Grulla Morioka,1,1,FT
+1166885,2024-03-02 05:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,4319,Gainare Tottori,4,0,FT
+1166884,2024-03-02 05:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,4326,Vanraure Hachinohe,1,0,FT
+1166888,2024-03-02 05:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,4318,Fukushima United,1,2,FT
+1166889,2024-03-02 07:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,304,Matsumoto Yamaga,2,2,FT
+1150770,2024-03-02 19:00:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,1613,Columbus Crew,1,1,FT
+1150771,2024-03-02 19:00:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,1616,Los Angeles FC,3,0,FT
+1153156,2024-03-02 21:00:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1134,Internacional de Bogota,1,2,FT
+1150772,2024-03-02 21:30:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,1598,Orlando City SC,5,0,FT
+1153153,2024-03-02 23:10:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1138,America de Cali,2,0,FT
+1150769,2024-03-03 00:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,18310,Charlotte,1,1,FT
+1153154,2024-03-03 01:20:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1137,Atletico Nacional,0,0,FT
+1150774,2024-03-03 01:30:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,1614,CF Montreal,1,2,FT
+1150775,2024-03-03 01:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,1602,New York Red Bulls,1,2,FT
+1150773,2024-03-03 01:30:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,2242,FC Cincinnati,1,2,FT
+1150776,2024-03-03 01:30:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,1599,Philadelphia Union,1,1,FT
+1150777,2024-03-03 01:30:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,1604,New York City FC,2,0,FT
+1150778,2024-03-03 02:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,9569,Nashville SC,1,1,FT
+1150779,2024-03-03 03:30:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,1615,DC United,2,2,FT
+1150781,2024-03-03 03:30:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,16489,Austin,0,0,FT
+1150780,2024-03-03 03:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,1605,Los Angeles Galaxy,1,3,FT
+1166890,2024-03-03 05:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,7138,Osaka,0,2,FT
+1166892,2024-03-03 05:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,4323,Parceiro Nagano,1,1,FT
+1166891,2024-03-03 05:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,10075,Imabari,1,3,FT
+1150782,2024-03-03 19:00:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,1601,Toronto FC,0,1,FT
+1153152,2024-03-03 21:00:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1140,Patriotas,3,0,FT
+1153159,2024-03-03 23:10:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1144,Águilas Doradas,1,0,FT
+1153155,2024-03-04 01:20:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1139,Santa Fe,0,1,FT
+1153158,2024-03-05 01:10:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1147,Fortaleza FC,1,0,FT
+1153165,2024-03-08 23:10:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1135,Junior,0,2,FT
+1153169,2024-03-09 01:20:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1127,Deportivo Cali,2,0,FT
+1166894,2024-03-09 05:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,4324,Sagamihara,1,1,FT
+1166895,2024-03-09 05:00:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,7135,Nara Club,1,1,FT
+1166896,2024-03-09 05:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,7138,Osaka,2,6,FT
+1166893,2024-03-09 05:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,4327,YSCC,1,1,FT
+1150783,2024-03-09 19:00:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,1617,Portland Timbers,1,2,FT
+1153163,2024-03-09 19:00:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1132,Chico,2,1,FT
+1150784,2024-03-09 19:00:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,18310,Charlotte,1,0,FT
+1153167,2024-03-09 21:10:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1147,Fortaleza FC,2,0,FT
+1150787,2024-03-10 00:30:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,1597,FC Dallas,2,1,FT
+1150788,2024-03-10 00:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,1612,Minnesota United FC,2,3,FT
+1150785,2024-03-10 00:30:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,1609,New England Revolution,4,1,FT
+1150786,2024-03-10 00:30:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,1607,Chicago Fire,2,1,FT
+1150790,2024-03-10 01:30:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,20787,St. Louis City,2,2,FT
+1153161,2024-03-10 01:30:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1128,Independiente Medellin,2,2,FT
+1150791,2024-03-10 02:30:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,1610,Colorado Rapids,1,2,FT
+1150792,2024-03-10 03:30:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1611,Sporting Kansas City,0,0,FT
+1150793,2024-03-10 03:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,1603,Vancouver Whitecaps,0,2,FT
+1166897,2024-03-10 04:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,10409,Tegevajaro Miyazaki,1,1,FT
+1166898,2024-03-10 04:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,4314,Azul Claro Numazu,1,0,FT
+1166899,2024-03-10 06:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,317,Kamatamare Sanuki,4,3,FT
+1153162,2024-03-10 19:00:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1129,Envigado,2,1,FT
+1150795,2024-03-10 19:00:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,1605,Los Angeles Galaxy,2,2,FT
+1150794,2024-03-10 19:00:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,1615,DC United,0,0,FT
+1150796,2024-03-10 21:00:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,1614,CF Montreal,2,3,FT
+1153170,2024-03-10 21:10:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1131,Bucaramanga,0,0,FT
+1153166,2024-03-10 23:20:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1141,Alianza Valledupar,2,0,FT
+1153168,2024-03-11 01:30:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1462,Deportivo Pereira,0,2,FT
+1153164,2024-03-11 23:20:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1125,Millonarios,2,1,FT
+1153175,2024-03-15 23:00:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1126,Deportivo Pasto,1,1,FT
+1153174,2024-03-16 01:10:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1133,Jaguares,3,1,FT
+1166903,2024-03-16 04:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,297,FC Gifu,0,0,FT
+1166906,2024-03-16 05:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,805,Kitakyushu,1,0,FT
+1166904,2024-03-16 05:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,7135,Nara Club,2,0,FT
+1166907,2024-03-16 05:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,4323,Parceiro Nagano,1,1,FT
+1166905,2024-03-16 05:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,10075,Imabari,0,2,FT
+1166908,2024-03-16 05:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,300,Kanazawa,0,2,FT
+1150798,2024-03-16 18:00:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,9568,Inter Miami,1,3,FT
+1150797,2024-03-16 18:00:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,1614,CF Montreal,4,3,FT
+1153176,2024-03-16 19:00:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1142,Deportes Tolima,1,1,FT
+1150799,2024-03-16 19:30:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,1610,Colorado Rapids,1,1,FT
+1153172,2024-03-16 21:10:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1134,Internacional de Bogota,4,0,FT
+1150801,2024-03-16 23:30:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,1601,Toronto FC,2,1,FT
+1150800,2024-03-16 23:30:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,1602,New York Red Bulls,3,0,FT
+1150806,2024-03-17 00:30:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,1616,Los Angeles FC,2,0,FT
+1150802,2024-03-17 00:30:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,1599,Philadelphia Union,2,2,FT
+1150807,2024-03-17 00:30:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,18310,Charlotte,2,1,FT
+1150803,2024-03-17 00:30:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,1603,Vancouver Whitecaps,1,3,FT
+1150805,2024-03-17 00:30:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,1596,San Jose Earthquakes,2,1,FT
+1150804,2024-03-17 00:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,1617,Portland Timbers,1,0,FT
+1153179,2024-03-17 01:30:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1136,Once Caldas,1,2,FT
+1150808,2024-03-17 02:30:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,20787,St. Louis City,3,3,FT
+1166909,2024-03-17 04:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,4322,Kataller Toyama,2,0,FT
+1166912,2024-03-17 05:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,2235,FC Ryukyu,0,0,FT
+1166910,2024-03-17 05:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,4319,Gainare Tottori,1,3,FT
+1166911,2024-03-17 05:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,304,Matsumoto Yamaga,1,0,FT
+1150809,2024-03-17 18:00:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,2242,FC Cincinnati,1,2,FT
+1153180,2024-03-17 19:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1125,Millonarios,1,1,FT
+1153171,2024-03-17 21:10:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1140,Patriotas,0,1,FT
+1150810,2024-03-17 23:00:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,1598,Orlando City SC,2,0,FT
+1153177,2024-03-17 23:20:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1137,Atletico Nacional,2,1,FT
+1153173,2024-03-18 01:30:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1144,Águilas Doradas,2,1,FT
+1153178,2024-03-18 23:20:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1138,America de Cali,0,0,FT
+1166913,2024-03-20 04:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,317,Kamatamare Sanuki,1,1,FT
+1166914,2024-03-20 04:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,297,FC Gifu,0,2,FT
+1166920,2024-03-20 05:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,4314,Azul Claro Numazu,1,1,FT
+1166916,2024-03-20 05:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,4318,Fukushima United,2,1,FT
+1166917,2024-03-20 05:00:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,300,Kanazawa,1,0,FT
+1166919,2024-03-20 05:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,7138,Osaka,0,0,FT
+1166918,2024-03-20 05:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,4326,Vanraure Hachinohe,1,0,FT
+1166915,2024-03-20 05:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,4321,Grulla Morioka,1,0,FT
+1166921,2024-03-20 06:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,4327,YSCC,2,1,FT
+1166922,2024-03-20 09:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,313,Omiya Ardija,1,1,FT
+1153188,2024-03-22 23:10:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1135,Junior,1,0,FT
+1153189,2024-03-23 01:20:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1128,Independiente Medellin,1,2,FT
+1166923,2024-03-23 04:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,304,Matsumoto Yamaga,0,0,FT
+1166924,2024-03-23 05:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,10409,Tegevajaro Miyazaki,3,1,FT
+1150813,2024-03-23 18:00:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,9568,Inter Miami,4,0,FT
+1150812,2024-03-23 18:00:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,1607,Chicago Fire,1,1,FT
+1153186,2024-03-23 19:00:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1127,Deportivo Cali,1,1,FT
+1153181,2024-03-23 21:10:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1462,Deportivo Pereira,2,1,FT
+1150817,2024-03-23 23:30:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,1608,Atlanta United FC,2,0,FT
+1150811,2024-03-23 23:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,1606,Real Salt Lake,1,2,FT
+1150815,2024-03-23 23:30:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,1604,New York City FC,1,0,FT
+1150814,2024-03-23 23:30:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,1613,Columbus Crew,2,0,FT
+1150816,2024-03-23 23:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,16489,Austin,2,0,FT
+1150818,2024-03-24 00:30:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,1605,Los Angeles Galaxy,2,3,FT
+1150819,2024-03-24 00:30:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,1615,DC United,2,2,FT
+1150820,2024-03-24 01:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,1600,Houston Dynamo,0,1,FT
+1153187,2024-03-24 01:30:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1132,Chico,3,2,FT
+1150822,2024-03-24 02:30:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,1599,Philadelphia Union,1,3,FT
+1150821,2024-03-24 02:30:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,9569,Nashville SC,5,0,FT
+1150823,2024-03-24 02:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,1595,Seattle Sounders,3,2,FT
+1166926,2024-03-24 04:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,805,Kitakyushu,0,1,FT
+1166925,2024-03-24 04:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,4323,Parceiro Nagano,1,1,FT
+1166928,2024-03-24 05:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,4319,Gainare Tottori,1,1,FT
+1166927,2024-03-24 05:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,4322,Kataller Toyama,0,0,FT
+1166930,2024-03-24 05:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,2235,FC Ryukyu,2,1,FT
+1166929,2024-03-24 05:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,4324,Sagamihara,1,0,FT
+1166931,2024-03-24 05:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,7135,Nara Club,1,1,FT
+1166932,2024-03-24 06:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,4321,Grulla Morioka,3,1,FT
+1153183,2024-03-24 21:00:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1129,Envigado,3,1,FT
+1153190,2024-03-24 23:10:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1126,Deportivo Pasto,1,0,FT
+1153184,2024-03-24 23:20:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1147,Fortaleza FC,0,1,FT
+1153185,2024-03-25 01:20:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1139,Santa Fe,1,1,FT
+1153182,2024-03-25 21:00:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1141,Alianza Valledupar,1,0,FT
+1153142,2024-03-27 21:00:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1144,Águilas Doradas,1,0,FT
+1153140,2024-03-27 23:10:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1133,Jaguares,2,0,FT
+1153205,2024-03-28 01:20:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1139,Santa Fe,3,1,FT
+1153195,2024-03-29 22:00:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1142,Deportes Tolima,0,2,FT
+1153194,2024-03-30 00:30:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1134,Internacional de Bogota,1,0,FT
+1166934,2024-03-30 04:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,10075,Imabari,0,0,FT
+1166933,2024-03-30 04:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,317,Kamatamare Sanuki,2,1,FT
+1166935,2024-03-30 05:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,4314,Azul Claro Numazu,3,1,FT
+1166936,2024-03-30 07:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,4322,Kataller Toyama,3,1,FT
+1150825,2024-03-30 18:00:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,1612,Minnesota United FC,2,0,FT
+1153200,2024-03-30 19:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1137,Atletico Nacional,0,1,FT
+1150826,2024-03-30 20:00:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,1616,Los Angeles FC,3,2,FT
+1153192,2024-03-30 21:10:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1136,Once Caldas,0,0,FT
+1150830,2024-03-30 23:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,1602,New York Red Bulls,1,1,FT
+1150829,2024-03-30 23:30:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,1604,New York City FC,1,1,FT
+1150828,2024-03-30 23:30:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,1614,CF Montreal,1,0,FT
+1150827,2024-03-30 23:30:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,2242,FC Cincinnati,1,1,FT
+1150831,2024-03-30 23:30:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,1611,Sporting Kansas City,1,3,FT
+1150833,2024-03-31 00:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,1596,San Jose Earthquakes,2,1,FT
+1150834,2024-03-31 00:30:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,1613,Columbus Crew,2,2,FT
+1150832,2024-03-31 00:30:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,1597,FC Dallas,2,1,FT
+1153198,2024-03-31 01:30:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1125,Millonarios,1,2,FT
+1150835,2024-03-31 02:30:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,20787,St. Louis City,3,1,FT
+1150836,2024-03-31 03:30:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1595,Seattle Sounders,1,0,FT
+1150824,2024-03-31 03:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,1617,Portland Timbers,3,2,FT
+1166937,2024-03-31 04:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,4326,Vanraure Hachinohe,0,0,FT
+1166938,2024-03-31 05:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,10409,Tegevajaro Miyazaki,1,0,FT
+1166942,2024-03-31 05:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,313,Omiya Ardija,1,1,FT
+1166939,2024-03-31 05:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,4327,YSCC,0,1,FT
+1166941,2024-03-31 05:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,300,Kanazawa,3,3,FT
+1166940,2024-03-31 05:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,297,FC Gifu,1,2,FT
+1153196,2024-03-31 19:00:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1140,Patriotas,3,0,FT
+1150837,2024-03-31 20:45:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,1607,Chicago Fire,3,0,FT
+1153193,2024-03-31 21:10:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1131,Bucaramanga,1,2,FT
+1153197,2024-03-31 22:20:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1133,Jaguares,1,0,FT
+1153191,2024-04-01 01:30:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1144,Águilas Doradas,2,4,FT
+1153199,2024-04-01 23:20:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1138,America de Cali,1,4,FT
+1153210,2024-04-05 21:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1462,Deportivo Pereira,1,1,FT
+1153209,2024-04-05 23:10:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1147,Fortaleza FC,1,2,FT
+1153201,2024-04-06 01:20:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1142,Deportes Tolima,2,1,FT
+1166943,2024-04-06 04:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,4318,Fukushima United,1,0,FT
+1166944,2024-04-06 04:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,4323,Parceiro Nagano,3,3,FT
+1166950,2024-04-06 05:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,7135,Nara Club,2,1,FT
+1166946,2024-04-06 05:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,297,FC Gifu,1,1,FT
+1166947,2024-04-06 05:00:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,805,Kitakyushu,1,0,FT
+1166949,2024-04-06 05:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,4321,Grulla Morioka,4,1,FT
+1166945,2024-04-06 05:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,7138,Osaka,1,0,FT
+1166948,2024-04-06 05:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,304,Matsumoto Yamaga,6,1,FT
+1153204,2024-04-06 21:00:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1126,Deportivo Pasto,0,1,FT
+1153202,2024-04-06 23:10:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1127,Deportivo Cali,2,1,FT
+1150840,2024-04-06 23:30:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,1615,DC United,1,1,FT
+1150843,2024-04-06 23:30:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,18310,Charlotte,1,0,FT
+1150838,2024-04-06 23:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,1601,Toronto FC,4,0,FT
+1150844,2024-04-06 23:30:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,1608,Atlanta United FC,1,1,FT
+1150842,2024-04-06 23:30:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,1610,Colorado Rapids,2,2,FT
+1150839,2024-04-06 23:30:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,1602,New York Red Bulls,1,2,FT
+1150841,2024-04-06 23:45:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1605,Los Angeles Galaxy,2,1,FT
+1150845,2024-04-07 00:30:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,1596,San Jose Earthquakes,4,3,FT
+1150849,2024-04-07 00:30:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,1597,FC Dallas,0,0,FT
+1150847,2024-04-07 00:30:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,1606,Real Salt Lake,1,1,FT
+1150846,2024-04-07 00:30:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,1600,Houston Dynamo,2,1,FT
+1150848,2024-04-07 00:30:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,1599,Philadelphia Union,1,2,FT
+1153206,2024-04-07 01:20:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1135,Junior,4,1,FT
+1150850,2024-04-07 02:30:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,1614,CF Montreal,5,0,FT
+1166952,2024-04-07 05:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,4327,YSCC,0,2,FT
+1166951,2024-04-07 05:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,2235,FC Ryukyu,1,1,FT
+1150851,2024-04-07 17:45:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,1617,Portland Timbers,3,3,FT
+1153207,2024-04-07 21:00:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1141,Alianza Valledupar,0,0,FT
+1153203,2024-04-07 23:10:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1128,Independiente Medellin,2,2,FT
+1153208,2024-04-08 01:20:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1132,Chico,4,0,FT
+1166953,2024-04-10 09:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,7135,Nara Club,2,1,FT
+1166958,2024-04-10 10:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,4322,Kataller Toyama,1,1,FT
+1166960,2024-04-10 10:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,2235,FC Ryukyu,2,0,FT
+1166961,2024-04-10 10:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,10075,Imabari,1,2,FT
+1166959,2024-04-10 10:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,4326,Vanraure Hachinohe,2,0,FT
+1166955,2024-04-10 10:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,313,Omiya Ardija,0,1,FT
+1166957,2024-04-10 10:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,4324,Sagamihara,2,1,FT
+1166954,2024-04-10 10:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,300,Kanazawa,2,2,FT
+1166956,2024-04-10 10:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,4319,Gainare Tottori,0,2,FT
+1153212,2024-04-12 23:05:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1144,Águilas Doradas,2,1,FT
+1153211,2024-04-13 01:15:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1138,America de Cali,1,1,FT
+1166964,2024-04-13 05:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,304,Matsumoto Yamaga,2,2,FT
+1166963,2024-04-13 05:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,4318,Fukushima United,1,0,FT
+1153219,2024-04-13 19:00:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1136,Once Caldas,2,0,FT
+1150853,2024-04-13 20:45:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,1616,Los Angeles FC,2,2,FT
+1153217,2024-04-13 21:10:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1137,Atletico Nacional,0,0,FT
+1150858,2024-04-13 23:30:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,1609,New England Revolution,2,0,FT
+1150857,2024-04-13 23:30:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,1607,Chicago Fire,0,0,FT
+1150855,2024-04-13 23:30:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,1598,Orlando City SC,2,3,FT
+1150854,2024-04-13 23:30:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,1601,Toronto FC,3,2,FT
+1150856,2024-04-13 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,2242,FC Cincinnati,2,1,FT
+1150859,2024-04-14 00:30:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,1595,Seattle Sounders,0,0,FT
+1150860,2024-04-14 00:30:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,9568,Inter Miami,2,3,FT
+1150861,2024-04-14 00:30:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,1600,Houston Dynamo,1,2,FT
+1153214,2024-04-14 01:30:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1133,Jaguares,0,0,FT
+1150862,2024-04-14 01:30:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,1613,Columbus Crew,0,0,FT
+1150863,2024-04-14 02:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,1610,Colorado Rapids,0,3,FT
+1150852,2024-04-14 02:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,1605,Los Angeles Galaxy,1,3,FT
+1166965,2024-04-14 04:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,10075,Imabari,0,1,FT
+1166970,2024-04-14 05:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,317,Kamatamare Sanuki,1,1,FT
+1166966,2024-04-14 05:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,7138,Osaka,0,1,FT
+1166967,2024-04-14 05:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,4314,Azul Claro Numazu,1,1,FT
+1166969,2024-04-14 05:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,4327,YSCC,3,1,FT
+1166968,2024-04-14 05:00:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,4319,Gainare Tottori,2,0,FT
+1166971,2024-04-14 06:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,10409,Tegevajaro Miyazaki,1,2,FT
+1166972,2024-04-14 07:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,4323,Parceiro Nagano,4,3,FT
+1150864,2024-04-14 18:30:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,1599,Philadelphia Union,2,2,FT
+1153218,2024-04-14 19:00:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1140,Patriotas,1,2,FT
+1150865,2024-04-14 20:45:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,16489,Austin,1,0,FT
+1153220,2024-04-14 21:10:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1131,Bucaramanga,1,0,FT
+1153215,2024-04-14 23:20:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1129,Envigado,1,1,FT
+1153216,2024-04-15 01:30:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1134,Internacional de Bogota,0,3,FT
+1153213,2024-04-15 23:20:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1125,Millonarios,2,3,FT
+1153230,2024-04-16 21:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1142,Deportes Tolima,0,2,FT
+1153223,2024-04-16 23:10:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1127,Deportivo Cali,1,1,FT
+1153221,2024-04-17 01:20:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1139,Santa Fe,0,1,FT
+1153224,2024-04-17 21:00:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1141,Alianza Valledupar,4,0,FT
+1153225,2024-04-17 23:10:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1135,Junior,3,2,FT
+1153229,2024-04-18 01:20:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1462,Deportivo Pereira,0,1,FT
+1153228,2024-04-18 21:00:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1147,Fortaleza FC,0,0,FT
+1153227,2024-04-18 23:10:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1128,Independiente Medellin,2,3,FT
+1153226,2024-04-19 01:20:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1126,Deportivo Pasto,0,0,FT
+1153222,2024-04-20 01:10:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1132,Chico,2,3,FT
+1166962,2024-04-20 05:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,317,Kamatamare Sanuki,2,1,FT
+1166900,2024-04-20 05:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,2235,FC Ryukyu,1,1,FT
+1153234,2024-04-20 21:00:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1125,Millonarios,1,2,FT
+1153235,2024-04-20 23:10:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1136,Once Caldas,1,0,FT
+1150871,2024-04-20 23:30:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,1615,DC United,2,0,FT
+1150872,2024-04-20 23:30:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,1609,New England Revolution,1,0,FT
+1150868,2024-04-20 23:30:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,1617,Portland Timbers,2,2,FT
+1150870,2024-04-20 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,1598,Orlando City SC,2,2,FT
+1150869,2024-04-20 23:30:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,9569,Nashville SC,3,1,FT
+1150866,2024-04-20 23:30:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,2242,FC Cincinnati,1,2,FT
+1150874,2024-04-21 00:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,16489,Austin,0,1,FT
+1150873,2024-04-21 00:30:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,1606,Real Salt Lake,0,4,FT
+1150875,2024-04-21 00:30:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,20787,St. Louis City,3,3,FT
+1150876,2024-04-21 01:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,1597,FC Dallas,2,1,FT
+1153236,2024-04-21 01:30:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1133,Jaguares,2,1,FT
+1150878,2024-04-21 02:30:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,1603,Vancouver Whitecaps,0,2,FT
+1150877,2024-04-21 02:30:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1602,New York Red Bulls,2,2,FT
+1166901,2024-04-21 04:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,805,Kitakyushu,0,0,FT
+1166902,2024-04-21 04:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,313,Omiya Ardija,1,2,FT
+1153237,2024-04-21 19:00:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1138,America de Cali,1,0,FT
+1153231,2024-04-21 21:10:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1129,Envigado,2,0,FT
+1150867,2024-04-21 22:00:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,1612,Minnesota United FC,0,3,FT
+1150879,2024-04-22 00:15:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1596,San Jose Earthquakes,4,3,FT
+1153232,2024-04-22 01:30:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1140,Patriotas,2,1,FT
+1153239,2024-04-22 21:00:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1131,Bucaramanga,0,2,FT
+1153238,2024-04-22 23:10:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1144,Águilas Doradas,1,2,FT
+1153240,2024-04-22 23:20:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1137,Atletico Nacional,2,2,FT
+1153233,2024-04-23 01:20:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1134,Internacional de Bogota,2,3,FT
+1166974,2024-04-27 04:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,313,Omiya Ardija,1,4,FT
+1166973,2024-04-27 04:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,805,Kitakyushu,3,2,FT
+1166975,2024-04-27 05:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,7135,Nara Club,1,1,FT
+1166976,2024-04-27 05:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,4324,Sagamihara,1,1,FT
+1150880,2024-04-27 17:45:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,1605,Los Angeles Galaxy,2,0,FT
+1150887,2024-04-27 23:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,1601,Toronto FC,1,2,FT
+1150888,2024-04-27 23:30:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,1606,Real Salt Lake,1,2,FT
+1150881,2024-04-27 23:30:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,1610,Colorado Rapids,2,1,FT
+1150883,2024-04-27 23:30:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,1595,Seattle Sounders,2,1,FT
+1150882,2024-04-27 23:30:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,1614,CF Montreal,0,0,FT
+1150884,2024-04-27 23:30:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,9568,Inter Miami,1,4,FT
+1150886,2024-04-27 23:30:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,18310,Charlotte,2,1,FT
+1150885,2024-04-27 23:30:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,1603,Vancouver Whitecaps,1,1,FT
+1153249,2024-04-28 00:00:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1142,Deportes Tolima,3,1,FT
+1150892,2024-04-28 00:30:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,1596,San Jose Earthquakes,1,1,FT
+1150891,2024-04-28 00:30:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,1611,Sporting Kansas City,2,1,FT
+1150889,2024-04-28 00:30:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,1608,Atlanta United FC,0,0,FT
+1150890,2024-04-28 00:30:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,1600,Houston Dynamo,2,0,FT
+1150893,2024-04-28 02:30:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1617,Portland Timbers,3,2,FT
+1166977,2024-04-28 04:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,2235,FC Ryukyu,2,1,FT
+1166978,2024-04-28 05:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,4321,Grulla Morioka,9,0,FT
+1166981,2024-04-28 05:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,4326,Vanraure Hachinohe,1,1,FT
+1166979,2024-04-28 05:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,4322,Kataller Toyama,3,1,FT
+1166980,2024-04-28 05:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,297,FC Gifu,0,0,FT
+1166982,2024-04-28 06:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,4314,Azul Claro Numazu,2,2,FT
+1153247,2024-04-28 20:00:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1126,Deportivo Pasto,0,3,FT
+1153241,2024-04-28 22:00:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1135,Junior,0,0,FT
+1153248,2024-04-28 22:00:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1462,Deportivo Pereira,0,2,FT
+1153250,2024-04-28 22:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1128,Independiente Medellin,0,1,FT
+1153243,2024-04-28 22:00:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1141,Alianza Valledupar,1,0,FT
+1153244,2024-04-28 22:00:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1139,Santa Fe,1,0,FT
+1153242,2024-04-28 22:00:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1138,America de Cali,0,0,FT
+1153246,2024-04-28 22:00:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1132,Chico,3,0,FT
+1153245,2024-04-28 22:00:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1147,Fortaleza FC,1,1,FT
+1150789,2024-05-01 00:30:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,1595,Seattle Sounders,2,3,FT
+1166983,2024-05-03 04:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,313,Omiya Ardija,0,3,FT
+1166988,2024-05-03 05:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,4318,Fukushima United,0,1,FT
+1166991,2024-05-03 05:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,317,Kamatamare Sanuki,0,0,FT
+1166990,2024-05-03 05:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,4327,YSCC,0,1,FT
+1166986,2024-05-03 05:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,4326,Vanraure Hachinohe,1,2,FT
+1166989,2024-05-03 05:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,10075,Imabari,2,1,FT
+1166985,2024-05-03 05:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,7138,Osaka,0,0,FT
+1166987,2024-05-03 05:00:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,10409,Tegevajaro Miyazaki,1,1,FT
+1166984,2024-05-03 05:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,300,Kanazawa,0,2,FT
+1166992,2024-05-03 07:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,297,FC Gifu,2,1,FT
+1198174,2024-05-04 22:00:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1131,Bucaramanga,1,0,FT
+1150898,2024-05-04 23:30:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,1602,New York Red Bulls,6,2,FT
+1150897,2024-05-04 23:30:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,1599,Philadelphia Union,2,2,FT
+1150895,2024-05-04 23:30:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,1612,Minnesota United FC,1,2,FT
+1150901,2024-05-04 23:30:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,1597,FC Dallas,3,1,FT
+1150899,2024-05-04 23:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,2242,FC Cincinnati,0,1,FT
+1150900,2024-05-04 23:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,1616,Los Angeles FC,3,1,FT
+1150896,2024-05-04 23:30:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,1617,Portland Timbers,2,0,FT
+1198175,2024-05-05 00:15:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1125,Millonarios,2,1,FT
+1150904,2024-05-05 00:30:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,1614,CF Montreal,4,1,FT
+1150902,2024-05-05 00:30:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,1609,New England Revolution,0,1,FT
+1150903,2024-05-05 00:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,20787,St. Louis City,0,0,FT
+1150905,2024-05-05 01:30:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,1611,Sporting Kansas City,1,0,FT
+1150894,2024-05-05 02:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,16489,Austin,0,0,FT
+1150906,2024-05-05 20:00:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,1610,Colorado Rapids,0,2,FT
+1198176,2024-05-05 22:15:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1142,Deportes Tolima,1,0,FT
+1150907,2024-05-05 22:45:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,1605,Los Angeles Galaxy,0,0,FT
+1198177,2024-05-06 00:30:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1134,Internacional de Bogota,2,0,FT
+1166993,2024-05-06 04:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,4321,Grulla Morioka,4,1,FT
+1166995,2024-05-06 04:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,4322,Kataller Toyama,0,2,FT
+1166994,2024-05-06 04:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,2235,FC Ryukyu,0,1,FT
+1167001,2024-05-06 05:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,4323,Parceiro Nagano,0,1,FT
+1166998,2024-05-06 05:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,4324,Sagamihara,0,0,FT
+1166996,2024-05-06 05:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,7135,Nara Club,2,1,FT
+1167000,2024-05-06 05:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,4314,Azul Claro Numazu,1,0,FT
+1166997,2024-05-06 05:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,304,Matsumoto Yamaga,0,2,FT
+1166999,2024-05-06 05:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,4319,Gainare Tottori,3,3,FT
+1167002,2024-05-06 10:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,805,Kitakyushu,0,1,FT
+1198178,2024-05-11 22:15:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1135,Junior,0,0,FT
+1150909,2024-05-11 23:30:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,9569,Nashville SC,1,0,FT
+1150911,2024-05-11 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,9568,Inter Miami,2,3,FT
+1150908,2024-05-11 23:30:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,1615,DC United,2,3,FT
+1150914,2024-05-11 23:30:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,1604,New York City FC,2,3,FT
+1150912,2024-05-11 23:30:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,1609,New England Revolution,4,2,FT
+1150913,2024-05-11 23:30:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,1598,Orlando City SC,2,3,FT
+1150910,2024-05-11 23:45:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,2242,FC Cincinnati,1,2,FT
+1150917,2024-05-12 00:30:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,1607,Chicago Fire,3,1,FT
+1198179,2024-05-12 00:30:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1462,Deportivo Pereira,1,0,FT
+1150915,2024-05-12 00:30:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,16489,Austin,2,1,FT
+1150916,2024-05-12 00:30:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,1600,Houston Dynamo,1,2,FT
+1150918,2024-05-12 01:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,1596,San Jose Earthquakes,2,3,FT
+1150919,2024-05-12 02:30:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1606,Real Salt Lake,2,2,FT
+1150920,2024-05-12 02:30:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1603,Vancouver Whitecaps,3,0,FT
+1150921,2024-05-12 20:45:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,1595,Seattle Sounders,1,2,FT
+1198180,2024-05-12 22:15:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1139,Santa Fe,0,2,FT
+1198181,2024-05-13 00:30:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1136,Once Caldas,1,1,FT
+1150922,2024-05-15 23:30:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,1608,Atlanta United FC,1,0,FT
+1150925,2024-05-15 23:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,9568,Inter Miami,0,0,FT
+1150926,2024-05-15 23:30:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,1604,New York City FC,1,2,FT
+1150924,2024-05-15 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,1613,Columbus Crew,1,3,FT
+1150923,2024-05-15 23:30:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,1602,New York Red Bulls,1,4,FT
+1150931,2024-05-16 00:30:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,1616,Los Angeles FC,0,2,FT
+1150930,2024-05-16 00:30:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,1601,Toronto FC,2,0,FT
+1150927,2024-05-16 00:30:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,1600,Houston Dynamo,1,0,FT
+1150928,2024-05-16 00:30:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,18310,Charlotte,0,1,FT
+1150929,2024-05-16 00:30:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,1605,Los Angeles Galaxy,2,2,FT
+1150933,2024-05-16 01:30:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,1595,Seattle Sounders,2,0,FT
+1150932,2024-05-16 01:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,1603,Vancouver Whitecaps,1,0,FT
+1150934,2024-05-16 02:30:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,1596,San Jose Earthquakes,4,2,FT
+1167003,2024-05-18 04:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,4318,Fukushima United,1,2,FT
+1167004,2024-05-18 05:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,4327,YSCC,0,1,FT
+1167009,2024-05-18 05:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,313,Omiya Ardija,0,2,FT
+1167005,2024-05-18 05:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,805,Kitakyushu,1,1,FT
+1167008,2024-05-18 05:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,297,FC Gifu,2,1,FT
+1167007,2024-05-18 05:00:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,7138,Osaka,2,0,FT
+1167006,2024-05-18 05:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,300,Kanazawa,1,2,FT
+1167010,2024-05-18 08:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,10409,Tegevajaro Miyazaki,2,1,FT
+1150935,2024-05-18 17:45:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,1608,Atlanta United FC,1,1,FT
+1198182,2024-05-18 22:15:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1142,Deportes Tolima,2,3,FT
+1150936,2024-05-18 23:30:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,1605,Los Angeles Galaxy,0,0,FT
+1150937,2024-05-18 23:30:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,20787,St. Louis City,3,1,FT
+1150939,2024-05-18 23:30:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,1599,Philadelphia Union,0,3,FT
+1150940,2024-05-18 23:30:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,1602,New York Red Bulls,2,1,FT
+1150941,2024-05-18 23:30:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,1614,CF Montreal,5,1,FT
+1150938,2024-05-18 23:30:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,1615,DC United,1,0,FT
+1150943,2024-05-19 00:30:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,1613,Columbus Crew,1,3,FT
+1150945,2024-05-19 00:30:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,1617,Portland Timbers,2,1,FT
+1150942,2024-05-19 00:30:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,1611,Sporting Kansas City,3,2,FT
+1198183,2024-05-19 00:30:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1139,Santa Fe,0,0,FT
+1150944,2024-05-19 00:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,1597,FC Dallas,1,1,FT
+1150946,2024-05-19 01:30:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,1610,Colorado Rapids,5,3,FT
+1150948,2024-05-19 02:30:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,1603,Vancouver Whitecaps,1,1,FT
+1150947,2024-05-19 02:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,1598,Orlando City SC,0,1,FT
+1167011,2024-05-19 04:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,4324,Sagamihara,0,3,FT
+1167012,2024-05-19 05:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,4326,Vanraure Hachinohe,0,0,FT
+1198184,2024-05-19 22:30:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1462,Deportivo Pereira,2,3,FT
+1198185,2024-05-20 01:00:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1131,Bucaramanga,0,1,FT
+1200603,2024-05-22 23:15:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1125,Millonarios,0,0,FT
+1200604,2024-05-23 01:30:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1135,Junior,0,0,FT
+1200605,2024-05-23 23:15:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1134,Internacional de Bogota,3,0,FT
+1200606,2024-05-24 01:30:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1136,Once Caldas,1,0,FT
+1200607,2024-05-25 22:00:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1125,Millonarios,2,2,FT
+1150951,2024-05-25 23:30:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,1599,Philadelphia Union,0,0,FT
+1150952,2024-05-25 23:30:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,1607,Chicago Fire,1,1,FT
+1150953,2024-05-25 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,9569,Nashville SC,0,0,FT
+1150950,2024-05-25 23:30:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,1616,Los Angeles FC,0,1,FT
+1150956,2024-05-25 23:30:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,2242,FC Cincinnati,3,4,FT
+1150955,2024-05-25 23:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,1613,Columbus Crew,0,2,FT
+1150954,2024-05-25 23:30:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,1604,New York City FC,0,1,FT
+1150957,2024-05-26 00:30:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,1606,Real Salt Lake,3,3,FT
+1200608,2024-05-26 00:30:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1131,Bucaramanga,1,0,FT
+1150958,2024-05-26 00:30:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,1595,Seattle Sounders,1,2,FT
+1150959,2024-05-26 01:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,1612,Minnesota United FC,3,3,FT
+1150961,2024-05-26 02:30:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,1611,Sporting Kansas City,2,1,FT
+1150960,2024-05-26 02:30:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1600,Houston Dynamo,2,1,FT
+1150949,2024-05-26 02:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,9568,Inter Miami,1,2,FT
+1150962,2024-05-26 02:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,16489,Austin,1,1,FT
+1200609,2024-05-26 23:00:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1134,Internacional de Bogota,2,0,FT
+1200610,2024-05-26 23:00:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1142,Deportes Tolima,0,1,FT
+1150968,2024-05-29 23:30:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,1601,Toronto FC,0,0,FT
+1150963,2024-05-29 23:30:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,9569,Nashville SC,0,2,FT
+1150967,2024-05-29 23:30:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,18310,Charlotte,3,1,FT
+1150965,2024-05-29 23:30:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,1608,Atlanta United FC,1,3,FT
+1150966,2024-05-29 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,1615,DC United,4,2,FT
+1150971,2024-05-30 00:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,1610,Colorado Rapids,3,1,FT
+1150972,2024-05-30 00:30:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,1603,Vancouver Whitecaps,1,2,FT
+1150969,2024-05-30 00:30:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,1617,Portland Timbers,0,2,FT
+1150970,2024-05-30 00:30:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,1598,Orlando City SC,1,1,FT
+1150975,2024-05-30 02:30:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,1606,Real Salt Lake,1,1,FT
+1150973,2024-05-30 02:30:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1597,FC Dallas,3,1,FT
+1150974,2024-05-30 02:45:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1612,Minnesota United FC,2,0,FT
+1201627,2024-05-31 22:00:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1136,Once Caldas,1,2,FT
+1150977,2024-05-31 23:30:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,1596,San Jose Earthquakes,5,1,FT
+1167013,2024-06-01 05:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,4323,Parceiro Nagano,4,1,FT
+1167014,2024-06-01 05:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,10075,Imabari,1,2,FT
+1150980,2024-06-01 23:30:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,20787,St. Louis City,3,3,FT
+1150979,2024-06-01 23:30:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,1601,Toronto FC,2,2,FT
+1150982,2024-06-01 23:30:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,1614,CF Montreal,2,2,FT
+1150981,2024-06-01 23:30:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,1598,Orlando City SC,1,0,FT
+1150984,2024-06-02 00:30:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,1611,Sporting Kansas City,3,1,FT
+1150985,2024-06-02 00:30:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,1609,New England Revolution,1,2,FT
+1150983,2024-06-02 00:30:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,1605,Los Angeles Galaxy,2,1,FT
+1150986,2024-06-02 01:30:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,16489,Austin,5,1,FT
+1150988,2024-06-02 02:30:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,1600,Houston Dynamo,2,2,FT
+1150987,2024-06-02 02:30:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1597,FC Dallas,1,0,FT
+1150976,2024-06-02 02:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,1610,Colorado Rapids,2,1,FT
+1167017,2024-06-02 05:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,10409,Tegevajaro Miyazaki,0,2,FT
+1167015,2024-06-02 05:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,300,Kanazawa,2,2,FT
+1167018,2024-06-02 05:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,4321,Grulla Morioka,2,1,FT
+1167016,2024-06-02 05:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,317,Kamatamare Sanuki,0,1,FT
+1167020,2024-06-02 05:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,4319,Gainare Tottori,1,0,FT
+1167019,2024-06-02 05:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,4322,Kataller Toyama,1,0,FT
+1167021,2024-06-02 07:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,7135,Nara Club,0,0,FT
+1167022,2024-06-02 10:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,2235,FC Ryukyu,2,2,FT
+1150989,2024-06-02 20:45:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,18310,Charlotte,2,3,FT
+1201629,2024-06-02 22:00:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1462,Deportivo Pereira,3,1,FT
+1201628,2024-06-02 22:00:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1135,Junior,2,0,FT
+1201630,2024-06-03 00:30:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1139,Santa Fe,1,2,FT
+1203518,2024-06-06 19:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,18808,Nueva Esparta,18806,Anzoátegui FC,0,1,FT
+1203520,2024-06-06 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,2853,Petare FC,2808,Caracas FC,2,1,FT
+1203522,2024-06-06 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,16696,Atlético La Cruz,2858,Dinamo de Puerto La Cruz,4,0,FT
+1203519,2024-06-06 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,18807,Héroes de Falcón,2815,Trujillanos FC,1,0,FT
+1203521,2024-06-06 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,2810,Carabobo FC,2829,Yaracuyanos FC,0,2,FT
+1203523,2024-06-06 20:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2816,Urena SC,2847,Real Frontera,3,1,FT
+1203524,2024-06-06 21:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,21231,Bolívar,2859,Fundacion AIFI,0,0,FT
+1203527,2024-06-06 22:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2806,Zamora FC,10091,Fundación Lara Deportiva,1,0,FT
+1203525,2024-06-06 22:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2818,Estudiantes de Merida FC,2832,Atletico el Vigia FC,4,2,FT
+1203526,2024-06-06 22:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2813,Deportivo La Guaira,2817,Aragua FC,3,0,FT
+1167025,2024-06-08 09:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,10075,Imabari,1,0,FT
+1167023,2024-06-08 09:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,4327,YSCC,4,0,FT
+1167024,2024-06-08 09:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,4324,Sagamihara,2,1,FT
+1167026,2024-06-08 10:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,4314,Azul Claro Numazu,1,5,FT
+1167027,2024-06-08 10:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,304,Matsumoto Yamaga,0,4,FT
+1150990,2024-06-08 23:30:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,1602,New York Red Bulls,1,0,FT
+1202244,2024-06-09 00:30:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1139,Santa Fe,1,0,FT
+1150993,2024-06-09 00:30:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,1617,Portland Timbers,0,0,FT
+1150992,2024-06-09 00:30:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,1595,Seattle Sounders,2,1,FT
+1150991,2024-06-09 00:30:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,1597,FC Dallas,1,1,FT
+1167028,2024-06-09 05:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,4326,Vanraure Hachinohe,2,0,FT
+1167031,2024-06-09 05:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,7138,Osaka,0,1,FT
+1167030,2024-06-09 05:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,313,Omiya Ardija,0,1,FT
+1167032,2024-06-09 10:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,805,Kitakyushu,1,1,FT
+1203529,2024-06-12 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,2829,Yaracuyanos FC,2827,Puerto Cabello,0,1,FT
+1203532,2024-06-13 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,18806,Anzoátegui FC,2840,UCV,1,0,FT
+1203535,2024-06-13 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,2814,Portuguesa FC,2806,Zamora FC,1,2,FT
+1203531,2024-06-13 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,2832,Atletico el Vigia FC,2854,CD Hermanos Colmenarez,1,2,FT
+1203537,2024-06-13 20:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2815,Trujillanos FC,16847,Rayo Zuliano,2,0,FT
+1203534,2024-06-13 20:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2817,Aragua FC,214,Maritimo,0,0,FT
+1203530,2024-06-13 20:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2838,Angostura FC,21231,Bolívar,0,1,FT
+1203533,2024-06-13 22:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2807,Deportivo Tachira FC,2816,Urena SC,5,1,FT
+1203528,2024-06-13 22:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2808,Caracas FC,2825,Metropolitanos FC,2,1,FT
+1203536,2024-06-13 22:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2811,Monagas SC,16696,Atlético La Cruz,5,1,FT
+1150994,2024-06-14 23:30:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,1613,Columbus Crew,2,3,FT
+1167034,2024-06-15 06:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,4319,Gainare Tottori,2,1,FT
+1167033,2024-06-15 09:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,297,FC Gifu,1,2,FT
+1150996,2024-06-15 23:30:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,1615,DC United,1,0,FT
+1150997,2024-06-15 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,1606,Real Salt Lake,0,0,FT
+1150998,2024-06-15 23:30:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,1603,Vancouver Whitecaps,3,2,FT
+1150995,2024-06-15 23:30:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,1600,Houston Dynamo,2,2,FT
+1151001,2024-06-15 23:30:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,9568,Inter Miami,1,2,FT
+1151000,2024-06-15 23:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,1616,Los Angeles FC,1,3,FT
+1151002,2024-06-15 23:30:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,1607,Chicago Fire,1,4,FT
+1150999,2024-06-15 23:30:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,9569,Nashville SC,0,0,FT
+1202245,2024-06-16 00:30:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1131,Bucaramanga,3,2,PEN
+1151003,2024-06-16 00:30:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,20787,St. Louis City,2,0,FT
+1151004,2024-06-16 01:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,16489,Austin,2,0,FT
+1151006,2024-06-16 02:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,2242,FC Cincinnati,2,4,FT
+1151007,2024-06-16 02:30:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,1612,Minnesota United FC,2,0,FT
+1151005,2024-06-16 02:30:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1611,Sporting Kansas City,4,2,FT
+1167036,2024-06-16 04:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,4314,Azul Claro Numazu,4,0,FT
+1167035,2024-06-16 04:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,10409,Tegevajaro Miyazaki,0,0,FT
+1167037,2024-06-16 05:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,300,Kanazawa,0,1,FT
+1167038,2024-06-16 05:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,7135,Nara Club,2,1,FT
+1167039,2024-06-16 05:05:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,313,Omiya Ardija,1,1,FT
+1167041,2024-06-16 09:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,4324,Sagamihara,2,1,FT
+1167040,2024-06-16 09:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,4323,Parceiro Nagano,3,2,FT
+1167042,2024-06-16 10:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,4318,Fukushima United,1,2,FT
+1203543,2024-06-19 22:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2847,Real Frontera,2807,Deportivo Tachira FC,0,1,FT
+1203542,2024-06-19 22:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2840,UCV,18808,Nueva Esparta,1,0,FT
+1151008,2024-06-19 23:30:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,1598,Orlando City SC,2,2,FT
+1151013,2024-06-19 23:30:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,9569,Nashville SC,1,2,FT
+1151010,2024-06-19 23:30:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,1608,Atlanta United FC,0,1,FT
+1151011,2024-06-19 23:30:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,1613,Columbus Crew,2,1,FT
+1151012,2024-06-19 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,1602,New York Red Bulls,2,2,FT
+1151009,2024-06-19 23:45:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,1599,Philadelphia Union,4,3,FT
+1151018,2024-06-20 00:30:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,1610,Colorado Rapids,0,3,FT
+1151014,2024-06-20 00:30:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,1616,Los Angeles FC,1,1,FT
+1151017,2024-06-20 00:30:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,1606,Real Salt Lake,3,4,FT
+1151015,2024-06-20 00:30:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,1612,Minnesota United FC,5,3,FT
+1151016,2024-06-20 00:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,1595,Seattle Sounders,2,2,FT
+1151019,2024-06-20 02:30:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1604,New York City FC,2,0,FT
+1151020,2024-06-20 02:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,1617,Portland Timbers,1,2,FT
+1203547,2024-06-20 19:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,16847,Rayo Zuliano,18807,Héroes de Falcón,2,1,FT
+1203545,2024-06-20 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,2814,Portuguesa FC,10091,Fundación Lara Deportiva,0,1,FT
+1203546,2024-06-20 20:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2858,Dinamo de Puerto La Cruz,2811,Monagas SC,2,3,FT
+1203544,2024-06-20 22:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2813,Deportivo La Guaira,214,Maritimo,3,3,FT
+1203539,2024-06-20 22:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2827,Puerto Cabello,2810,Carabobo FC,0,1,FT
+1203541,2024-06-20 22:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2854,CD Hermanos Colmenarez,2818,Estudiantes de Merida FC,0,0,FT
+1203540,2024-06-20 23:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2859,Fundacion AIFI,2838,Angostura FC,0,1,FT
+1167044,2024-06-22 09:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,304,Matsumoto Yamaga,3,2,FT
+1167043,2024-06-22 09:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,10075,Imabari,0,0,FT
+1167045,2024-06-22 09:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,4322,Kataller Toyama,2,3,FT
+1167046,2024-06-22 10:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,2235,FC Ryukyu,3,2,FT
+1167047,2024-06-22 10:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,297,FC Gifu,2,4,FT
+1167048,2024-06-22 10:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,317,Kamatamare Sanuki,3,3,FT
+1151025,2024-06-22 23:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,1607,Chicago Fire,4,2,FT
+1151026,2024-06-22 23:30:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,18310,Charlotte,0,2,FT
+1151024,2024-06-22 23:30:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,1601,Toronto FC,3,0,FT
+1151022,2024-06-22 23:30:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,1611,Sporting Kansas City,4,0,FT
+1151023,2024-06-22 23:30:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,1600,Houston Dynamo,1,4,FT
+1151021,2024-06-22 23:30:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,1609,New England Revolution,1,2,FT
+1151027,2024-06-23 00:30:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,16489,Austin,0,1,FT
+1151028,2024-06-23 00:30:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,1604,New York City FC,1,0,FT
+1151029,2024-06-23 00:30:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,1608,Atlanta United FC,1,1,FT
+1151031,2024-06-23 01:30:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,1605,Los Angeles Galaxy,0,1,FT
+1151030,2024-06-23 01:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,1614,CF Montreal,4,1,FT
+1151033,2024-06-23 02:30:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,1603,Vancouver Whitecaps,2,0,FT
+1151032,2024-06-23 02:30:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1596,San Jose Earthquakes,6,2,FT
+1151034,2024-06-23 02:30:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,1597,FC Dallas,3,2,FT
+1167051,2024-06-23 05:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,805,Kitakyushu,1,1,FT
+1167050,2024-06-23 05:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,7138,Osaka,2,0,FT
+1167049,2024-06-23 05:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,4327,YSCC,1,0,FT
+1167052,2024-06-23 09:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,7135,Nara Club,3,0,FT
+1203538,2024-06-23 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,2853,Petare FC,2825,Metropolitanos FC,1,2,FT
+1167029,2024-06-26 10:30:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,4321,Grulla Morioka,3,0,FT
+1203553,2024-06-26 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,2847,Real Frontera,2816,Urena SC,6,1,FT
+1203549,2024-06-27 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,2829,Yaracuyanos FC,2810,Carabobo FC,2,0,FT
+1203551,2024-06-27 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,2832,Atletico el Vigia FC,2818,Estudiantes de Merida FC,0,0,FT
+1203555,2024-06-27 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,10091,Fundación Lara Deportiva,2806,Zamora FC,1,1,FT
+1203552,2024-06-27 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,18806,Anzoátegui FC,18808,Nueva Esparta,4,1,FT
+1203556,2024-06-27 20:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2858,Dinamo de Puerto La Cruz,16696,Atlético La Cruz,0,2,FT
+1203557,2024-06-27 20:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2815,Trujillanos FC,18807,Héroes de Falcón,5,0,FT
+1203554,2024-06-27 20:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2817,Aragua FC,2813,Deportivo La Guaira,1,2,FT
+1203550,2024-06-27 21:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2859,Fundacion AIFI,21231,Bolívar,1,2,FT
+1203548,2024-06-27 22:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2808,Caracas FC,2853,Petare FC,2,0,FT
+1151036,2024-06-28 23:30:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,1598,Orlando City SC,4,2,FT
+1167053,2024-06-29 07:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,4323,Parceiro Nagano,1,1,FT
+1167054,2024-06-29 08:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,10409,Tegevajaro Miyazaki,4,1,FT
+1167058,2024-06-29 09:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,4318,Fukushima United,2,1,FT
+1167056,2024-06-29 09:00:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,4324,Sagamihara,0,0,FT
+1167055,2024-06-29 09:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,4314,Azul Claro Numazu,1,0,FT
+1167057,2024-06-29 09:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,4319,Gainare Tottori,2,2,FT
+1167060,2024-06-29 10:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,4326,Vanraure Hachinohe,1,2,FT
+1167059,2024-06-29 10:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,4321,Grulla Morioka,2,0,FT
+1203563,2024-06-29 20:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,2816,Urena SC,2807,Deportivo Tachira FC,2,1,FT
+1151038,2024-06-29 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,1599,Philadelphia Union,4,2,FT
+1151040,2024-06-29 23:30:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,1615,DC United,2,2,FT
+1151037,2024-06-29 23:30:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,1601,Toronto FC,2,1,FT
+1151039,2024-06-29 23:30:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,1613,Columbus Crew,1,5,FT
+1151042,2024-06-30 00:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,18310,Charlotte,1,0,FT
+1151043,2024-06-30 00:30:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,16489,Austin,2,0,FT
+1151044,2024-06-30 00:30:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,9568,Inter Miami,1,2,FT
+1151041,2024-06-30 00:30:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,2242,FC Cincinnati,0,1,FT
+1151047,2024-06-30 02:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,1605,Los Angeles Galaxy,0,3,FT
+1151035,2024-06-30 02:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,20787,St. Louis City,4,3,FT
+1151045,2024-06-30 02:30:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1610,Colorado Rapids,3,0,FT
+1151046,2024-06-30 02:30:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,1612,Minnesota United FC,3,2,FT
+1151048,2024-06-30 02:30:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,1607,Chicago Fire,2,1,FT
+1167062,2024-06-30 09:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,300,Kanazawa,1,2,FT
+1167061,2024-06-30 09:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,317,Kamatamare Sanuki,2,1,FT
+1203565,2024-06-30 19:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2806,Zamora FC,2814,Portuguesa FC,0,1,FT
+1203558,2024-06-30 19:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2825,Metropolitanos FC,2808,Caracas FC,2,1,FT
+1203561,2024-06-30 19:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2854,CD Hermanos Colmenarez,2832,Atletico el Vigia FC,2,1,FT
+1203567,2024-06-30 19:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,16847,Rayo Zuliano,2815,Trujillanos FC,3,0,FT
+1203566,2024-06-30 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,16696,Atlético La Cruz,2811,Monagas SC,0,0,FT
+1203560,2024-06-30 20:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,21231,Bolívar,2838,Angostura FC,0,0,FT
+1203559,2024-06-30 20:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2827,Puerto Cabello,2829,Yaracuyanos FC,3,0,FT
+1203564,2024-06-30 21:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,214,Maritimo,2817,Aragua FC,2,2,FT
+1203562,2024-06-30 23:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,2840,UCV,18806,Anzoátegui FC,0,0,FT
+1203573,2024-07-03 00:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2807,Deportivo Tachira FC,2847,Real Frontera,5,1,FT
+1203576,2024-07-03 00:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2811,Monagas SC,2858,Dinamo de Puerto La Cruz,6,1,FT
+1203571,2024-07-03 00:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2818,Estudiantes de Merida FC,2854,CD Hermanos Colmenarez,3,2,FT
+1203568,2024-07-03 00:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2825,Metropolitanos FC,2853,Petare FC,2,0,FT
+1203570,2024-07-03 00:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2838,Angostura FC,2859,Fundacion AIFI,3,0,FT
+1203575,2024-07-03 00:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,10091,Fundación Lara Deportiva,2814,Portuguesa FC,2,3,FT
+1203577,2024-07-03 00:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,18807,Héroes de Falcón,16847,Rayo Zuliano,0,0,FT
+1203572,2024-07-03 00:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,18808,Nueva Esparta,2840,UCV,1,2,FT
+1203574,2024-07-03 00:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,214,Maritimo,2813,Deportivo La Guaira,3,0,FT
+1151050,2024-07-03 22:30:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,9569,Nashville SC,2,0,FT
+1151053,2024-07-03 23:30:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,1614,CF Montreal,2,0,FT
+1151054,2024-07-03 23:30:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,1598,Orlando City SC,1,2,FT
+1151049,2024-07-03 23:30:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,9568,Inter Miami,1,2,FT
+1151051,2024-07-03 23:30:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,2242,FC Cincinnati,2,3,FT
+1203569,2024-07-03 23:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,2810,Carabobo FC,2827,Puerto Cabello,1,2,FT
+1151052,2024-07-03 23:45:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,1608,Atlanta United FC,2,1,FT
+1151057,2024-07-04 00:30:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,1596,San Jose Earthquakes,2,0,FT
+1151055,2024-07-04 00:30:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,1599,Philadelphia Union,4,3,FT
+1151056,2024-07-04 00:30:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,1603,Vancouver Whitecaps,1,3,FT
+1151058,2024-07-04 01:30:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,1600,Houston Dynamo,3,2,FT
+1151059,2024-07-05 00:30:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,1617,Portland Timbers,3,2,FT
+1151060,2024-07-05 01:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,1611,Sporting Kansas City,2,1,FT
+1151061,2024-07-05 02:30:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1616,Los Angeles FC,1,2,FT
+1167067,2024-07-06 09:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,4322,Kataller Toyama,0,0,FT
+1167065,2024-07-06 09:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,4323,Parceiro Nagano,3,0,FT
+1167066,2024-07-06 09:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,313,Omiya Ardija,3,1,FT
+1167063,2024-07-06 09:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,304,Matsumoto Yamaga,1,0,FT
+1167064,2024-07-06 09:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,4324,Sagamihara,0,1,FT
+1167069,2024-07-06 10:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,297,FC Gifu,0,1,FT
+1167068,2024-07-06 10:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,805,Kitakyushu,1,2,FT
+1151062,2024-07-06 23:30:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,9568,Inter Miami,6,1,FT
+1151064,2024-07-06 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,1603,Vancouver Whitecaps,1,1,FT
+1151063,2024-07-06 23:30:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,1601,Toronto FC,4,0,FT
+1151065,2024-07-06 23:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,1615,DC United,5,0,FT
+1151066,2024-07-06 23:30:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,1602,New York Red Bulls,0,0,FT
+1151067,2024-07-07 00:30:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,1604,New York City FC,2,1,FT
+1151068,2024-07-07 01:30:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,1608,Atlanta United FC,5,2,FT
+1151069,2024-07-07 02:30:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,1609,New England Revolution,2,0,FT
+1167070,2024-07-07 06:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,10075,Imabari,2,3,FT
+1167071,2024-07-07 09:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,4327,YSCC,2,2,FT
+1167072,2024-07-07 09:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,2235,FC Ryukyu,0,1,FT
+1229612,2024-07-07 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,2813,Deportivo La Guaira,2818,Estudiantes de Merida FC,0,0,PEN
+1229611,2024-07-07 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,18806,Anzoátegui FC,214,Maritimo,1,3,FT
+1229610,2024-07-07 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,16696,Atlético La Cruz,2838,Angostura FC,0,0,PEN
+1229613,2024-07-07 20:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2815,Trujillanos FC,2811,Monagas SC,0,1,FT
+1309226,2024-07-07 21:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,21231,Bolívar,16847,Rayo Zuliano,0,1,FT
+1229614,2024-07-07 22:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2854,CD Hermanos Colmenarez,2825,Metropolitanos FC,2,3,FT
+1229615,2024-07-07 22:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2827,Puerto Cabello,2806,Zamora FC,0,0,PEN
+1229616,2024-07-08 00:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2840,UCV,2807,Deportivo Tachira FC,2,0,FT
+1151071,2024-07-08 00:30:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,1597,FC Dallas,3,2,FT
+1151072,2024-07-08 00:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,1607,Chicago Fire,1,0,FT
+1151073,2024-07-08 01:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,20787,St. Louis City,4,1,FT
+1151074,2024-07-08 02:30:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1612,Minnesota United FC,2,1,FT
+1151075,2024-07-08 02:30:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,9569,Nashville SC,4,1,FT
+1232589,2024-07-11 19:30:00+00:00,1113,Copa Venezuela,Venezuela,2024,16847,Rayo Zuliano,214,Maritimo,1,1,FT
+1232590,2024-07-11 21:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2838,Angostura FC,2811,Monagas SC,1,2,FT
+1232592,2024-07-11 23:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2827,Puerto Cabello,2825,Metropolitanos FC,2,4,FT
+1232591,2024-07-11 23:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2840,UCV,2813,Deportivo La Guaira,0,0,PEN
+1167077,2024-07-13 09:00:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,2235,FC Ryukyu,3,0,FT
+1167076,2024-07-13 09:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,4321,Grulla Morioka,0,0,FT
+1167075,2024-07-13 09:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,4314,Azul Claro Numazu,1,0,FT
+1167073,2024-07-13 09:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,4319,Gainare Tottori,1,0,FT
+1167074,2024-07-13 09:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,4318,Fukushima United,2,1,FT
+1167078,2024-07-13 10:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,317,Kamatamare Sanuki,1,0,FT
+1167079,2024-07-13 10:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,7135,Nara Club,1,1,FT
+1151079,2024-07-13 23:30:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,1598,Orlando City SC,1,3,FT
+1151078,2024-07-13 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,1608,Atlanta United FC,1,0,FT
+1151077,2024-07-13 23:30:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,9569,Nashville SC,2,1,FT
+1151076,2024-07-13 23:30:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,18310,Charlotte,1,3,FT
+1151080,2024-07-13 23:30:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,1599,Philadelphia Union,2,1,FT
+1151082,2024-07-14 00:30:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,1604,New York City FC,0,0,FT
+1151085,2024-07-14 00:30:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,1603,Vancouver Whitecaps,1,4,FT
+1151083,2024-07-14 00:30:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,1605,Los Angeles Galaxy,2,0,FT
+1151084,2024-07-14 00:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,1612,Minnesota United FC,1,1,FT
+1151081,2024-07-14 00:30:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,1595,Seattle Sounders,0,1,FT
+1151086,2024-07-14 01:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,1602,New York Red Bulls,1,1,FT
+1151088,2024-07-14 02:25:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,1606,Real Salt Lake,3,0,FT
+1151087,2024-07-14 02:30:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1613,Columbus Crew,1,5,FT
+1151089,2024-07-14 02:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,1611,Sporting Kansas City,1,2,FT
+1167081,2024-07-14 09:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,10409,Tegevajaro Miyazaki,1,0,FT
+1167080,2024-07-14 09:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,7138,Osaka,2,0,FT
+1167082,2024-07-14 10:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,300,Kanazawa,3,0,FT
+1236675,2024-07-14 21:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2813,Deportivo La Guaira,16847,Rayo Zuliano,2,1,FT
+1236676,2024-07-14 21:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2811,Monagas SC,2825,Metropolitanos FC,0,2,FT
+1234143,2024-07-16 01:15:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1136,Once Caldas,0,1,FT
+1234144,2024-07-16 21:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1134,Internacional de Bogota,2,1,FT
+1234145,2024-07-16 23:10:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1138,America de Cali,1,2,FT
+1234146,2024-07-17 01:20:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1462,Deportivo Pereira,0,2,FT
+1234147,2024-07-17 23:00:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1126,Deportivo Pasto,2,1,FT
+1151094,2024-07-17 23:30:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,1614,CF Montreal,2,2,FT
+1151090,2024-07-17 23:30:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,1604,New York City FC,2,2,FT
+1151092,2024-07-17 23:30:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,18310,Charlotte,1,1,FT
+1151091,2024-07-17 23:30:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,1607,Chicago Fire,0,1,FT
+1151093,2024-07-17 23:30:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,1601,Toronto FC,3,1,FT
+1151095,2024-07-17 23:30:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,1609,New England Revolution,5,1,FT
+1151097,2024-07-18 00:30:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,1615,DC United,2,3,FT
+1151096,2024-07-18 00:30:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,16489,Austin,3,1,FT
+1151098,2024-07-18 00:30:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,1598,Orlando City SC,0,3,FT
+1234148,2024-07-18 01:10:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1137,Atletico Nacional,0,2,FT
+1151102,2024-07-18 02:30:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,20787,St. Louis City,2,0,FT
+1151101,2024-07-18 02:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,1600,Houston Dynamo,0,1,FT
+1151103,2024-07-18 02:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,1611,Sporting Kansas City,2,1,FT
+1151099,2024-07-18 02:30:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1610,Colorado Rapids,3,2,FT
+1151100,2024-07-18 02:45:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1606,Real Salt Lake,1,1,FT
+1234149,2024-07-18 23:00:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1135,Junior,1,0,FT
+1234150,2024-07-19 01:10:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1125,Millonarios,1,1,FT
+1234151,2024-07-19 22:00:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1140,Patriotas,0,0,FT
+1234152,2024-07-20 00:30:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1142,Deportes Tolima,1,1,FT
+1167087,2024-07-20 09:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,313,Omiya Ardija,0,0,FT
+1167084,2024-07-20 09:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,10075,Imabari,0,2,FT
+1167083,2024-07-20 09:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,10409,Tegevajaro Miyazaki,3,0,FT
+1167086,2024-07-20 09:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,297,FC Gifu,2,1,FT
+1167088,2024-07-20 09:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,304,Matsumoto Yamaga,0,0,FT
+1167085,2024-07-20 09:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,4326,Vanraure Hachinohe,1,0,FT
+1167089,2024-07-20 10:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,4327,YSCC,1,1,FT
+1234153,2024-07-20 21:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1139,Santa Fe,0,1,FT
+1245064,2024-07-20 21:00:00+00:00,1113,Copa Venezuela,Venezuela,2024,2825,Metropolitanos FC,2813,Deportivo La Guaira,0,1,FT
+1151107,2024-07-20 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,1601,Toronto FC,0,1,FT
+1234155,2024-07-20 23:30:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1144,Águilas Doradas,1,0,FT
+1151105,2024-07-20 23:30:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,1613,Columbus Crew,2,1,FT
+1151110,2024-07-20 23:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,1604,New York City FC,1,1,FT
+1151111,2024-07-20 23:30:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,9569,Nashville SC,3,0,FT
+1151109,2024-07-20 23:30:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,2242,FC Cincinnati,3,1,FT
+1151108,2024-07-20 23:30:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,1597,FC Dallas,1,1,FT
+1151106,2024-07-20 23:30:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,1607,Chicago Fire,2,1,FT
+1151114,2024-07-21 00:30:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,1596,San Jose Earthquakes,2,0,FT
+1151113,2024-07-21 00:30:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,20787,St. Louis City,1,1,FT
+1151112,2024-07-21 00:30:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,18310,Charlotte,2,2,FT
+1151115,2024-07-21 01:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,1606,Real Salt Lake,3,2,FT
+1151104,2024-07-21 02:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,1600,Houston Dynamo,3,4,FT
+1151117,2024-07-21 02:30:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,1616,Los Angeles FC,0,3,FT
+1151116,2024-07-21 02:45:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1617,Portland Timbers,3,2,FT
+1167090,2024-07-21 09:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,4322,Kataller Toyama,0,1,FT
+1167092,2024-07-21 09:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,7135,Nara Club,1,4,FT
+1167091,2024-07-21 09:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,4324,Sagamihara,0,0,FT
+1234156,2024-07-21 20:30:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1131,Bucaramanga,1,0,FT
+1234157,2024-07-21 22:45:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1138,America de Cali,2,1,FT
+1234158,2024-07-22 01:00:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1132,Chico,2,1,FT
+1234154,2024-07-22 23:00:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1141,Alianza Valledupar,1,0,FT
+1234159,2024-07-23 01:00:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1128,Independiente Medellin,1,1,FT
+1234160,2024-07-23 21:00:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1147,Fortaleza FC,0,2,FT
+1234161,2024-07-23 23:10:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1133,Jaguares,1,0,FT
+1234162,2024-07-24 01:20:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1126,Deportivo Pasto,2,1,FT
+1234193,2024-07-25 01:00:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1137,Atletico Nacional,1,2,FT
+1234212,2024-07-25 21:00:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1129,Envigado,4,0,FT
+1167095,2024-07-27 09:00:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,4323,Parceiro Nagano,2,0,FT
+1167096,2024-07-27 09:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,317,Kamatamare Sanuki,1,3,FT
+1167097,2024-07-27 09:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,4314,Azul Claro Numazu,2,3,FT
+1167094,2024-07-27 09:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,300,Kanazawa,0,1,FT
+1167093,2024-07-27 09:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,4326,Vanraure Hachinohe,1,1,FT
+1167098,2024-07-27 10:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,4318,Fukushima United,1,1,FT
+1167101,2024-07-27 10:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,805,Kitakyushu,0,1,FT
+1167100,2024-07-27 10:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,313,Omiya Ardija,0,2,FT
+1167099,2024-07-27 10:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,4321,Grulla Morioka,2,1,FT
+1234164,2024-07-27 21:00:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1137,Atletico Nacional,2,0,FT
+1234171,2024-07-27 23:10:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1134,Internacional de Bogota,0,1,FT
+1234167,2024-07-28 01:20:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1135,Junior,0,0,FT
+1167102,2024-07-28 10:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,4319,Gainare Tottori,0,1,FT
+1234168,2024-07-28 20:00:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1133,Jaguares,0,0,FT
+1234169,2024-07-28 22:30:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1125,Millonarios,2,1,FT
+1234166,2024-07-29 23:00:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1462,Deportivo Pereira,2,0,FT
+1234163,2024-07-30 01:10:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1127,Deportivo Cali,2,1,FT
+1234170,2024-07-30 23:00:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1140,Patriotas,3,2,FT
+1234230,2024-07-31 01:10:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1134,Internacional de Bogota,0,1,FT
+1234201,2024-08-01 01:10:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1132,Chico,1,0,FT
+1222683,2024-08-02 09:00:00+00:00,1065,U19 League,Ukraine,2024,23082,Veres Rivne U19,24177,Karpaty Lviv U19,2,2,FT
+1222681,2024-08-02 10:00:00+00:00,1065,U19 League,Ukraine,2024,20240,Rukh Vynnyky U19,23084,Zhytomyr U19,0,1,FT
+1222805,2024-08-02 12:30:00+00:00,1065,U19 League,Ukraine,2024,23073,Chornomorets U19,23076,Kryvbas 2020 U19,0,5,FT
+1234173,2024-08-03 01:00:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1142,Deportes Tolima,1,0,FT
+1222687,2024-08-03 08:00:00+00:00,1065,U19 League,Ukraine,2024,23083,Vorskla U19,7929,Shakhtar Donetsk U19,0,3,FT
+1222682,2024-08-03 09:00:00+00:00,1065,U19 League,Ukraine,2024,23080,Obolon' Kyiv U19,23075,Kolos Kovalivka U19,0,2,FT
+1222684,2024-08-03 10:00:00+00:00,1065,U19 League,Ukraine,2024,23085,Zorya Luhansk U19,24176,Inhulets' U19,5,0,FT
+1222688,2024-08-03 10:00:00+00:00,1065,U19 League,Ukraine,2024,23081,Oleksandria U19,7898,Dynamo Kyiv U19,0,2,FT
+1234181,2024-08-03 20:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1147,Fortaleza FC,0,1,FT
+1234175,2024-08-03 22:00:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1126,Deportivo Pasto,0,0,FT
+1234174,2024-08-04 00:20:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1136,Once Caldas,1,1,FT
+1234178,2024-08-04 20:30:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1138,America de Cali,1,1,FT
+1234176,2024-08-04 22:45:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1141,Alianza Valledupar,2,2,FT
+1234182,2024-08-05 00:50:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1128,Independiente Medellin,2,0,FT
+1234177,2024-08-06 01:00:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1144,Águilas Doradas,1,1,FT
+1234180,2024-08-07 01:00:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1132,Chico,1,0,FT
+1234179,2024-08-08 00:00:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1139,Santa Fe,0,1,FT
+1222813,2024-08-08 10:00:00+00:00,1065,U19 League,Ukraine,2024,23082,Veres Rivne U19,7898,Dynamo Kyiv U19,1,1,FT
+1222691,2024-08-08 11:00:00+00:00,1065,U19 League,Ukraine,2024,25118,Livyi Bereh U19,23083,Vorskla U19,2,1,FT
+1222689,2024-08-09 09:00:00+00:00,1065,U19 League,Ukraine,2024,23075,Kolos Kovalivka U19,24176,Inhulets' U19,5,0,FT
+1222694,2024-08-09 09:00:00+00:00,1065,U19 League,Ukraine,2024,23080,Obolon' Kyiv U19,20240,Rukh Vynnyky U19,2,1,FT
+1222690,2024-08-09 12:30:00+00:00,1065,U19 League,Ukraine,2024,23073,Chornomorets U19,23085,Zorya Luhansk U19,0,2,FT
+1222696,2024-08-10 08:00:00+00:00,1065,U19 League,Ukraine,2024,7929,Shakhtar Donetsk U19,23084,Zhytomyr U19,2,0,FT
+1222692,2024-08-10 10:00:00+00:00,1065,U19 League,Ukraine,2024,24177,Karpaty Lviv U19,23076,Kryvbas 2020 U19,4,1,FT
+1234189,2024-08-10 20:30:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1140,Patriotas,3,1,FT
+1234190,2024-08-10 22:45:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1134,Internacional de Bogota,5,1,FT
+1234183,2024-08-11 01:00:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1127,Deportivo Cali,1,0,FT
+1222695,2024-08-11 12:30:00+00:00,1065,U19 League,Ukraine,2024,23077,LNZ Cherkasy U19,23081,Oleksandria U19,0,6,FT
+1234184,2024-08-11 22:45:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1131,Bucaramanga,2,1,FT
+1234192,2024-08-12 01:00:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1129,Envigado,1,1,FT
+1234185,2024-08-13 01:00:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1462,Deportivo Pereira,1,0,FT
+1234187,2024-08-14 00:30:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1133,Jaguares,1,0,FT
+1222921,2024-08-14 13:30:00+00:00,18,AFC Champions League Two,World,2024,3463,East Bengal,8023,Altyn Asyr,2,3,FT
+1222922,2024-08-14 16:15:00+00:00,18,AFC Champions League Two,World,2024,5580,Al Ahli,3535,Al Kuwait,0,1,FT
+1222697,2024-08-15 12:30:00+00:00,1065,U19 League,Ukraine,2024,23073,Chornomorets U19,23075,Kolos Kovalivka U19,0,0,FT
+1222698,2024-08-15 13:00:00+00:00,1065,U19 League,Ukraine,2024,23083,Vorskla U19,23080,Obolon' Kyiv U19,0,0,FT
+1222704,2024-08-16 09:00:00+00:00,1065,U19 League,Ukraine,2024,23084,Zhytomyr U19,24176,Inhulets' U19,0,0,FT
+1222700,2024-08-16 10:00:00+00:00,1065,U19 League,Ukraine,2024,24177,Karpaty Lviv U19,7898,Dynamo Kyiv U19,0,2,FT
+1222703,2024-08-16 11:00:00+00:00,1065,U19 League,Ukraine,2024,23085,Zorya Luhansk U19,23081,Oleksandria U19,1,2,FT
+1167108,2024-08-17 09:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,4322,Kataller Toyama,2,0,FT
+1167105,2024-08-17 09:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,2235,FC Ryukyu,0,1,FT
+1167104,2024-08-17 09:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,4314,Azul Claro Numazu,0,3,FT
+1167107,2024-08-17 09:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,10409,Tegevajaro Miyazaki,3,1,FT
+1167103,2024-08-17 09:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,297,FC Gifu,4,1,FT
+1222699,2024-08-17 09:00:00+00:00,1065,U19 League,Ukraine,2024,23082,Veres Rivne U19,23076,Kryvbas 2020 U19,3,1,FT
+1222822,2024-08-17 09:00:00+00:00,1065,U19 League,Ukraine,2024,25118,Livyi Bereh U19,7929,Shakhtar Donetsk U19,1,6,FT
+1167106,2024-08-17 09:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,317,Kamatamare Sanuki,1,2,FT
+1167110,2024-08-17 10:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,4324,Sagamihara,3,2,FT
+1167111,2024-08-17 10:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,7135,Nara Club,2,1,FT
+1167112,2024-08-17 10:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,7138,Osaka,1,1,FT
+1222701,2024-08-17 10:00:00+00:00,1065,U19 League,Ukraine,2024,23077,LNZ Cherkasy U19,20240,Rukh Vynnyky U19,0,1,FT
+1167109,2024-08-17 10:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,300,Kanazawa,2,0,FT
+1285200,2024-08-17 23:00:00+00:00,1130,USL Super League,USA,2024,24658,Carolina Ascent W,24659,DC Power W,1,0,FT
+1234202,2024-08-17 23:05:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1147,Fortaleza FC,2,1,FT
+1285201,2024-08-18 01:00:00+00:00,1130,USL Super League,USA,2024,24662,Spokane Zephyr W,24661,Fort Lauderdale United W,1,1,FT
+1234198,2024-08-18 01:10:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1144,Águilas Doradas,0,0,FT
+1285202,2024-08-18 22:30:00+00:00,1130,USL Super League,USA,2024,24663,Tampa Bay Sun W,24660,Dallas Trinity W,1,1,FT
+1234199,2024-08-18 22:45:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1138,America de Cali,1,2,FT
+1234172,2024-08-19 01:00:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1129,Envigado,0,0,FT
+1234195,2024-08-19 21:00:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1136,Once Caldas,3,1,FT
+1234194,2024-08-19 23:15:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1142,Deportes Tolima,0,2,FT
+1234200,2024-08-21 00:00:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1139,Santa Fe,1,3,FT
+1222711,2024-08-23 09:00:00+00:00,1065,U19 League,Ukraine,2024,23081,Oleksandria U19,7929,Shakhtar Donetsk U19,1,3,FT
+1222709,2024-08-23 10:00:00+00:00,1065,U19 League,Ukraine,2024,7898,Dynamo Kyiv U19,23083,Vorskla U19,3,0,FT
+1234204,2024-08-24 00:30:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1131,Bucaramanga,1,2,FT
+1167118,2024-08-24 09:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,805,Kitakyushu,0,2,FT
+1222708,2024-08-24 09:00:00+00:00,1065,U19 League,Ukraine,2024,23076,Kryvbas 2020 U19,24176,Inhulets' U19,4,0,FT
+1222710,2024-08-24 09:00:00+00:00,1065,U19 League,Ukraine,2024,20240,Rukh Vynnyky U19,23085,Zorya Luhansk U19,2,2,FT
+1167117,2024-08-24 09:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,10075,Imabari,1,2,FT
+1167115,2024-08-24 09:00:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,304,Matsumoto Yamaga,3,0,FT
+1167113,2024-08-24 09:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,4324,Sagamihara,2,1,FT
+1222712,2024-08-24 09:00:00+00:00,1065,U19 League,Ukraine,2024,23084,Zhytomyr U19,23080,Obolon' Kyiv U19,1,0,FT
+1167116,2024-08-24 09:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,2235,FC Ryukyu,1,2,FT
+1167120,2024-08-24 10:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,4321,Grulla Morioka,3,0,FT
+1167119,2024-08-24 10:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,7138,Osaka,2,1,FT
+1234210,2024-08-24 20:00:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1134,Internacional de Bogota,0,0,FT
+1234209,2024-08-24 22:15:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1132,Chico,4,0,FT
+1151118,2024-08-24 22:45:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,1595,Seattle Sounders,2,3,FT
+1285203,2024-08-24 23:00:00+00:00,1130,USL Super League,USA,2024,24663,Tampa Bay Sun W,24659,DC Power W,0,0,FT
+1151121,2024-08-24 23:30:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,1597,FC Dallas,3,4,FT
+1151120,2024-08-24 23:30:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,1602,New York Red Bulls,1,1,FT
+1151122,2024-08-24 23:30:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,2242,FC Cincinnati,2,0,FT
+1151124,2024-08-24 23:30:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,1607,Chicago Fire,2,2,FT
+1151123,2024-08-24 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,1609,New England Revolution,0,5,FT
+1151126,2024-08-25 00:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,1601,Toronto FC,0,1,FT
+1151128,2024-08-25 00:30:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,16489,Austin,0,2,FT
+1151127,2024-08-25 00:30:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,1598,Orlando City SC,3,0,FT
+1234206,2024-08-25 00:30:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1135,Junior,0,1,FT
+1151129,2024-08-25 01:30:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,1596,San Jose Earthquakes,0,2,FT
+1151130,2024-08-25 02:30:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1608,Atlanta United FC,2,0,FT
+1151131,2024-08-25 02:30:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,20787,St. Louis City,4,4,FT
+1167121,2024-08-25 10:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,4327,YSCC,5,1,FT
+1222705,2024-08-25 10:00:00+00:00,1065,U19 League,Ukraine,2024,23075,Kolos Kovalivka U19,23082,Veres Rivne U19,0,1,FT
+1222707,2024-08-25 11:00:00+00:00,1065,U19 League,Ukraine,2024,25118,Livyi Bereh U19,23073,Chornomorets U19,1,0,FT
+1222706,2024-08-25 12:00:00+00:00,1065,U19 League,Ukraine,2024,23077,LNZ Cherkasy U19,24177,Karpaty Lviv U19,2,1,FT
+1285204,2024-08-25 18:30:00+00:00,1130,USL Super League,USA,2024,24658,Carolina Ascent W,24664,Lexington W,1,1,FT
+1234208,2024-08-25 22:30:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1125,Millonarios,2,1,FT
+1234207,2024-08-26 00:40:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1133,Jaguares,2,0,FT
+1234211,2024-08-27 01:00:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1128,Independiente Medellin,2,2,FT
+1151125,2024-08-28 23:30:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,1613,Columbus Crew,0,1,FT
+1234186,2024-08-29 01:30:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1135,Junior,1,0,FT
+1222714,2024-08-29 09:00:00+00:00,1065,U19 League,Ukraine,2024,23080,Obolon' Kyiv U19,23085,Zorya Luhansk U19,2,4,FT
+1222717,2024-08-29 09:00:00+00:00,1065,U19 League,Ukraine,2024,20240,Rukh Vynnyky U19,24176,Inhulets' U19,2,0,FT
+1222713,2024-08-30 10:00:00+00:00,1065,U19 League,Ukraine,2024,24177,Karpaty Lviv U19,23083,Vorskla U19,0,1,FT
+1222719,2024-08-30 10:00:00+00:00,1065,U19 League,Ukraine,2024,23081,Oleksandria U19,23075,Kolos Kovalivka U19,0,3,FT
+1167131,2024-08-30 10:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,300,Kanazawa,1,1,FT
+1222720,2024-08-30 11:30:00+00:00,1065,U19 League,Ukraine,2024,23073,Chornomorets U19,23084,Zhytomyr U19,1,2,FT
+1222718,2024-08-31 08:00:00+00:00,1065,U19 League,Ukraine,2024,23076,Kryvbas 2020 U19,7929,Shakhtar Donetsk U19,0,3,FT
+1167125,2024-08-31 09:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,4319,Gainare Tottori,3,1,FT
+1222715,2024-08-31 09:00:00+00:00,1065,U19 League,Ukraine,2024,23082,Veres Rivne U19,25118,Livyi Bereh U19,3,0,FT
+1167124,2024-08-31 09:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,4323,Parceiro Nagano,1,1,FT
+1167123,2024-08-31 09:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,805,Kitakyushu,1,0,FT
+1167126,2024-08-31 09:30:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,4314,Azul Claro Numazu,5,1,FT
+1167128,2024-08-31 10:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,304,Matsumoto Yamaga,0,1,FT
+1167127,2024-08-31 10:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,4327,YSCC,3,0,FT
+1222716,2024-08-31 10:00:00+00:00,1065,U19 League,Ukraine,2024,7898,Dynamo Kyiv U19,23077,LNZ Cherkasy U19,10,0,FT
+1167129,2024-08-31 10:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,7135,Nara Club,6,0,FT
+1167130,2024-08-31 10:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,4326,Vanraure Hachinohe,3,2,FT
+1234222,2024-08-31 21:15:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1137,Atletico Nacional,0,2,FT
+1151136,2024-08-31 23:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,9569,Nashville SC,3,0,FT
+1151137,2024-08-31 23:30:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,1615,DC United,1,3,FT
+1151135,2024-08-31 23:30:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,1599,Philadelphia Union,0,2,FT
+1151134,2024-08-31 23:30:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,1604,New York City FC,4,2,FT
+1151133,2024-08-31 23:30:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,1614,CF Montreal,4,1,FT
+1151132,2024-08-31 23:30:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,1608,Atlanta United FC,0,1,FT
+1151140,2024-09-01 00:30:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,1610,Colorado Rapids,2,3,FT
+1151139,2024-09-01 00:30:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,9568,Inter Miami,1,4,FT
+1151138,2024-09-01 00:30:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,1603,Vancouver Whitecaps,0,1,FT
+1234221,2024-09-01 01:00:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1147,Fortaleza FC,2,2,FT
+1151141,2024-09-01 01:30:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,1609,New England Revolution,2,0,FT
+1151144,2024-09-01 02:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,1612,Minnesota United FC,1,2,FT
+1151142,2024-09-01 02:30:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1600,Houston Dynamo,0,2,FT
+1151143,2024-09-01 02:30:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,1595,Seattle Sounders,1,0,FT
+1167132,2024-09-01 09:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,317,Kamatamare Sanuki,1,2,FT
+1151145,2024-09-01 18:45:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,1605,Los Angeles Galaxy,2,1,FT
+1234213,2024-09-01 20:00:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1142,Deportes Tolima,0,2,FT
+1234220,2024-09-01 22:10:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1140,Patriotas,3,0,FT
+1234219,2024-09-02 00:20:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1139,Santa Fe,1,1,FT
+1234215,2024-09-03 00:30:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1126,Deportivo Pasto,0,2,FT
+1234214,2024-09-03 23:00:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1136,Once Caldas,0,1,FT
+1167133,2024-09-06 04:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,4318,Fukushima United,0,1,FT
+1285206,2024-09-06 23:30:00+00:00,1130,USL Super League,USA,2024,24658,Carolina Ascent W,24661,Fort Lauderdale United W,2,1,FT
+1167135,2024-09-07 09:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,10409,Tegevajaro Miyazaki,0,1,FT
+1167136,2024-09-07 09:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,313,Omiya Ardija,0,1,FT
+1167139,2024-09-07 09:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,10075,Imabari,0,3,FT
+1167140,2024-09-07 09:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,4321,Grulla Morioka,1,2,FT
+1167134,2024-09-07 09:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,300,Kanazawa,2,2,FT
+1167138,2024-09-07 10:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,4314,Azul Claro Numazu,3,1,FT
+1167137,2024-09-07 10:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,7138,Osaka,0,2,FT
+1234232,2024-09-07 19:00:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1129,Envigado,2,0,FT
+1234227,2024-09-07 21:10:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1133,Jaguares,1,0,FT
+1150978,2024-09-07 23:30:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,1595,Seattle Sounders,0,4,FT
+1151147,2024-09-07 23:30:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,20787,St. Louis City,2,2,FT
+1151148,2024-09-07 23:30:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,1611,Sporting Kansas City,1,1,FT
+1285207,2024-09-08 00:00:00+00:00,1130,USL Super League,USA,2024,24660,Dallas Trinity W,24659,DC Power W,1,1,FT
+1151149,2024-09-08 00:30:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,1615,DC United,1,2,FT
+1151070,2024-09-08 00:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,1616,Los Angeles FC,0,0,FT
+1151146,2024-09-08 02:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,1597,FC Dallas,0,0,FT
+1167141,2024-09-08 09:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,4322,Kataller Toyama,0,0,FT
+1167142,2024-09-08 09:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,297,FC Gifu,4,0,FT
+1222804,2024-09-08 12:30:00+00:00,1065,U19 League,Ukraine,2024,23077,LNZ Cherkasy U19,25118,Livyi Bereh U19,0,3,FT
+1234228,2024-09-08 20:00:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1125,Millonarios,1,1,FT
+1285208,2024-09-08 20:00:00+00:00,1130,USL Super League,USA,2024,24664,Lexington W,24663,Tampa Bay Sun W,2,3,FT
+1234226,2024-09-08 22:10:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1147,Fortaleza FC,1,1,FT
+1234223,2024-09-08 23:20:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1127,Deportivo Cali,1,1,FT
+1234231,2024-09-09 00:20:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1128,Independiente Medellin,1,0,FT
+1285209,2024-09-09 01:00:00+00:00,1130,USL Super League,USA,2024,24662,Spokane Zephyr W,24657,Brooklyn W,1,1,FT
+1167114,2024-09-11 09:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,313,Omiya Ardija,0,0,FT
+1234165,2024-09-11 23:00:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1142,Deportes Tolima,1,0,FT
+1222727,2024-09-12 10:00:00+00:00,1065,U19 League,Ukraine,2024,23080,Obolon' Kyiv U19,23081,Oleksandria U19,2,1,FT
+1234197,2024-09-13 00:30:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1141,Alianza Valledupar,1,0,FT
+1222726,2024-09-13 08:00:00+00:00,1065,U19 League,Ukraine,2024,7929,Shakhtar Donetsk U19,24177,Karpaty Lviv U19,2,1,FT
+1222841,2024-09-13 09:00:00+00:00,1065,U19 League,Ukraine,2024,23073,Chornomorets U19,24176,Inhulets' U19,3,1,FT
+1222724,2024-09-13 10:00:00+00:00,1065,U19 League,Ukraine,2024,23085,Zorya Luhansk U19,7898,Dynamo Kyiv U19,1,2,FT
+1234234,2024-09-13 21:00:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1131,Bucaramanga,1,2,FT
+1234242,2024-09-13 23:30:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1129,Envigado,2,1,FT
+1285210,2024-09-13 23:30:00+00:00,1130,USL Super League,USA,2024,24659,DC Power W,24661,Fort Lauderdale United W,0,2,FT
+1285211,2024-09-14 00:00:00+00:00,1130,USL Super League,USA,2024,24660,Dallas Trinity W,24664,Lexington W,6,2,FT
+1167143,2024-09-14 05:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,4326,Vanraure Hachinohe,1,2,FT
+1167148,2024-09-14 06:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,4324,Sagamihara,1,2,FT
+1222725,2024-09-14 08:00:00+00:00,1065,U19 League,Ukraine,2024,23083,Vorskla U19,20240,Rukh Vynnyky U19,1,1,FT
+1167147,2024-09-14 09:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,317,Kamatamare Sanuki,1,3,FT
+1167146,2024-09-14 09:00:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,4327,YSCC,3,2,FT
+1222728,2024-09-14 09:00:00+00:00,1065,U19 League,Ukraine,2024,23084,Zhytomyr U19,23082,Veres Rivne U19,3,1,FT
+1222723,2024-09-14 09:00:00+00:00,1065,U19 League,Ukraine,2024,25118,Livyi Bereh U19,23076,Kryvbas 2020 U19,1,1,FT
+1167144,2024-09-14 10:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,805,Kitakyushu,3,0,FT
+1167145,2024-09-14 10:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,7135,Nara Club,1,1,FT
+1167149,2024-09-14 10:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,304,Matsumoto Yamaga,1,1,FT
+1234233,2024-09-14 21:10:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1127,Deportivo Cali,4,1,FT
+1285212,2024-09-14 23:00:00+00:00,1130,USL Super League,USA,2024,24663,Tampa Bay Sun W,24657,Brooklyn W,0,1,FT
+1151151,2024-09-14 23:30:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,9569,Nashville SC,0,2,FT
+1151157,2024-09-14 23:30:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,16489,Austin,2,1,FT
+1151155,2024-09-14 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,18310,Charlotte,2,1,FT
+1151153,2024-09-14 23:30:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,1604,New York City FC,1,1,FT
+1151152,2024-09-14 23:30:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,1613,Columbus Crew,0,0,FT
+1151154,2024-09-14 23:30:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,1599,Philadelphia Union,3,1,FT
+1151156,2024-09-14 23:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,1609,New England Revolution,3,0,FT
+1151159,2024-09-15 00:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,1606,Real Salt Lake,4,1,FT
+1151158,2024-09-15 00:30:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,1602,New York Red Bulls,2,1,FT
+1151160,2024-09-15 00:30:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,1612,Minnesota United FC,1,3,FT
+1151161,2024-09-15 01:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,1617,Portland Timbers,2,1,FT
+1234241,2024-09-15 01:30:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1128,Independiente Medellin,1,1,FT
+1234240,2024-09-15 01:30:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1126,Deportivo Pasto,0,0,FT
+1151150,2024-09-15 02:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,1596,San Jose Earthquakes,2,0,FT
+1151162,2024-09-15 02:30:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1616,Los Angeles FC,4,2,FT
+1167150,2024-09-15 09:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,4319,Gainare Tottori,2,3,FT
+1167151,2024-09-15 09:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,7138,Osaka,0,1,FT
+1167152,2024-09-15 10:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,2235,FC Ryukyu,2,0,FT
+1222722,2024-09-15 13:00:00+00:00,1065,U19 League,Ukraine,2024,23077,LNZ Cherkasy U19,23075,Kolos Kovalivka U19,0,4,FT
+1151163,2024-09-15 23:15:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,1611,Sporting Kansas City,2,0,FT
+1234239,2024-09-15 23:20:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1132,Chico,2,1,FT
+1234235,2024-09-15 23:30:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1462,Deportivo Pereira,1,0,FT
+1285213,2024-09-16 01:00:00+00:00,1130,USL Super League,USA,2024,24662,Spokane Zephyr W,24658,Carolina Ascent W,0,2,FT
+1234238,2024-09-16 01:30:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1125,Millonarios,1,3,FT
+1289328,2024-09-17 16:00:00+00:00,18,AFC Champions League Two,World,2024,4537,Al Wihdat,2744,Sepahan FC,2,1,FT
+1289329,2024-09-17 16:00:00+00:00,18,AFC Champions League Two,World,2024,8012,Istiqlol,2874,Sharjah FC,0,1,FT
+1289331,2024-09-18 12:00:00+00:00,18,AFC Champions League Two,World,2024,2770,Bangkok United,4206,Tampines Rovers,4,2,FT
+1289330,2024-09-18 12:00:00+00:00,18,AFC Champions League Two,World,2024,4207,Warriors,3674,Nam Dinh,0,2,FT
+1289332,2024-09-18 14:00:00+00:00,18,AFC Champions League Two,World,2024,15516,ATK Mohun Bagan,12272,Ravshan,0,0,FT
+1289333,2024-09-18 16:00:00+00:00,18,AFC Champions League Two,World,2024,2900,Al Wakrah,2737,Tractor Sazi,0,3,FT
+1289336,2024-09-18 16:00:00+00:00,18,AFC Champions League Two,World,2024,3535,Al Kuwait,4215,Nasaf,0,0,FT
+1289334,2024-09-18 16:00:00+00:00,18,AFC Champions League Two,World,2024,17666,Khalidiya,2936,Al Taawon,2,3,FT
+1289335,2024-09-18 16:00:00+00:00,18,AFC Champions League Two,World,2024,2870,Shabab Al Ahli Dubai,4532,Al Hussein,3,1,FT
+1289337,2024-09-18 18:00:00+00:00,18,AFC Champions League Two,World,2024,8009,Al Quwa Al Jawiya,8023,Altyn Asyr,2,1,FT
+1151164,2024-09-18 23:30:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,9568,Inter Miami,2,2,FT
+1151166,2024-09-18 23:30:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,1599,Philadelphia Union,1,5,FT
+1151165,2024-09-18 23:30:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,1614,CF Montreal,2,2,FT
+1151167,2024-09-18 23:30:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,1613,Columbus Crew,0,2,FT
+1151168,2024-09-19 00:15:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,18310,Charlotte,2,0,FT
+1151172,2024-09-19 00:30:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,1607,Chicago Fire,1,0,FT
+1151169,2024-09-19 00:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,1603,Vancouver Whitecaps,1,1,FT
+1151170,2024-09-19 00:30:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,1610,Colorado Rapids,4,1,FT
+1151171,2024-09-19 00:30:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,2242,FC Cincinnati,1,2,FT
+1151173,2024-09-19 01:30:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,1597,FC Dallas,3,2,FT
+1151176,2024-09-19 02:30:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,1596,San Jose Earthquakes,2,2,FT
+1151174,2024-09-19 02:30:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,16489,Austin,1,1,FT
+1151175,2024-09-19 02:30:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,1605,Los Angeles Galaxy,4,2,FT
+1289339,2024-09-19 10:00:00+00:00,18,AFC Champions League Two,World,2024,282,Sanfrecce Hiroshima,8030,Kaya,3,0,FT
+1289340,2024-09-19 10:00:00+00:00,18,AFC Champions League Two,World,2024,943,Sydney,4451,Eastern,5,0,FT
+1289341,2024-09-19 10:00:00+00:00,18,AFC Champions League Two,World,2024,2786,Muangthong United,2526,Selangor,1,1,FT
+1289343,2024-09-19 12:00:00+00:00,18,AFC Champions League Two,World,2024,4204,Home United,848,Hangzhou Greentown,2,0,FT
+1289338,2024-09-19 12:00:00+00:00,18,AFC Champions League Two,World,2024,18265,Dynamic Herb Cebu,2762,Jeonbuk Motors,0,6,FT
+1289342,2024-09-19 12:00:00+00:00,18,AFC Champions League Two,World,2024,2445,Persib Bandung,2789,Port FC,0,1,FT
+1222733,2024-09-20 10:00:00+00:00,1065,U19 League,Ukraine,2024,7898,Dynamo Kyiv U19,20240,Rukh Vynnyky U19,10,0,FT
+1222735,2024-09-20 10:30:00+00:00,1065,U19 League,Ukraine,2024,23081,Oleksandria U19,25118,Livyi Bereh U19,2,0,FT
+1222730,2024-09-20 10:30:00+00:00,1065,U19 League,Ukraine,2024,23073,Chornomorets U19,24177,Karpaty Lviv U19,2,3,FT
+1234250,2024-09-21 01:00:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1140,Patriotas,0,1,FT
+1222736,2024-09-21 09:00:00+00:00,1065,U19 League,Ukraine,2024,23084,Zhytomyr U19,23077,LNZ Cherkasy U19,10,0,FT
+1222732,2024-09-21 09:00:00+00:00,1065,U19 League,Ukraine,2024,23076,Kryvbas 2020 U19,23083,Vorskla U19,0,0,FT
+1167157,2024-09-21 09:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,4314,Azul Claro Numazu,1,1,FT
+1167154,2024-09-21 09:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,10075,Imabari,2,0,FT
+1167153,2024-09-21 09:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,313,Omiya Ardija,2,3,FT
+1167156,2024-09-21 09:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,297,FC Gifu,2,0,FT
+1222849,2024-09-21 10:00:00+00:00,1065,U19 League,Ukraine,2024,23082,Veres Rivne U19,24176,Inhulets' U19,2,0,FT
+1167155,2024-09-21 10:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,4323,Parceiro Nagano,2,0,FT
+1151177,2024-09-21 18:00:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,9568,Inter Miami,1,1,FT
+1151178,2024-09-21 20:00:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,1609,New England Revolution,4,0,FT
+1234244,2024-09-21 20:15:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1136,Once Caldas,0,1,FT
+1234251,2024-09-21 22:45:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1134,Internacional de Bogota,1,1,FT
+1151180,2024-09-21 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,1607,Chicago Fire,2,0,FT
+1151181,2024-09-21 23:30:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,1608,Atlanta United FC,2,2,FT
+1151179,2024-09-21 23:30:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,1598,Orlando City SC,4,3,FT
+1151184,2024-09-22 00:30:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,1612,Minnesota United FC,0,2,FT
+1151185,2024-09-22 00:30:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,2242,FC Cincinnati,2,2,FT
+1151182,2024-09-22 00:30:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,1600,Houston Dynamo,0,1,FT
+1151183,2024-09-22 00:30:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,1616,Los Angeles FC,3,1,FT
+1234249,2024-09-22 01:00:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1139,Santa Fe,1,3,FT
+1151186,2024-09-22 01:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,1601,Toronto FC,2,0,FT
+1151187,2024-09-22 01:30:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,1617,Portland Timbers,3,3,FT
+1151188,2024-09-22 02:30:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1603,Vancouver Whitecaps,4,2,FT
+1151189,2024-09-22 02:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,20787,St. Louis City,1,2,FT
+1167161,2024-09-22 05:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,304,Matsumoto Yamaga,1,4,FT
+1167159,2024-09-22 05:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,4322,Kataller Toyama,0,1,FT
+1167158,2024-09-22 05:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,4321,Grulla Morioka,0,0,FT
+1222731,2024-09-22 09:00:00+00:00,1065,U19 League,Ukraine,2024,23075,Kolos Kovalivka U19,23085,Zorya Luhansk U19,6,4,FT
+1167160,2024-09-22 09:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,10409,Tegevajaro Miyazaki,2,2,FT
+1234243,2024-09-22 19:00:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1142,Deportes Tolima,0,1,FT
+1285214,2024-09-22 20:00:00+00:00,1130,USL Super League,USA,2024,24664,Lexington W,24661,Fort Lauderdale United W,1,3,FT
+1285215,2024-09-22 21:00:00+00:00,1130,USL Super League,USA,2024,24662,Spokane Zephyr W,24659,DC Power W,1,0,FT
+1234245,2024-09-22 21:10:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1126,Deportivo Pasto,1,0,FT
+1151190,2024-09-22 22:15:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,1615,DC United,4,0,FT
+1234247,2024-09-23 01:30:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1144,Águilas Doradas,3,4,FT
+1167162,2024-09-23 05:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,4318,Fukushima United,1,2,FT
+1222734,2024-09-23 09:00:00+00:00,1065,U19 League,Ukraine,2024,7929,Shakhtar Donetsk U19,23080,Obolon' Kyiv U19,0,0,FT
+1234248,2024-09-23 23:20:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1138,America de Cali,0,1,FT
+1234252,2024-09-24 01:10:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1137,Atletico Nacional,1,0,FT
+1285216,2024-09-25 23:30:00+00:00,1130,USL Super League,USA,2024,24657,Brooklyn W,24660,Dallas Trinity W,2,0,FT
+1234246,2024-09-26 01:30:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1133,Jaguares,0,0,FT
+1234237,2024-09-26 23:30:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1141,Alianza Valledupar,2,0,FT
+1234236,2024-09-27 01:30:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1135,Junior,2,0,FT
+1222743,2024-09-27 08:00:00+00:00,1065,U19 League,Ukraine,2024,23076,Kryvbas 2020 U19,23081,Oleksandria U19,3,3,FT
+1222742,2024-09-27 09:00:00+00:00,1065,U19 League,Ukraine,2024,23082,Veres Rivne U19,7929,Shakhtar Donetsk U19,1,2,FT
+1222744,2024-09-27 10:00:00+00:00,1065,U19 League,Ukraine,2024,24177,Karpaty Lviv U19,23084,Zhytomyr U19,1,0,FT
+1222737,2024-09-27 11:30:00+00:00,1065,U19 League,Ukraine,2024,23077,LNZ Cherkasy U19,23073,Chornomorets U19,3,2,FT
+1234255,2024-09-27 22:15:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1462,Deportivo Pereira,1,1,FT
+1285217,2024-09-27 23:30:00+00:00,1130,USL Super League,USA,2024,24658,Carolina Ascent W,24663,Tampa Bay Sun W,0,0,FT
+1167163,2024-09-28 05:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,4324,Sagamihara,4,1,FT
+1167164,2024-09-28 06:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,300,Kanazawa,1,0,FT
+1222740,2024-09-28 09:00:00+00:00,1065,U19 League,Ukraine,2024,25118,Livyi Bereh U19,7898,Dynamo Kyiv U19,0,5,FT
+1167165,2024-09-28 09:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,4326,Vanraure Hachinohe,3,1,FT
+1167166,2024-09-28 09:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,7138,Osaka,1,1,FT
+1222741,2024-09-28 09:00:00+00:00,1065,U19 League,Ukraine,2024,20240,Rukh Vynnyky U19,23075,Kolos Kovalivka U19,1,2,FT
+1222738,2024-09-28 10:00:00+00:00,1065,U19 League,Ukraine,2024,23080,Obolon' Kyiv U19,24176,Inhulets' U19,1,2,FT
+1234254,2024-09-28 19:00:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1131,Bucaramanga,0,1,FT
+1234261,2024-09-28 21:10:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1128,Independiente Medellin,0,2,FT
+1151198,2024-09-28 23:30:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,1608,Atlanta United FC,1,1,FT
+1151195,2024-09-28 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,1596,San Jose Earthquakes,3,0,FT
+1151193,2024-09-28 23:30:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,1613,Columbus Crew,2,2,FT
+1151192,2024-09-28 23:30:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,1616,Los Angeles FC,1,2,FT
+1151194,2024-09-28 23:30:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,18310,Charlotte,1,1,FT
+1151196,2024-09-28 23:30:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,9569,Nashville SC,1,0,FT
+1285218,2024-09-28 23:30:00+00:00,1130,USL Super League,USA,2024,24657,Brooklyn W,24664,Lexington W,1,0,FT
+1151197,2024-09-28 23:30:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,1604,New York City FC,1,5,FT
+1151202,2024-09-29 00:30:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,1610,Colorado Rapids,3,0,FT
+1151200,2024-09-29 00:30:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,1601,Toronto FC,1,1,FT
+1151199,2024-09-29 00:30:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,1606,Real Salt Lake,2,2,FT
+1151203,2024-09-29 00:30:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,1611,Sporting Kansas City,3,1,FT
+1151201,2024-09-29 00:30:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,1598,Orlando City SC,1,3,FT
+1234262,2024-09-29 01:30:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1129,Envigado,3,0,FT
+1151204,2024-09-29 02:30:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,1600,Houston Dynamo,1,0,FT
+1151191,2024-09-29 02:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,1617,Portland Timbers,1,1,FT
+1167168,2024-09-29 04:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,4323,Parceiro Nagano,0,0,FT
+1167167,2024-09-29 05:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,805,Kitakyushu,3,1,FT
+1167169,2024-09-29 05:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,7135,Nara Club,1,1,FT
+1167171,2024-09-29 05:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,4327,YSCC,2,0,FT
+1167170,2024-09-29 05:05:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,317,Kamatamare Sanuki,2,2,FT
+1167172,2024-09-29 09:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,4319,Gainare Tottori,2,0,FT
+1285219,2024-09-29 18:00:00+00:00,1130,USL Super League,USA,2024,24659,DC Power W,24662,Spokane Zephyr W,2,2,FT
+1234259,2024-09-29 19:00:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1132,Chico,6,2,FT
+1234256,2024-09-29 21:10:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1135,Junior,1,1,FT
+1234260,2024-09-29 23:20:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1147,Fortaleza FC,1,1,FT
+1234257,2024-09-30 01:30:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1141,Alianza Valledupar,1,0,FT
+1234253,2024-09-30 21:00:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1127,Deportivo Cali,2,2,FT
+1234258,2024-09-30 23:20:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1139,Santa Fe,0,0,FT
+1222739,2024-10-01 10:00:00+00:00,1065,U19 League,Ukraine,2024,23085,Zorya Luhansk U19,23083,Vorskla U19,2,1,FT
+1289344,2024-10-01 16:00:00+00:00,18,AFC Champions League Two,World,2024,2744,Sepahan FC,8012,Istiqlol,4,0,FT
+1289345,2024-10-01 16:00:00+00:00,18,AFC Champions League Two,World,2024,2874,Sharjah FC,4537,Al Wihdat,2,2,FT
+1304450,2024-10-01 19:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,13001,Cuiabá U20,12960,Gama U20,5,0,FT
+1167122,2024-10-02 10:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,4318,Fukushima United,4,1,FT
+1289348,2024-10-02 12:00:00+00:00,18,AFC Champions League Two,World,2024,3674,Nam Dinh,2770,Bangkok United,0,0,FT
+1289349,2024-10-02 12:00:00+00:00,18,AFC Champions League Two,World,2024,4206,Tampines Rovers,4207,Warriors,3,1,FT
+1289350,2024-10-02 14:00:00+00:00,18,AFC Champions League Two,World,2024,4215,Nasaf,2870,Shabab Al Ahli Dubai,2,1,FT
+1293121,2024-10-02 14:00:00+00:00,18,AFC Champions League Two,World,2024,8023,Altyn Asyr,17666,Khalidiya,0,1,FT
+1289346,2024-10-02 14:00:00+00:00,18,AFC Champions League Two,World,2024,12272,Ravshan,2900,Al Wakrah,0,1,FT
+1289347,2024-10-02 16:00:00+00:00,18,AFC Champions League Two,World,2024,4532,Al Hussein,3535,Al Kuwait,2,1,FT
+1289352,2024-10-02 18:00:00+00:00,18,AFC Champions League Two,World,2024,2936,Al Taawon,8009,Al Quwa Al Jawiya,1,2,FT
+1304447,2024-10-02 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,11054,Flamengo U20,20769,Porto Vitória U20,8,1,FT
+1304453,2024-10-02 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12954,Bahia U20,22849,Tiradentes PI U20,8,0,FT
+1304458,2024-10-02 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12957,Coritiba U20,13020,Juventude U20,1,1,PEN
+1304448,2024-10-02 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12961,Goiás U20,12979,Vasco da Gama U20,2,2,PEN
+1304456,2024-10-02 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12990,CSA U20,18338,Lagarto U20,3,0,FT
+1304460,2024-10-02 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,13011,Grêmio U20,12999,Criciuma U20,1,2,FT
+1304459,2024-10-02 19:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12973,São Paulo U20,12964,Londrina U20,6,1,FT
+1304462,2024-10-02 19:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,25016,Tuna Luso PA U20,18347,Rondoniense U20,2,2,PEN
+1304452,2024-10-02 19:30:00+00:00,617,Copa do Brasil U20,Brazil,2024,18332,Fast U20,22041,Sparta U20,1,1,PEN
+1304451,2024-10-02 19:30:00+00:00,617,Copa do Brasil U20,Brazil,2024,20772,Sampaio Corrêa U20,22838,Macapá U20,2,2,PEN
+1285221,2024-10-02 22:30:00+00:00,1130,USL Super League,USA,2024,24659,DC Power W,24663,Tampa Bay Sun W,0,3,FT
+1304461,2024-10-02 23:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,25015,Náutico RR U20,25190,Sena Madureira U20,1,1,PEN
+1151210,2024-10-02 23:30:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,1602,New York Red Bulls,1,4,FT
+1151206,2024-10-02 23:30:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,1607,Chicago Fire,4,3,FT
+1151208,2024-10-02 23:30:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,2242,FC Cincinnati,3,2,FT
+1151205,2024-10-02 23:30:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,1614,CF Montreal,1,2,FT
+1151209,2024-10-02 23:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,1599,Philadelphia Union,2,1,FT
+1151207,2024-10-02 23:45:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,9568,Inter Miami,2,3,FT
+1151211,2024-10-03 00:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,1609,New England Revolution,2,1,FT
+1151212,2024-10-03 00:30:00+00:00,253,Major League Soccer,USA,2024,9569,Nashville SC,1615,DC United,3,4,FT
+1151213,2024-10-03 01:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,1605,Los Angeles Galaxy,1,3,FT
+1151214,2024-10-03 01:30:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,1612,Minnesota United FC,0,0,FT
+1151218,2024-10-03 02:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,1595,Seattle Sounders,0,3,FT
+1151216,2024-10-03 02:30:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,16489,Austin,0,1,FT
+1151215,2024-10-03 02:30:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,20787,St. Louis City,1,0,FT
+1151217,2024-10-03 02:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,1597,FC Dallas,3,2,FT
+1289354,2024-10-03 08:00:00+00:00,18,AFC Champions League Two,World,2024,2762,Jeonbuk Motors,2786,Muangthong United,4,1,FT
+1289353,2024-10-03 10:00:00+00:00,18,AFC Champions League Two,World,2024,8030,Kaya,943,Sydney,1,4,FT
+1222745,2024-10-03 10:30:00+00:00,1065,U19 League,Ukraine,2024,23073,Chornomorets U19,23080,Obolon' Kyiv U19,0,2,FT
+1289355,2024-10-03 12:00:00+00:00,18,AFC Champions League Two,World,2024,4451,Eastern,282,Sanfrecce Hiroshima,2,3,FT
+1289357,2024-10-03 12:00:00+00:00,18,AFC Champions League Two,World,2024,848,Hangzhou Greentown,2445,Persib Bandung,1,0,FT
+1289358,2024-10-03 12:00:00+00:00,18,AFC Champions League Two,World,2024,2526,Selangor,18265,Dynamic Herb Cebu,1,0,FT
+1222866,2024-10-03 12:00:00+00:00,1065,U19 League,Ukraine,2024,24177,Karpaty Lviv U19,24176,Inhulets' U19,5,0,FT
+1304457,2024-10-03 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12968,Palmeiras U20,12977,União ABC U20,12,0,FT
+1304449,2024-10-03 20:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,13000,Cruzeiro U20,22833,Coimbra U20,3,2,FT
+1234205,2024-10-04 01:10:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1462,Deportivo Pereira,1,1,FT
+1222748,2024-10-04 09:00:00+00:00,1065,U19 League,Ukraine,2024,23075,Kolos Kovalivka U19,25118,Livyi Bereh U19,3,1,FT
+1222751,2024-10-04 09:00:00+00:00,1065,U19 League,Ukraine,2024,23081,Oleksandria U19,20240,Rukh Vynnyky U19,2,4,FT
+1222747,2024-10-04 09:00:00+00:00,1065,U19 League,Ukraine,2024,23082,Veres Rivne U19,23085,Zorya Luhansk U19,2,1,FT
+1167182,2024-10-04 10:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,4321,Grulla Morioka,1,0,FT
+1304455,2024-10-04 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12956,Ceará U20,22847,Serra Branca U20,5,0,FT
+1234268,2024-10-05 00:40:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1125,Millonarios,0,1,FT
+1167174,2024-10-05 05:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,2235,FC Ryukyu,2,0,FT
+1167176,2024-10-05 05:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,313,Omiya Ardija,0,0,FT
+1167175,2024-10-05 07:30:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,304,Matsumoto Yamaga,1,1,FT
+1222752,2024-10-05 09:00:00+00:00,1065,U19 League,Ukraine,2024,23083,Vorskla U19,23084,Zhytomyr U19,3,1,FT
+1222749,2024-10-05 10:00:00+00:00,1065,U19 League,Ukraine,2024,7898,Dynamo Kyiv U19,23076,Kryvbas 2020 U19,4,0,FT
+1234265,2024-10-05 19:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1131,Bucaramanga,0,0,FT
+1151226,2024-10-05 20:00:00+00:00,253,Major League Soccer,USA,2024,1601,Toronto FC,9568,Inter Miami,0,1,FT
+1234269,2024-10-05 21:10:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1138,America de Cali,0,2,FT
+1151222,2024-10-05 23:30:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,1598,Orlando City SC,1,3,FT
+1151221,2024-10-05 23:30:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,1614,CF Montreal,2,0,FT
+1151223,2024-10-05 23:30:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,1599,Philadelphia Union,3,2,FT
+1151224,2024-10-05 23:30:00+00:00,253,Major League Soccer,USA,2024,1609,New England Revolution,1615,DC United,1,2,FT
+1151220,2024-10-05 23:30:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,1602,New York Red Bulls,2,1,FT
+1151219,2024-10-05 23:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,1612,Minnesota United FC,0,1,FT
+1151227,2024-10-06 00:30:00+00:00,253,Major League Soccer,USA,2024,1611,Sporting Kansas City,1616,Los Angeles FC,0,3,FT
+1151228,2024-10-06 00:30:00+00:00,253,Major League Soccer,USA,2024,20787,St. Louis City,1600,Houston Dynamo,3,0,FT
+1151229,2024-10-06 01:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,1595,Seattle Sounders,0,1,FT
+1234264,2024-10-06 01:30:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1136,Once Caldas,1,0,FT
+1151230,2024-10-06 02:30:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,16489,Austin,2,1,FT
+1151231,2024-10-06 02:30:00+00:00,253,Major League Soccer,USA,2024,1596,San Jose Earthquakes,1606,Real Salt Lake,0,1,FT
+1167179,2024-10-06 03:55:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,10075,Imabari,0,0,FT
+1167173,2024-10-06 04:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,297,FC Gifu,4,3,FT
+1167177,2024-10-06 04:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,4314,Azul Claro Numazu,1,0,FT
+1167178,2024-10-06 05:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,805,Kitakyushu,0,3,FT
+1167180,2024-10-06 05:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,10409,Tegevajaro Miyazaki,1,1,FT
+1167181,2024-10-06 05:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,4319,Gainare Tottori,0,1,FT
+1222750,2024-10-06 09:00:00+00:00,1065,U19 League,Ukraine,2024,7929,Shakhtar Donetsk U19,23077,LNZ Cherkasy U19,4,0,FT
+1234271,2024-10-06 20:00:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1134,Internacional de Bogota,0,0,FT
+1285222,2024-10-06 20:00:00+00:00,1130,USL Super League,USA,2024,24664,Lexington W,24658,Carolina Ascent W,1,1,FT
+1151225,2024-10-06 20:00:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,9569,Nashville SC,3,1,FT
+1285224,2024-10-06 21:00:00+00:00,1130,USL Super League,USA,2024,24662,Spokane Zephyr W,24660,Dallas Trinity W,1,2,FT
+1234267,2024-10-06 22:10:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1144,Águilas Doradas,0,0,FT
+1151232,2024-10-06 23:00:00+00:00,253,Major League Soccer,USA,2024,1617,Portland Timbers,1597,FC Dallas,0,0,FT
+1234272,2024-10-06 23:20:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1137,Atletico Nacional,1,2,FT
+1285223,2024-10-06 23:30:00+00:00,1130,USL Super League,USA,2024,24661,Fort Lauderdale United W,24657,Brooklyn W,1,0,FT
+1234270,2024-10-07 00:20:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1140,Patriotas,2,1,FT
+1304454,2024-10-07 19:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,20746,América RN U20,13050,Retrô U20,0,2,FT
+1234266,2024-10-07 23:00:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1133,Jaguares,3,1,FT
+1234263,2024-10-08 01:00:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1142,Deportes Tolima,1,0,FT
+1234196,2024-10-09 21:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1126,Deportivo Pasto,0,1,FT
+1234203,2024-10-10 00:30:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1127,Deportivo Cali,1,1,FT
+1234216,2024-10-10 23:30:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1141,Alianza Valledupar,2,0,FT
+1222815,2024-10-11 00:00:00+00:00,1065,U19 League,Ukraine,2024,23081,Oleksandria U19,23077,LNZ Cherkasy U19,1,1,FT
+1234229,2024-10-11 01:30:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1132,Chico,3,1,FT
+1167183,2024-10-11 10:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,4323,Parceiro Nagano,2,1,FT
+1285225,2024-10-11 23:30:00+00:00,1130,USL Super League,USA,2024,24657,Brooklyn W,24659,DC Power W,0,1,FT
+1234188,2024-10-12 00:30:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1125,Millonarios,2,1,FT
+1167184,2024-10-12 03:55:00+00:00,100,J3 League,Japan,2024,10075,Imabari,4327,YSCC,3,1,FT
+1167185,2024-10-12 04:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,4326,Vanraure Hachinohe,0,3,FT
+1167186,2024-10-12 07:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,4322,Kataller Toyama,1,1,FT
+1167187,2024-10-12 08:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,4324,Sagamihara,2,1,FT
+1234276,2024-10-12 22:45:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1135,Junior,1,0,FT
+1150964,2024-10-12 23:30:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,1609,New England Revolution,4,0,FT
+1234275,2024-10-13 01:00:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1462,Deportivo Pereira,1,1,FT
+1167189,2024-10-13 04:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,300,Kanazawa,1,1,FT
+1167192,2024-10-13 04:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,4321,Grulla Morioka,2,1,FT
+1167188,2024-10-13 05:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,4318,Fukushima United,3,2,FT
+1167190,2024-10-13 05:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,317,Kamatamare Sanuki,1,2,FT
+1167191,2024-10-13 05:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,7138,Osaka,0,1,FT
+1285227,2024-10-13 21:00:00+00:00,1130,USL Super League,USA,2024,24662,Spokane Zephyr W,24664,Lexington W,2,3,FT
+1151119,2024-10-13 23:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,1616,Los Angeles FC,1,2,FT
+1234273,2024-10-14 00:30:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1127,Deportivo Cali,1,1,FT
+1234278,2024-10-14 19:00:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1139,Santa Fe,1,2,FT
+1234274,2024-10-14 21:10:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1126,Deportivo Pasto,2,1,FT
+1234282,2024-10-15 01:30:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1129,Envigado,2,1,FT
+1234279,2024-10-15 22:30:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1132,Chico,1,0,FT
+1234281,2024-10-15 23:20:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1128,Independiente Medellin,1,0,FT
+1285205,2024-10-15 23:30:00+00:00,1130,USL Super League,USA,2024,24657,Brooklyn W,24658,Carolina Ascent W,1,1,FT
+1310806,2024-10-16 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12990,CSA U20,12956,Ceará U20,0,5,FT
+1310663,2024-10-16 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,22041,Sparta U20,25016,Tuna Luso PA U20,0,2,FT
+1310665,2024-10-16 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12999,Criciuma U20,12973,São Paulo U20,0,4,FT
+1310719,2024-10-16 20:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,13000,Cruzeiro U20,13001,Cuiabá U20,2,1,FT
+1310659,2024-10-16 20:30:00+00:00,617,Copa do Brasil U20,Brazil,2024,12961,Goiás U20,11054,Flamengo U20,4,2,FT
+1310661,2024-10-16 23:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,25015,Náutico RR U20,22838,Macapá U20,1,1,FT
+1285228,2024-10-16 23:30:00+00:00,1130,USL Super League,USA,2024,24659,DC Power W,24660,Dallas Trinity W,0,0,FT
+1234280,2024-10-17 01:05:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1147,Fortaleza FC,2,1,FT
+1222758,2024-10-17 10:00:00+00:00,1065,U19 League,Ukraine,2024,23075,Kolos Kovalivka U19,7929,Shakhtar Donetsk U19,1,3,FT
+1310720,2024-10-17 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12957,Coritiba U20,12968,Palmeiras U20,2,3,FT
+1311067,2024-10-17 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,13050,Retrô U20,12954,Bahia U20,0,3,FT
+1222760,2024-10-18 09:00:00+00:00,1065,U19 League,Ukraine,2024,23084,Zhytomyr U19,25118,Livyi Bereh U19,1,1,FT
+1222756,2024-10-18 10:30:00+00:00,1065,U19 League,Ukraine,2024,23080,Obolon' Kyiv U19,7898,Dynamo Kyiv U19,1,3,FT
+1234191,2024-10-19 00:00:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1128,Independiente Medellin,1,1,FT
+1167195,2024-10-19 04:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,805,Kitakyushu,3,2,FT
+1167193,2024-10-19 05:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,10075,Imabari,1,1,FT
+1167194,2024-10-19 06:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,2235,FC Ryukyu,1,1,FT
+1222755,2024-10-19 09:00:00+00:00,1065,U19 League,Ukraine,2024,23085,Zorya Luhansk U19,23076,Kryvbas 2020 U19,2,0,FT
+1222754,2024-10-19 11:30:00+00:00,1065,U19 League,Ukraine,2024,23073,Chornomorets U19,23082,Veres Rivne U19,0,2,FT
+1222753,2024-10-19 14:30:00+00:00,1065,U19 League,Ukraine,2024,23077,LNZ Cherkasy U19,24176,Inhulets' U19,0,1,FT
+1285229,2024-10-19 23:00:00+00:00,1130,USL Super League,USA,2024,24658,Carolina Ascent W,24657,Brooklyn W,2,0,FT
+1285230,2024-10-19 23:30:00+00:00,1130,USL Super League,USA,2024,24661,Fort Lauderdale United W,24664,Lexington W,1,2,FT
+1234277,2024-10-20 00:10:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1141,Alianza Valledupar,2,0,FT
+1151242,2024-10-20 01:00:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,1605,Los Angeles Galaxy,2,1,FT
+1151245,2024-10-20 01:00:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,1603,Vancouver Whitecaps,2,1,FT
+1151244,2024-10-20 01:00:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,20787,St. Louis City,4,1,FT
+1151243,2024-10-20 01:00:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1596,San Jose Earthquakes,3,1,FT
+1151240,2024-10-20 01:00:00+00:00,253,Major League Soccer,USA,2024,16489,Austin,1610,Colorado Rapids,3,2,FT
+1151241,2024-10-20 01:00:00+00:00,253,Major League Soccer,USA,2024,1597,FC Dallas,1611,Sporting Kansas City,2,1,FT
+1151246,2024-10-20 01:00:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,1617,Portland Timbers,1,1,FT
+1167201,2024-10-20 04:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,4314,Azul Claro Numazu,0,1,FT
+1167197,2024-10-20 04:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,297,FC Gifu,0,6,FT
+1167196,2024-10-20 04:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,7135,Nara Club,0,0,FT
+1167199,2024-10-20 05:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,4319,Gainare Tottori,3,4,FT
+1167202,2024-10-20 05:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,10409,Tegevajaro Miyazaki,0,4,FT
+1167200,2024-10-20 05:00:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,4318,Fukushima United,1,4,FT
+1167198,2024-10-20 05:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,4327,YSCC,2,1,FT
+1222757,2024-10-20 09:00:00+00:00,1065,U19 League,Ukraine,2024,20240,Rukh Vynnyky U19,24177,Karpaty Lviv U19,2,2,FT
+1222879,2024-10-20 09:00:00+00:00,1065,U19 League,Ukraine,2024,23081,Oleksandria U19,23083,Vorskla U19,1,0,FT
+1234218,2024-10-20 20:45:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1138,America de Cali,2,2,FT
+1151235,2024-10-20 22:00:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,1609,New England Revolution,6,2,FT
+1151234,2024-10-20 22:00:00+00:00,253,Major League Soccer,USA,2024,1615,DC United,18310,Charlotte,0,3,FT
+1151238,2024-10-20 22:00:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,1608,Atlanta United FC,1,2,FT
+1151239,2024-10-20 22:00:00+00:00,253,Major League Soccer,USA,2024,1599,Philadelphia Union,2242,FC Cincinnati,1,2,FT
+1151233,2024-10-20 22:00:00+00:00,253,Major League Soccer,USA,2024,1607,Chicago Fire,9569,Nashville SC,0,3,FT
+1151236,2024-10-20 22:00:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,1604,New York City FC,2,0,FT
+1151237,2024-10-20 22:00:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,1613,Columbus Crew,2,3,FT
+1234225,2024-10-20 22:45:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1462,Deportivo Pereira,3,1,FT
+1234224,2024-10-21 01:00:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1131,Bucaramanga,1,3,FT
+1289360,2024-10-22 14:00:00+00:00,18,AFC Champions League Two,World,2024,8012,Istiqlol,4537,Al Wihdat,0,1,FT
+1289359,2024-10-22 14:00:00+00:00,18,AFC Champions League Two,World,2024,2874,Sharjah FC,2744,Sepahan FC,3,1,FT
+1312300,2024-10-22 23:30:00+00:00,253,Major League Soccer,USA,2024,1614,CF Montreal,1608,Atlanta United FC,2,2,PEN
+1289370,2024-10-23 10:00:00+00:00,18,AFC Champions League Two,World,2024,282,Sanfrecce Hiroshima,943,Sydney,2,1,FT
+1289363,2024-10-23 12:00:00+00:00,18,AFC Champions League Two,World,2024,2786,Muangthong United,18265,Dynamic Herb Cebu,2,2,FT
+1289362,2024-10-23 12:00:00+00:00,18,AFC Champions League Two,World,2024,2526,Selangor,2762,Jeonbuk Motors,2,1,FT
+1289377,2024-10-23 14:00:00+00:00,18,AFC Champions League Two,World,2024,12272,Ravshan,2737,Tractor Sazi,1,3,FT
+1289366,2024-10-23 16:00:00+00:00,18,AFC Champions League Two,World,2024,2870,Shabab Al Ahli Dubai,3535,Al Kuwait,4,1,FT
+1289361,2024-10-23 16:00:00+00:00,18,AFC Champions League Two,World,2024,4532,Al Hussein,4215,Nasaf,2,1,FT
+1289367,2024-10-23 18:00:00+00:00,18,AFC Champions League Two,World,2024,2936,Al Taawon,8023,Altyn Asyr,2,1,FT
+1289368,2024-10-23 18:00:00+00:00,18,AFC Champions League Two,World,2024,8009,Al Quwa Al Jawiya,17666,Khalidiya,1,2,FT
+1310664,2024-10-23 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,25016,Tuna Luso PA U20,22041,Sparta U20,4,0,FT
+1310721,2024-10-23 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12968,Palmeiras U20,12957,Coritiba U20,1,1,FT
+1310807,2024-10-23 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12956,Ceará U20,12990,CSA U20,5,0,FT
+1310718,2024-10-23 19:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,13001,Cuiabá U20,13000,Cruzeiro U20,2,3,FT
+1310660,2024-10-23 20:30:00+00:00,617,Copa do Brasil U20,Brazil,2024,11054,Flamengo U20,12961,Goiás U20,1,1,FT
+1285246,2024-10-23 23:30:00+00:00,1130,USL Super League,USA,2024,24657,Brooklyn W,24663,Tampa Bay Sun W,2,1,FT
+1312301,2024-10-24 02:30:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,1617,Portland Timbers,5,0,FT
+1222768,2024-10-24 09:00:00+00:00,1065,U19 League,Ukraine,2024,23084,Zhytomyr U19,23075,Kolos Kovalivka U19,1,1,FT
+1222765,2024-10-24 10:00:00+00:00,1065,U19 League,Ukraine,2024,20240,Rukh Vynnyky U19,23073,Chornomorets U19,1,0,FT
+1289371,2024-10-24 10:00:00+00:00,18,AFC Champions League Two,World,2024,4207,Warriors,2770,Bangkok United,0,1,FT
+1289373,2024-10-24 12:00:00+00:00,18,AFC Champions League Two,World,2024,4206,Tampines Rovers,3674,Nam Dinh,3,3,FT
+1289372,2024-10-24 12:00:00+00:00,18,AFC Champions League Two,World,2024,2789,Port FC,848,Hangzhou Greentown,1,0,FT
+1289374,2024-10-24 12:00:00+00:00,18,AFC Champions League Two,World,2024,2445,Persib Bandung,4204,Home United,1,1,FT
+1311068,2024-10-24 18:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12954,Bahia U20,13050,Retrô U20,2,0,FT
+1234217,2024-10-24 21:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1144,Águilas Doradas,3,0,FT
+1310666,2024-10-24 21:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12973,São Paulo U20,12999,Criciuma U20,3,1,FT
+1222764,2024-10-25 09:00:00+00:00,1065,U19 League,Ukraine,2024,23076,Kryvbas 2020 U19,23077,LNZ Cherkasy U19,3,2,FT
+1222762,2024-10-25 10:00:00+00:00,1065,U19 League,Ukraine,2024,24177,Karpaty Lviv U19,23080,Obolon' Kyiv U19,4,0,FT
+1222887,2024-10-25 10:00:00+00:00,1065,U19 League,Ukraine,2024,23081,Oleksandria U19,24176,Inhulets' U19,1,1,FT
+1289369,2024-10-25 12:00:00+00:00,18,AFC Champions League Two,World,2024,8030,Kaya,4451,Eastern,1,2,FT
+1310662,2024-10-25 22:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,22838,Macapá U20,25015,Náutico RR U20,1,0,FT
+1234283,2024-10-25 23:30:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1136,Once Caldas,1,1,FT
+1285233,2024-10-25 23:30:00+00:00,1130,USL Super League,USA,2024,24659,DC Power W,24664,Lexington W,2,1,FT
+1285231,2024-10-26 00:00:00+00:00,1130,USL Super League,USA,2024,24660,Dallas Trinity W,24658,Carolina Ascent W,2,2,FT
+1312865,2024-10-26 00:30:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,1608,Atlanta United FC,2,1,FT
+1167203,2024-10-26 05:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,304,Matsumoto Yamaga,0,2,FT
+1167205,2024-10-26 05:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,317,Kamatamare Sanuki,2,2,FT
+1167206,2024-10-26 05:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,300,Kanazawa,1,2,FT
+1167204,2024-10-26 06:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,10075,Imabari,4,1,FT
+1167207,2024-10-26 08:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,4326,Vanraure Hachinohe,1,1,FT
+1222763,2024-10-26 09:00:00+00:00,1065,U19 League,Ukraine,2024,25118,Livyi Bereh U19,23085,Zorya Luhansk U19,2,4,FT
+1222761,2024-10-26 09:00:00+00:00,1065,U19 League,Ukraine,2024,23082,Veres Rivne U19,23083,Vorskla U19,0,0,FT
+1234289,2024-10-26 23:15:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1140,Patriotas,1,1,FT
+1234287,2024-10-27 01:30:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1125,Millonarios,0,1,FT
+1312287,2024-10-27 03:00:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1610,Colorado Rapids,5,0,FT
+1167210,2024-10-27 04:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,4322,Kataller Toyama,2,2,FT
+1167212,2024-10-27 04:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,313,Omiya Ardija,1,2,FT
+1167209,2024-10-27 05:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,4323,Parceiro Nagano,1,1,FT
+1167208,2024-10-27 05:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,4324,Sagamihara,2,3,FT
+1167211,2024-10-27 05:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,7138,Osaka,1,0,FT
+1222766,2024-10-27 11:00:00+00:00,1065,U19 League,Ukraine,2024,7898,Dynamo Kyiv U19,7929,Shakhtar Donetsk U19,0,1,FT
+1285232,2024-10-27 17:00:00+00:00,1130,USL Super League,USA,2024,24657,Brooklyn W,24661,Fort Lauderdale United W,3,1,FT
+1234291,2024-10-27 19:00:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1137,Atletico Nacional,0,1,FT
+1285234,2024-10-27 20:00:00+00:00,1130,USL Super League,USA,2024,24662,Spokane Zephyr W,24663,Tampa Bay Sun W,1,0,FT
+1234284,2024-10-27 21:10:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1131,Bucaramanga,1,0,FT
+1312282,2024-10-27 23:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,18310,Charlotte,2,0,FT
+1313005,2024-10-28 01:45:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1603,Vancouver Whitecaps,2,1,FT
+1312283,2024-10-28 22:45:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,1604,New York City FC,1,0,FT
+1234288,2024-10-28 23:20:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1138,America de Cali,3,1,FT
+1312285,2024-10-29 01:00:00+00:00,253,Major League Soccer,USA,2024,1595,Seattle Sounders,1600,Houston Dynamo,0,0,PEN
+1234285,2024-10-29 01:15:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1133,Jaguares,4,1,FT
+1234290,2024-10-29 21:00:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1134,Internacional de Bogota,1,0,FT
+1312284,2024-10-29 22:45:00+00:00,253,Major League Soccer,USA,2024,1613,Columbus Crew,1602,New York Red Bulls,0,1,FT
+1234286,2024-10-29 23:05:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1144,Águilas Doradas,3,1,FT
+1312286,2024-10-30 00:50:00+00:00,253,Major League Soccer,USA,2024,1606,Real Salt Lake,1612,Minnesota United FC,0,0,PEN
+1234292,2024-10-30 01:10:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1129,Envigado,2,0,FT
+1289356,2024-10-30 12:00:00+00:00,18,AFC Champions League Two,World,2024,2789,Port FC,4204,Home United,1,3,FT
+1313496,2024-10-30 19:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12961,Goiás U20,12954,Bahia U20,2,3,FT
+1313492,2024-10-30 19:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,22838,Macapá U20,12956,Ceará U20,0,0,FT
+1313498,2024-10-31 18:30:00+00:00,617,Copa do Brasil U20,Brazil,2024,25016,Tuna Luso PA U20,12973,São Paulo U20,1,1,FT
+1313494,2024-10-31 21:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12968,Palmeiras U20,13000,Cruzeiro U20,2,0,FT
+1285237,2024-10-31 23:30:00+00:00,1130,USL Super League,USA,2024,24657,Brooklyn W,24662,Spokane Zephyr W,1,0,FT
+1222775,2024-11-01 09:00:00+00:00,1065,U19 League,Ukraine,2024,7929,Shakhtar Donetsk U19,23073,Chornomorets U19,6,3,FT
+1222772,2024-11-01 09:00:00+00:00,1065,U19 League,Ukraine,2024,24177,Karpaty Lviv U19,25118,Livyi Bereh U19,3,0,FT
+1222769,2024-11-01 10:00:00+00:00,1065,U19 League,Ukraine,2024,23083,Vorskla U19,23075,Kolos Kovalivka U19,0,0,FT
+1222893,2024-11-01 11:00:00+00:00,1065,U19 League,Ukraine,2024,7898,Dynamo Kyiv U19,24176,Inhulets' U19,7,0,FT
+1234296,2024-11-01 22:00:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1462,Deportivo Pereira,1,2,FT
+1312288,2024-11-01 23:30:00+00:00,253,Major League Soccer,USA,2024,18310,Charlotte,1598,Orlando City SC,0,0,PEN
+1234301,2024-11-02 01:00:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1147,Fortaleza FC,0,2,FT
+1312293,2024-11-02 01:30:00+00:00,253,Major League Soccer,USA,2024,1610,Colorado Rapids,1605,Los Angeles Galaxy,1,4,FT
+1167219,2024-11-02 05:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,4314,Azul Claro Numazu,1,1,FT
+1167218,2024-11-02 05:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,4318,Fukushima United,1,1,FT
+1167214,2024-11-02 05:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,4323,Parceiro Nagano,1,1,FT
+1167215,2024-11-02 05:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,4322,Kataller Toyama,2,2,FT
+1167213,2024-11-02 05:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,4319,Gainare Tottori,5,4,FT
+1167216,2024-11-02 05:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,10409,Tegevajaro Miyazaki,1,0,FT
+1167217,2024-11-02 06:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,7138,Osaka,2,0,FT
+1222776,2024-11-02 11:00:00+00:00,1065,U19 League,Ukraine,2024,23081,Oleksandria U19,23084,Zhytomyr U19,1,1,FT
+1234298,2024-11-02 19:00:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1141,Alianza Valledupar,3,2,FT
+1312289,2024-11-02 21:00:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,2242,FC Cincinnati,3,1,FT
+1285235,2024-11-02 21:00:00+00:00,1130,USL Super League,USA,2024,24660,Dallas Trinity W,24661,Fort Lauderdale United W,1,0,FT
+1234297,2024-11-02 21:00:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1135,Junior,0,0,FT
+1285236,2024-11-02 23:00:00+00:00,1130,USL Super League,USA,2024,24663,Tampa Bay Sun W,24664,Lexington W,3,1,FT
+1312866,2024-11-02 23:00:00+00:00,253,Major League Soccer,USA,2024,1608,Atlanta United FC,9568,Inter Miami,2,1,FT
+1234294,2024-11-02 23:30:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1142,Deportes Tolima,0,1,FT
+1312292,2024-11-03 01:00:00+00:00,253,Major League Soccer,USA,2024,1612,Minnesota United FC,1606,Real Salt Lake,1,1,PEN
+1167220,2024-11-03 04:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,317,Kamatamare Sanuki,3,3,FT
+1167222,2024-11-03 04:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,2235,FC Ryukyu,2,1,FT
+1167221,2024-11-03 05:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,4321,Grulla Morioka,1,1,FT
+1222774,2024-11-03 10:00:00+00:00,1065,U19 League,Ukraine,2024,23076,Kryvbas 2020 U19,20240,Rukh Vynnyky U19,0,0,FT
+1222771,2024-11-03 11:00:00+00:00,1065,U19 League,Ukraine,2024,23085,Zorya Luhansk U19,23077,LNZ Cherkasy U19,3,1,FT
+1222770,2024-11-03 12:00:00+00:00,1065,U19 League,Ukraine,2024,23080,Obolon' Kyiv U19,23082,Veres Rivne U19,2,0,FT
+1234300,2024-11-03 19:00:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1132,Chico,3,0,FT
+1285238,2024-11-03 19:00:00+00:00,1130,USL Super League,USA,2024,24659,DC Power W,24658,Carolina Ascent W,0,1,FT
+1234293,2024-11-03 21:10:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1127,Deportivo Cali,0,1,FT
+1312290,2024-11-03 21:30:00+00:00,253,Major League Soccer,USA,2024,1602,New York Red Bulls,1613,Columbus Crew,2,2,PEN
+1312291,2024-11-03 23:30:00+00:00,253,Major League Soccer,USA,2024,1600,Houston Dynamo,1595,Seattle Sounders,1,1,PEN
+1234302,2024-11-04 01:30:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1128,Independiente Medellin,2,3,FT
+1313006,2024-11-04 01:45:00+00:00,253,Major League Soccer,USA,2024,1603,Vancouver Whitecaps,1616,Los Angeles FC,3,0,FT
+1234295,2024-11-04 23:20:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1126,Deportivo Pasto,1,0,FT
+1234299,2024-11-05 01:15:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1139,Santa Fe,1,1,FT
+1289376,2024-11-05 16:00:00+00:00,18,AFC Champions League Two,World,2024,4537,Al Wihdat,8012,Istiqlol,1,0,FT
+1289375,2024-11-05 18:00:00+00:00,18,AFC Champions League Two,World,2024,2744,Sepahan FC,2874,Sharjah FC,3,1,FT
+1234310,2024-11-06 00:30:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1134,Internacional de Bogota,2,1,FT
+1289379,2024-11-06 12:00:00+00:00,18,AFC Champions League Two,World,2024,2770,Bangkok United,4207,Warriors,4,1,FT
+1289378,2024-11-06 12:00:00+00:00,18,AFC Champions League Two,World,2024,3674,Nam Dinh,4206,Tampines Rovers,3,2,FT
+1289380,2024-11-06 14:00:00+00:00,18,AFC Champions League Two,World,2024,8023,Altyn Asyr,2936,Al Taawon,0,4,FT
+1289381,2024-11-06 14:00:00+00:00,18,AFC Champions League Two,World,2024,4215,Nasaf,4532,Al Hussein,1,2,FT
+1293122,2024-11-06 16:00:00+00:00,18,AFC Champions League Two,World,2024,17666,Khalidiya,8009,Al Quwa Al Jawiya,4,1,FT
+1289383,2024-11-06 16:00:00+00:00,18,AFC Champions League Two,World,2024,3535,Al Kuwait,2870,Shabab Al Ahli Dubai,3,3,FT
+1289365,2024-11-06 16:00:00+00:00,18,AFC Champions League Two,World,2024,2737,Tractor Sazi,12272,Ravshan,7,0,FT
+1313497,2024-11-06 19:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12954,Bahia U20,12961,Goiás U20,3,2,FT
+1234304,2024-11-06 19:30:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1131,Bucaramanga,1,1,FT
+1234306,2024-11-06 21:30:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1144,Águilas Doradas,3,0,FT
+1234312,2024-11-06 23:30:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1129,Envigado,3,0,FT
+1313493,2024-11-07 00:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12956,Ceará U20,22838,Macapá U20,5,1,FT
+1234309,2024-11-07 01:30:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1140,Patriotas,3,0,FT
+1234305,2024-11-07 01:30:00+00:00,239,Primera A,Colombia,2024,1127,Deportivo Cali,1133,Jaguares,1,2,FT
+1289385,2024-11-07 08:00:00+00:00,18,AFC Champions League Two,World,2024,943,Sydney,282,Sanfrecce Hiroshima,0,1,FT
+1289384,2024-11-07 10:00:00+00:00,18,AFC Champions League Two,World,2024,18265,Dynamic Herb Cebu,2786,Muangthong United,2,9,FT
+1289386,2024-11-07 10:00:00+00:00,18,AFC Champions League Two,World,2024,2762,Jeonbuk Motors,2526,Selangor,1,0,FT
+1222779,2024-11-07 11:00:00+00:00,1065,U19 League,Ukraine,2024,25118,Livyi Bereh U19,24176,Inhulets' U19,2,1,FT
+1222777,2024-11-07 12:00:00+00:00,1065,U19 League,Ukraine,2024,23073,Chornomorets U19,23083,Vorskla U19,0,1,FT
+1289388,2024-11-07 12:00:00+00:00,18,AFC Champions League Two,World,2024,4204,Home United,2445,Persib Bandung,2,3,FT
+1289389,2024-11-07 12:00:00+00:00,18,AFC Champions League Two,World,2024,848,Hangzhou Greentown,2789,Port FC,1,2,FT
+1289387,2024-11-07 12:00:00+00:00,18,AFC Champions League Two,World,2024,4451,Eastern,8030,Kaya,1,2,FT
+1313499,2024-11-07 19:30:00+00:00,617,Copa do Brasil U20,Brazil,2024,12973,São Paulo U20,25016,Tuna Luso PA U20,2,0,FT
+1234307,2024-11-07 21:50:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1125,Millonarios,0,0,FT
+1234308,2024-11-07 23:45:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1138,America de Cali,3,1,FT
+1313495,2024-11-08 00:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,13000,Cruzeiro U20,12968,Palmeiras U20,2,0,AET
+1234311,2024-11-08 01:45:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1137,Atletico Nacional,1,1,FT
+1222780,2024-11-08 11:00:00+00:00,1065,U19 League,Ukraine,2024,23075,Kolos Kovalivka U19,23076,Kryvbas 2020 U19,3,0,FT
+1222783,2024-11-08 11:00:00+00:00,1065,U19 League,Ukraine,2024,23081,Oleksandria U19,24177,Karpaty Lviv U19,2,3,FT
+1222778,2024-11-08 12:00:00+00:00,1065,U19 League,Ukraine,2024,23077,LNZ Cherkasy U19,23080,Obolon' Kyiv U19,1,1,FT
+1234303,2024-11-09 01:20:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1136,Once Caldas,2,1,FT
+1313007,2024-11-09 03:30:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1603,Vancouver Whitecaps,1,0,FT
+1167225,2024-11-09 04:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,4327,YSCC,5,0,FT
+1167224,2024-11-09 05:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,4326,Vanraure Hachinohe,0,1,FT
+1167223,2024-11-09 05:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,304,Matsumoto Yamaga,1,6,FT
+1222781,2024-11-09 11:00:00+00:00,1065,U19 League,Ukraine,2024,23082,Veres Rivne U19,20240,Rukh Vynnyky U19,0,3,FT
+1312295,2024-11-09 21:00:00+00:00,253,Major League Soccer,USA,2024,2242,FC Cincinnati,1604,New York City FC,0,0,PEN
+1312294,2024-11-09 23:00:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,18310,Charlotte,1,1,PEN
+1285240,2024-11-10 00:00:00+00:00,1130,USL Super League,USA,2024,24664,Lexington W,24660,Dallas Trinity W,2,3,FT
+1285239,2024-11-10 00:00:00+00:00,1130,USL Super League,USA,2024,24658,Carolina Ascent W,24662,Spokane Zephyr W,0,0,FT
+1312867,2024-11-10 01:00:00+00:00,253,Major League Soccer,USA,2024,9568,Inter Miami,1608,Atlanta United FC,2,3,FT
+1234321,2024-11-10 01:20:00+00:00,239,Primera A,Colombia,2024,1131,Bucaramanga,1147,Fortaleza FC,1,0,FT
+1167230,2024-11-10 04:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,10075,Imabari,0,5,FT
+1167231,2024-11-10 05:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,805,Kitakyushu,1,2,FT
+1167229,2024-11-10 05:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,10409,Tegevajaro Miyazaki,1,2,FT
+1167227,2024-11-10 05:00:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,297,FC Gifu,2,2,FT
+1167226,2024-11-10 05:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,7135,Nara Club,1,2,FT
+1167228,2024-11-10 05:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,4318,Fukushima United,1,2,FT
+1167232,2024-11-10 06:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,313,Omiya Ardija,1,1,FT
+1222782,2024-11-10 10:00:00+00:00,1065,U19 League,Ukraine,2024,7929,Shakhtar Donetsk U19,23085,Zorya Luhansk U19,6,1,FT
+1222784,2024-11-10 11:00:00+00:00,1065,U19 League,Ukraine,2024,7898,Dynamo Kyiv U19,23084,Zhytomyr U19,2,1,FT
+1234314,2024-11-10 19:00:00+00:00,239,Primera A,Colombia,2024,1140,Patriotas,1142,Deportes Tolima,2,1,FT
+1234313,2024-11-10 21:10:00+00:00,239,Primera A,Colombia,2024,1129,Envigado,1127,Deportivo Cali,1,0,FT
+1234318,2024-11-10 21:10:00+00:00,239,Primera A,Colombia,2024,1133,Jaguares,1141,Alianza Valledupar,0,0,FT
+1285241,2024-11-10 22:00:00+00:00,1130,USL Super League,USA,2024,24661,Fort Lauderdale United W,24663,Tampa Bay Sun W,1,1,FT
+1234316,2024-11-11 01:30:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1462,Deportivo Pereira,0,0,FT
+1234315,2024-11-11 19:00:00+00:00,239,Primera A,Colombia,2024,1134,Internacional de Bogota,1126,Deportivo Pasto,2,2,FT
+1234322,2024-11-11 21:10:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1128,Independiente Medellin,1,1,FT
+1234320,2024-11-11 23:20:00+00:00,239,Primera A,Colombia,2024,1144,Águilas Doradas,1132,Chico,0,1,FT
+1234319,2024-11-12 01:30:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1139,Santa Fe,0,0,FT
+1234317,2024-11-12 23:20:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1135,Junior,0,0,FT
+1285243,2024-11-13 23:30:00+00:00,1130,USL Super League,USA,2024,24659,DC Power W,24657,Brooklyn W,0,3,FT
+1285242,2024-11-14 00:00:00+00:00,1130,USL Super League,USA,2024,24664,Lexington W,24662,Spokane Zephyr W,1,1,FT
+1234326,2024-11-15 00:00:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1133,Jaguares,3,0,FT
+1234324,2024-11-15 00:00:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1136,Once Caldas,3,0,FT
+1234323,2024-11-15 00:00:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1127,Deportivo Cali,3,0,FT
+1234331,2024-11-15 00:00:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1137,Atletico Nacional,1,0,FT
+1234325,2024-11-15 00:00:00+00:00,239,Primera A,Colombia,2024,1141,Alianza Valledupar,1131,Bucaramanga,0,4,FT
+1234327,2024-11-15 00:00:00+00:00,239,Primera A,Colombia,2024,1147,Fortaleza FC,1144,Águilas Doradas,0,1,FT
+1234332,2024-11-15 00:00:00+00:00,239,Primera A,Colombia,2024,1128,Independiente Medellin,1129,Envigado,1,0,FT
+1234329,2024-11-15 00:00:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1140,Patriotas,3,2,FT
+1234330,2024-11-15 00:00:00+00:00,239,Primera A,Colombia,2024,1462,Deportivo Pereira,1134,Internacional de Bogota,4,3,FT
+1234328,2024-11-15 00:00:00+00:00,239,Primera A,Colombia,2024,1132,Chico,1125,Millonarios,1,5,FT
+1167233,2024-11-15 10:00:00+00:00,100,J3 League,Japan,2024,7138,Osaka,4324,Sagamihara,1,0,FT
+1167236,2024-11-16 05:00:00+00:00,100,J3 League,Japan,2024,317,Kamatamare Sanuki,10075,Imabari,0,1,FT
+1167234,2024-11-16 05:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,2235,FC Ryukyu,2,1,FT
+1167237,2024-11-16 05:00:00+00:00,100,J3 League,Japan,2024,805,Kitakyushu,4323,Parceiro Nagano,1,1,FT
+1167235,2024-11-16 06:00:00+00:00,100,J3 League,Japan,2024,297,FC Gifu,313,Omiya Ardija,2,2,FT
+1285244,2024-11-17 00:00:00+00:00,1130,USL Super League,USA,2024,24663,Tampa Bay Sun W,24658,Carolina Ascent W,2,1,FT
+1167241,2024-11-17 04:00:00+00:00,100,J3 League,Japan,2024,4319,Gainare Tottori,300,Kanazawa,1,0,FT
+1167239,2024-11-17 04:05:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,4326,Vanraure Hachinohe,3,1,FT
+1167242,2024-11-17 05:00:00+00:00,100,J3 League,Japan,2024,10409,Tegevajaro Miyazaki,4327,YSCC,3,2,FT
+1167238,2024-11-17 05:00:00+00:00,100,J3 League,Japan,2024,4318,Fukushima United,4314,Azul Claro Numazu,2,1,FT
+1167240,2024-11-17 05:00:00+00:00,100,J3 League,Japan,2024,7135,Nara Club,4321,Grulla Morioka,1,0,FT
+1315945,2024-11-20 23:30:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1126,Deportivo Pasto,2,1,FT
+1285245,2024-11-21 01:00:00+00:00,1130,USL Super League,USA,2024,24660,Dallas Trinity W,24662,Spokane Zephyr W,0,0,FT
+1315946,2024-11-21 01:30:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1139,Santa Fe,5,0,FT
+1222910,2024-11-21 10:00:00+00:00,1065,U19 League,Ukraine,2024,7929,Shakhtar Donetsk U19,24176,Inhulets' U19,5,0,FT
+1222786,2024-11-21 11:00:00+00:00,1065,U19 League,Ukraine,2024,24177,Karpaty Lviv U19,23075,Kolos Kovalivka U19,2,1,FT
+1315229,2024-11-21 18:30:00+00:00,617,Copa do Brasil U20,Brazil,2024,12973,São Paulo U20,12954,Bahia U20,2,0,FT
+1315231,2024-11-21 23:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12968,Palmeiras U20,12956,Ceará U20,5,1,FT
+1315947,2024-11-21 23:30:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1142,Deportes Tolima,0,0,FT
+1315948,2024-11-22 01:30:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1138,America de Cali,1,0,FT
+1222788,2024-11-22 11:00:00+00:00,1065,U19 League,Ukraine,2024,7898,Dynamo Kyiv U19,23073,Chornomorets U19,3,0,FT
+1222789,2024-11-23 10:00:00+00:00,1065,U19 League,Ukraine,2024,20240,Rukh Vynnyky U19,25118,Livyi Bereh U19,7,1,FT
+1222787,2024-11-23 10:00:00+00:00,1065,U19 League,Ukraine,2024,23080,Obolon' Kyiv U19,23076,Kryvbas 2020 U19,4,0,FT
+1222791,2024-11-23 10:00:00+00:00,1065,U19 League,Ukraine,2024,23082,Veres Rivne U19,23081,Oleksandria U19,2,3,FT
+1315360,2024-11-23 22:30:00+00:00,253,Major League Soccer,USA,2024,1604,New York City FC,1602,New York Red Bulls,0,2,FT
+1285247,2024-11-24 00:00:00+00:00,1130,USL Super League,USA,2024,24658,Carolina Ascent W,24660,Dallas Trinity W,0,1,FT
+1285248,2024-11-24 00:30:00+00:00,1130,USL Super League,USA,2024,24661,Fort Lauderdale United W,24659,DC Power W,0,1,FT
+1315361,2024-11-24 03:30:00+00:00,253,Major League Soccer,USA,2024,1616,Los Angeles FC,1595,Seattle Sounders,1,2,AET
+1167251,2024-11-24 05:00:00+00:00,100,J3 League,Japan,2024,10075,Imabari,10409,Tegevajaro Miyazaki,1,0,FT
+1167246,2024-11-24 05:00:00+00:00,100,J3 League,Japan,2024,4327,YSCC,805,Kitakyushu,2,3,FT
+1167243,2024-11-24 05:00:00+00:00,100,J3 League,Japan,2024,4326,Vanraure Hachinohe,7138,Osaka,1,1,FT
+1167247,2024-11-24 05:00:00+00:00,100,J3 League,Japan,2024,4324,Sagamihara,4319,Gainare Tottori,1,0,FT
+1167248,2024-11-24 05:00:00+00:00,100,J3 League,Japan,2024,4323,Parceiro Nagano,317,Kamatamare Sanuki,0,2,FT
+1167249,2024-11-24 05:00:00+00:00,100,J3 League,Japan,2024,300,Kanazawa,7135,Nara Club,1,0,FT
+1167245,2024-11-24 05:00:00+00:00,100,J3 League,Japan,2024,313,Omiya Ardija,4322,Kataller Toyama,1,2,FT
+1167252,2024-11-24 05:00:00+00:00,100,J3 League,Japan,2024,2235,FC Ryukyu,297,FC Gifu,0,2,FT
+1167250,2024-11-24 05:00:00+00:00,100,J3 League,Japan,2024,4314,Azul Claro Numazu,304,Matsumoto Yamaga,0,1,FT
+1167244,2024-11-24 05:00:00+00:00,100,J3 League,Japan,2024,4321,Grulla Morioka,4318,Fukushima United,1,4,FT
+1222792,2024-11-24 10:00:00+00:00,1065,U19 League,Ukraine,2024,23084,Zhytomyr U19,23085,Zorya Luhansk U19,2,2,FT
+1316358,2024-11-24 20:00:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1137,Atletico Nacional,0,1,FT
+1315362,2024-11-24 20:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,1608,Atlanta United FC,1,0,FT
+1316359,2024-11-24 22:10:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1136,Once Caldas,1,1,FT
+1315363,2024-11-24 23:00:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1612,Minnesota United FC,6,2,FT
+1316360,2024-11-25 00:20:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1135,Junior,1,0,FT
+1289390,2024-11-26 14:00:00+00:00,18,AFC Champions League Two,World,2024,2874,Sharjah FC,8012,Istiqlol,3,1,FT
+1289391,2024-11-26 16:00:00+00:00,18,AFC Champions League Two,World,2024,2744,Sepahan FC,4537,Al Wihdat,1,1,FT
+1315232,2024-11-26 19:30:00+00:00,617,Copa do Brasil U20,Brazil,2024,12956,Ceará U20,12968,Palmeiras U20,0,2,FT
+1316361,2024-11-27 01:00:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1125,Millonarios,0,1,FT
+1289394,2024-11-27 12:00:00+00:00,18,AFC Champions League Two,World,2024,3674,Nam Dinh,4207,Warriors,3,0,FT
+1289395,2024-11-27 12:00:00+00:00,18,AFC Champions League Two,World,2024,4206,Tampines Rovers,2770,Bangkok United,1,0,FT
+1289397,2024-11-27 14:00:00+00:00,18,AFC Champions League Two,World,2024,4215,Nasaf,3535,Al Kuwait,1,2,FT
+1289396,2024-11-27 14:00:00+00:00,18,AFC Champions League Two,World,2024,8023,Altyn Asyr,8009,Al Quwa Al Jawiya,0,2,FT
+1289398,2024-11-27 16:00:00+00:00,18,AFC Champions League Two,World,2024,2737,Tractor Sazi,2900,Al Wakrah,3,3,FT
+1289393,2024-11-27 16:00:00+00:00,18,AFC Champions League Two,World,2024,4532,Al Hussein,2870,Shabab Al Ahli Dubai,2,3,FT
+1293123,2024-11-27 18:00:00+00:00,18,AFC Champions League Two,World,2024,2936,Al Taawon,17666,Khalidiya,2,1,FT
+1315230,2024-11-27 19:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12954,Bahia U20,12973,São Paulo U20,2,2,FT
+1316362,2024-11-27 23:30:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1138,America de Cali,1,0,FT
+1316363,2024-11-28 01:30:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1135,Junior,2,2,FT
+1222794,2024-11-28 09:00:00+00:00,1065,U19 League,Ukraine,2024,23083,Vorskla U19,24176,Inhulets' U19,2,2,FT
+1289401,2024-11-28 10:00:00+00:00,18,AFC Champions League Two,World,2024,2762,Jeonbuk Motors,18265,Dynamic Herb Cebu,4,0,FT
+1289400,2024-11-28 10:00:00+00:00,18,AFC Champions League Two,World,2024,4451,Eastern,943,Sydney,1,4,FT
+1289402,2024-11-28 12:00:00+00:00,18,AFC Champions League Two,World,2024,848,Hangzhou Greentown,4204,Home United,4,2,FT
+1289403,2024-11-28 12:00:00+00:00,18,AFC Champions League Two,World,2024,2526,Selangor,2786,Muangthong United,1,2,FT
+1289399,2024-11-28 12:00:00+00:00,18,AFC Champions League Two,World,2024,8030,Kaya,282,Sanfrecce Hiroshima,1,1,FT
+1289404,2024-11-28 14:00:00+00:00,18,AFC Champions League Two,World,2024,2789,Port FC,2445,Persib Bandung,2,2,FT
+1222793,2024-11-29 09:00:00+00:00,1065,U19 League,Ukraine,2024,23077,LNZ Cherkasy U19,23082,Veres Rivne U19,0,4,FT
+1222800,2024-11-29 10:00:00+00:00,1065,U19 League,Ukraine,2024,23076,Kryvbas 2020 U19,23084,Zhytomyr U19,2,2,FT
+1222796,2024-11-29 11:00:00+00:00,1065,U19 League,Ukraine,2024,25118,Livyi Bereh U19,23080,Obolon' Kyiv U19,2,1,FT
+1316364,2024-11-29 23:30:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1139,Santa Fe,1,0,FT
+1316365,2024-11-30 01:30:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1137,Atletico Nacional,2,1,FT
+1222797,2024-11-30 10:00:00+00:00,1065,U19 League,Ukraine,2024,23075,Kolos Kovalivka U19,7898,Dynamo Kyiv U19,0,0,FT
+1222799,2024-11-30 11:00:00+00:00,1065,U19 League,Ukraine,2024,23081,Oleksandria U19,23073,Chornomorets U19,1,0,FT
+1316662,2024-12-01 00:30:00+00:00,253,Major League Soccer,USA,2024,1598,Orlando City SC,1602,New York Red Bulls,0,1,FT
+1316663,2024-12-01 03:00:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1595,Seattle Sounders,1,0,FT
+1316610,2024-12-01 05:00:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,7138,Osaka,1,1,FT
+1316611,2024-12-01 05:00:00+00:00,100,J3 League,Japan,2024,304,Matsumoto Yamaga,4318,Fukushima United,1,1,FT
+1222798,2024-12-01 09:30:00+00:00,1065,U19 League,Ukraine,2024,7929,Shakhtar Donetsk U19,20240,Rukh Vynnyky U19,3,1,FT
+1222795,2024-12-01 14:00:00+00:00,1065,U19 League,Ukraine,2024,23085,Zorya Luhansk U19,24177,Karpaty Lviv U19,1,3,FT
+1317467,2024-12-01 21:00:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1142,Deportes Tolima,4,2,FT
+1317468,2024-12-01 23:30:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1136,Once Caldas,1,2,FT
+1285220,2024-12-02 00:30:00+00:00,1130,USL Super League,USA,2024,24661,Fort Lauderdale United W,24660,Dallas Trinity W,2,1,FT
+1317909,2024-12-02 23:00:00+00:00,617,Copa do Brasil U20,Brazil,2024,12973,São Paulo U20,12968,Palmeiras U20,3,2,FT
+1317469,2024-12-02 23:30:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1126,Deportivo Pasto,1,2,FT
+1317470,2024-12-03 01:30:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1125,Millonarios,1,1,FT
+1289405,2024-12-03 14:00:00+00:00,18,AFC Champions League Two,World,2024,4537,Al Wihdat,2874,Sharjah FC,1,3,FT
+1289406,2024-12-03 14:00:00+00:00,18,AFC Champions League Two,World,2024,8012,Istiqlol,2744,Sepahan FC,0,2,FT
+1289408,2024-12-04 12:00:00+00:00,18,AFC Champions League Two,World,2024,2770,Bangkok United,3674,Nam Dinh,3,2,FT
+1289407,2024-12-04 12:00:00+00:00,18,AFC Champions League Two,World,2024,4207,Warriors,4206,Tampines Rovers,0,0,FT
+1289409,2024-12-04 14:00:00+00:00,18,AFC Champions League Two,World,2024,8009,Al Quwa Al Jawiya,2936,Al Taawon,0,1,FT
+1293124,2024-12-04 14:00:00+00:00,18,AFC Champions League Two,World,2024,17666,Khalidiya,8023,Altyn Asyr,4,0,FT
+1289412,2024-12-04 16:00:00+00:00,18,AFC Champions League Two,World,2024,2870,Shabab Al Ahli Dubai,4215,Nasaf,3,2,FT
+1289411,2024-12-04 16:00:00+00:00,18,AFC Champions League Two,World,2024,2900,Al Wakrah,12272,Ravshan,0,2,FT
+1289413,2024-12-04 16:00:00+00:00,18,AFC Champions League Two,World,2024,3535,Al Kuwait,4532,Al Hussein,2,2,FT
+1318578,2024-12-04 23:30:00+00:00,239,Primera A,Colombia,2024,1136,Once Caldas,1138,America de Cali,3,0,FT
+1318579,2024-12-05 01:30:00+00:00,239,Primera A,Colombia,2024,1135,Junior,1142,Deportes Tolima,3,2,FT
+1289415,2024-12-05 08:00:00+00:00,18,AFC Champions League Two,World,2024,282,Sanfrecce Hiroshima,4451,Eastern,4,1,FT
+1289416,2024-12-05 08:00:00+00:00,18,AFC Champions League Two,World,2024,943,Sydney,8030,Kaya,3,1,FT
+1289417,2024-12-05 10:00:00+00:00,18,AFC Champions League Two,World,2024,2786,Muangthong United,2762,Jeonbuk Motors,1,0,FT
+1289414,2024-12-05 10:00:00+00:00,18,AFC Champions League Two,World,2024,18265,Dynamic Herb Cebu,2526,Selangor,0,4,FT
+1222806,2024-12-05 11:00:00+00:00,1065,U19 League,Ukraine,2024,7929,Shakhtar Donetsk U19,23083,Vorskla U19,6,0,FT
+1289419,2024-12-05 12:00:00+00:00,18,AFC Champions League Two,World,2024,4204,Home United,2789,Port FC,5,2,FT
+1289418,2024-12-05 12:00:00+00:00,18,AFC Champions League Two,World,2024,2445,Persib Bandung,848,Hangzhou Greentown,3,4,FT
+1318580,2024-12-05 23:30:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1126,Deportivo Pasto,2,1,FT
+1318581,2024-12-06 01:30:00+00:00,239,Primera A,Colombia,2024,1125,Millonarios,1139,Santa Fe,1,1,FT
+1222686,2024-12-06 10:00:00+00:00,1065,U19 League,Ukraine,2024,23076,Kryvbas 2020 U19,23073,Chornomorets U19,4,0,FT
+1222807,2024-12-06 11:00:00+00:00,1065,U19 League,Ukraine,2024,7898,Dynamo Kyiv U19,23081,Oleksandria U19,4,1,FT
+1222802,2024-12-06 11:00:00+00:00,1065,U19 League,Ukraine,2024,24177,Karpaty Lviv U19,23082,Veres Rivne U19,2,0,FT
+1222685,2024-12-06 11:30:00+00:00,1065,U19 League,Ukraine,2024,25118,Livyi Bereh U19,23077,LNZ Cherkasy U19,3,0,FT
+1318583,2024-12-07 05:00:00+00:00,100,J3 League,Japan,2024,4322,Kataller Toyama,304,Matsumoto Yamaga,2,2,FT
+1222801,2024-12-07 10:00:00+00:00,1065,U19 League,Ukraine,2024,23075,Kolos Kovalivka U19,23080,Obolon' Kyiv U19,4,1,FT
+1222803,2024-12-07 11:00:00+00:00,1065,U19 League,Ukraine,2024,24176,Inhulets' U19,23085,Zorya Luhansk U19,1,1,FT
+1318600,2024-12-07 21:00:00+00:00,253,Major League Soccer,USA,2024,1605,Los Angeles Galaxy,1602,New York Red Bulls,2,1,FT
+1285249,2024-12-08 00:00:00+00:00,1130,USL Super League,USA,2024,24664,Lexington W,24657,Brooklyn W,0,3,FT
+1285250,2024-12-08 00:30:00+00:00,1130,USL Super League,USA,2024,24661,Fort Lauderdale United W,24662,Spokane Zephyr W,2,1,FT
+1222808,2024-12-08 10:00:00+00:00,1065,U19 League,Ukraine,2024,23084,Zhytomyr U19,20240,Rukh Vynnyky U19,3,0,FT
+1285251,2024-12-08 20:30:00+00:00,1130,USL Super League,USA,2024,24660,Dallas Trinity W,24663,Tampa Bay Sun W,2,0,FT
+1319340,2024-12-08 21:30:00+00:00,239,Primera A,Colombia,2024,1138,America de Cali,1135,Junior,1,0,FT
+1319341,2024-12-08 21:30:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1136,Once Caldas,1,0,FT
+1319343,2024-12-09 00:00:00+00:00,239,Primera A,Colombia,2024,1126,Deportivo Pasto,1125,Millonarios,0,0,FT
+1319342,2024-12-09 00:00:00+00:00,239,Primera A,Colombia,2024,1139,Santa Fe,1137,Atletico Nacional,0,3,FT
+1222811,2024-12-12 09:00:00+00:00,1065,U19 League,Ukraine,2024,23083,Vorskla U19,25118,Livyi Bereh U19,2,0,FT
+1222812,2024-12-13 10:00:00+00:00,1065,U19 League,Ukraine,2024,23076,Kryvbas 2020 U19,24177,Karpaty Lviv U19,2,5,FT
+1222810,2024-12-13 10:30:00+00:00,1065,U19 League,Ukraine,2024,23085,Zorya Luhansk U19,23073,Chornomorets U19,4,1,FT
+1222814,2024-12-14 10:00:00+00:00,1065,U19 League,Ukraine,2024,20240,Rukh Vynnyky U19,23080,Obolon' Kyiv U19,1,0,FT
+1222809,2024-12-14 10:00:00+00:00,1065,U19 League,Ukraine,2024,24176,Inhulets' U19,23075,Kolos Kovalivka U19,2,3,FT
+1285254,2024-12-14 17:00:00+00:00,1130,USL Super League,USA,2024,24664,Lexington W,24659,DC Power W,3,0,FT
+1285252,2024-12-14 20:30:00+00:00,1130,USL Super League,USA,2024,24660,Dallas Trinity W,24657,Brooklyn W,0,1,FT
+1285253,2024-12-15 00:00:00+00:00,1130,USL Super League,USA,2024,24663,Tampa Bay Sun W,24662,Spokane Zephyr W,3,2,FT
+1285255,2024-12-15 00:30:00+00:00,1130,USL Super League,USA,2024,24661,Fort Lauderdale United W,24658,Carolina Ascent W,2,0,FT
+1222816,2024-12-15 10:00:00+00:00,1065,U19 League,Ukraine,2024,23084,Zhytomyr U19,7929,Shakhtar Donetsk U19,0,1,FT
+1222693,2024-12-15 11:00:00+00:00,1065,U19 League,Ukraine,2024,7898,Dynamo Kyiv U19,23082,Veres Rivne U19,4,1,FT
+1321219,2024-12-19 00:30:00+00:00,239,Primera A,Colombia,2024,1142,Deportes Tolima,1137,Atletico Nacional,1,1,FT
+1321220,2024-12-22 23:00:00+00:00,239,Primera A,Colombia,2024,1137,Atletico Nacional,1142,Deportes Tolima,2,0,FT

@@ -772,27 +772,15 @@ elif page == "Match Predictions":
                         st.warning(
                             "Insufficient recent match data "
                             "for one or both teams. No prediction generated."
-                        )
+                   avg_home_goals = results["ft_home"].mean()
 
-                    elif home_form["played"] < 3 or away_form["played"] < 3:
+                   def poisson_probability(goals, expected):
 
-                        st.warning(
-                            "At least three recent completed matches "
-                            "are required for each team."
-                        )
-
-                    else:
-
-                        avg_home_goals = results["ft_home"].mean()
-
-                            def poisson_probability(goals, expected):
-
-                                return (
-                                    math.exp(-expected)
-                                    * expected ** goals
-                                    / math.factorial(goals)
-                                )
-
+                            return (
+                                math.exp(-expected)
+                                * expected ** goals
+                                / math.factorial(goals)
+                            )
                             score_probabilities = {}
 
                             for h in range(9):

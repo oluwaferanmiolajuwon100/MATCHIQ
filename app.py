@@ -136,7 +136,7 @@ def get_live_fixtures():
 def get_recent_team_matches(team_id, season):
    matches = result.get("response", [])
 
-    completed = [
+                    completed = [
         match for match in matches
         if match.get("fixture", {}).get("status", {}).get("short")
         in ["FT", "AET", "PEN"]

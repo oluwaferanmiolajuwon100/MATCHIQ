@@ -262,6 +262,253 @@ page = st.sidebar.radio(
         "Upcoming Fixtures",
         "Team Form",
         "Match Predictions",
+        "Backtesting",
+        # ==========================================
+# BACKTESTING
+# ==========================================
+
+elif page == "Backtesting":
+
+    st.header("MATCHIQ Historical Backtesting")
+
+    st.write(
+        "Testing predictions against completed matches "
+        "using only data available before each match."
+    )
+
+    selected_league = st.selectbox(
+        "Select Competition",
+        competitions["league"].tolist(),
+        key="backtest_league"
+    )
+
+    selected = competitions[
+        competitions["league"] == selected_league
+    ].iloc[0]
+
+    try:
+        results = get_competition_results(selected["folder"])
+
+        results["date"] = pd.to_datetime(
+            results["date"], errors="coerce"
+        )
+
+        results["ft_home"] = pd.to_numeric(
+            results["ft_home"], errors="coerce"
+        )
+
+        results["ft_away"] = pd.to_numeric(
+            results["ft_away"], errors="coerce"
+        )
+
+        results = results.dropna(
+            subset=["date", "home", "away", "ft_home", "ft_away"]
+        ).sort_values("date").reset_index(drop=True)
+
+        if len(results) < 30:
+            st.warning("Not enough completed matches for backtesting.")
+
+        else:
+            predictions = []
+
+            with st.spinner("Testing historical matches..."):
+
+                for i in range(len(results)):
+
+                    match = results.iloc[i]
+
+                    # Only use matches played before this match
+                    previous = results[
+                        results["date"] < match["date"]
+                    ]
+
+                    if len(previous) < 20:
+                        continue
+
+                    home_form = calculate_team_form(
+                        previous, match["home"]
+                    )
+
+                    away_form = calculate_team_form(
+                        previous, match["away"]
+                    )
+
+                    if home_form is None or away_form is None:
+                        continue
+
+                    if home_form["played"] < 3 or away_form["played"] < 3:
+                        continue
+
+                    avg_home = previous["ft_home"].mean()
+                    avg_away = previous["ft_away"].mean()
+
+                    avg_team = (
+                        previous["ft_home"].sum()
+                        + previous["ft_away"].sum()
+                    ) / (2 * len(previous))
+
+                    if avg_team <= 0:
+                        continue
+
+                    home_attack = (
+                        home_form["goals_for"] / home_form["played"]
+                    ) / avg_team
+
+                    home_defence = (
+                        home_form["goals_against"] / home_form["played"]
+                    ) / avg_team
+
+                    away_attack = (
+                        away_form["goals_for"] / away_form["played"]
+                    ) / avg_team
+
+                    away_defence = (
+                        away_form["goals_against"] / away_form["played"]
+                    ) / avg_team
+
+                    expected_home = max(
+                        0.05,
+                        min(avg_home * home_attack * away_defence, 5)
+                    )
+
+                    expected_away = max(
+                        0.05,
+                        min(avg_away * away_attack * home_defence, 5)
+                    )
+
+                    def poisson_probability(goals, expected):
+                        return (
+                            math.exp(-expected)
+                            * expected ** goals
+                            / math.factorial(goals)
+                        )
+
+                    score_probs = {}
+
+                    for h in range(9):
+                        for a in range(9):
+                            score_probs[(h, a)] = (
+                                poisson_probability(h, expected_home)
+                                * poisson_probability(a, expected_away)
+                            )
+
+                    total = sum(score_probs.values())
+
+                    if total <= 0:
+                        continue
+
+                    score_probs = {
+                        score: probability / total
+                        for score, probability in score_probs.items()
+                    }
+
+                    home_win = sum(
+                        p for (h, a), p in score_probs.items() if h > a
+                    )
+
+                    draw = sum(
+                        p for (h, a), p in score_probs.items() if h == a
+                    )
+
+                    away_win = sum(
+                        p for (h, a), p in score_probs.items() if h < a
+                    )
+
+                    actual_home = int(match["ft_home"])
+                    actual_away = int(match["ft_away"])
+
+                    actual = (
+                        "H" if actual_home > actual_away
+                        else "A" if actual_home < actual_away
+                        else "D"
+                    )
+
+                    probabilities = {
+                        "H": home_win,
+                        "D": draw,
+                        "A": away_win
+                    }
+
+                    predicted = max(
+                        probabilities, key=probabilities.get
+                    )
+
+                    predictions.append({
+                        "actual": actual,
+                        "predicted": predicted,
+                        "home_probability": home_win,
+                        "draw_probability": draw,
+                        "away_probability": away_win
+                    })
+
+            if not predictions:
+                st.warning("No matches had enough earlier data to test.")
+
+            else:
+                test = pd.DataFrame(predictions)
+
+                correct = (
+                    test["actual"] == test["predicted"]
+                ).sum()
+
+                accuracy = correct / len(test)
+
+                brier_scores = []
+
+                for _, row in test.iterrows():
+
+                    actual_values = {
+                        "H": 1 if row["actual"] == "H" else 0,
+                        "D": 1 if row["actual"] == "D" else 0,
+                        "A": 1 if row["actual"] == "A" else 0
+                    }
+
+                    brier = (
+                        (row["home_probability"] - actual_values["H"]) ** 2
+                        + (row["draw_probability"] - actual_values["D"]) ** 2
+                        + (row["away_probability"] - actual_values["A"]) ** 2
+                    )
+
+                    brier_scores.append(brier)
+
+                st.divider()
+
+                col1, col2, col3 = st.columns(3)
+
+                col1.metric("Matches Tested", len(test))
+
+                col2.metric(
+                    "1X2 Accuracy",
+                    f"{accuracy * 100:.2f}%"
+                )
+
+                col3.metric(
+                    "Brier Score",
+                    f"{sum(brier_scores) / len(brier_scores):.4f}"
+                )
+
+                st.subheader("Prediction Breakdown")
+
+                st.write(
+                    f"Correct predictions: {correct}"
+                )
+
+                st.write(
+                    f"Incorrect predictions: {len(test) - correct}"
+                )
+
+                st.dataframe(
+                    test.tail(20),
+                    use_container_width=True
+                )
+
+                st.caption(
+                    "Historical test only. Results are not a guarantee "
+                    "of future prediction accuracy or betting profit."
+                )
+
+    except Exception as error:
+        st.error(f"Backtesting error: {error}")
         "Historical Records"
     ]
 )

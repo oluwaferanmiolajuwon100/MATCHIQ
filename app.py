@@ -134,15 +134,35 @@ def get_live_fixtures():
 # ==========================================
 
 def get_recent_team_matches(team_id):
+    now = datetime.now(ZoneInfo("Africa/Lagos"))
+    yesterday = now.date() - pd.Timedelta(days=1)
+    start_date = now.date() - pd.Timedelta(days=60)
+
     result = api_get(
         "fixtures",
         {
             "team": int(team_id),
-            "last": 5
+            "from": start_date.strftime("%Y-%m-%d"),
+            "to": yesterday.strftime("%Y-%m-%d"),
+            "timezone": "Africa/Lagos"
         }
     )
 
-    return result.get("response", [])
+    matches = result.get("response", [])
+
+    completed = [
+        match for match in matches
+        if match.get("fixture", {}).get("status", {}).get("short")
+        in ["FT", "AET", "PEN"]
+    ]
+
+    completed.sort(
+        key=lambda match: match.get("fixture", {}).get("date", ""),
+        reverse=True
+    )
+
+    return completed[:5]
+
 
 
 # ==========================================

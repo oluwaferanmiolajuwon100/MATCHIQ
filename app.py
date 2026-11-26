@@ -130,6 +130,19 @@ def get_live_fixtures():
         })
 
     return pd.DataFrame(records)
+# RECENT TEAM MATCH RETRIEVAL
+# ==========================================
+
+def get_recent_team_matches(team_id):
+    result = api_get(
+        "fixtures",
+        {
+            "team": int(team_id),
+            "last": 5
+        }
+    )
+
+    return result.get("response", [])
 
 
 # ==========================================
@@ -143,8 +156,9 @@ page = st.sidebar.radio(
     [
         "Overview",
         "Historical Predictions",
-        "Upcoming Fixtures",
-        "Live API Connection"
+       "Upcoming Fixtures",
+"Live API Connection",
+"Recent Team Data Test"
     ]
 )
 
@@ -389,7 +403,63 @@ elif page == "Live API Connection":
             "must be completed first."
         )
 
+# ==========================================
+# RECENT TEAM DATA TEST
+# ==========================================
 
+elif page == "Recent Team Data Test":
+
+    st.header("Recent Team Data Retrieval Test")
+
+    if "live_fixtures" not in st.session_state:
+        st.warning(
+            "First retrieve today's fixtures "
+            "from the Live API Connection page."
+        )
+
+    else:
+        live_df = st.session_state["live_fixtures"]
+
+        available = live_df.dropna(
+            subset=["home_team_id", "away_team_id"]
+        )
+
+        if available.empty:
+            st.warning("No teams available for testing.")
+
+        else:
+            fixture = available.iloc[0]
+
+            st.write(
+                f"Test fixture: {fixture['home_team']} "
+                f"vs {fixture['away_team']}"
+            )
+
+            if st.button("Test Recent Team Data"):
+
+                for side in ["home", "away"]:
+
+                    team_id = fixture[f"{side}_team_id"]
+                    team_name = fixture[f"{side}_team"]
+
+                    try:
+                        matches = get_recent_team_matches(team_id)
+
+                        st.success(
+                            f"{team_name}: "
+                            f"{len(matches)} matches retrieved."
+                        )
+
+                        if matches:
+                            st.dataframe(
+                                pd.json_normalize(matches),
+                                width="stretch"
+                            )
+
+                    except Exception as error:
+                        st.error(
+                            f"{team_name}: {error}"
+                        )
 # ==========================================
 # FOOTER
 # ==========================================

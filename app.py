@@ -683,11 +683,9 @@ elif page == "Match Predictions":
     st.header("MATCHIQ Match Predictions")
 
     if competitions.empty:
-
         st.warning("Competition data is unavailable.")
 
     else:
-
         selected_league = st.selectbox(
             "Select Competition",
             competitions["league"].tolist(),
@@ -701,20 +699,16 @@ elif page == "Match Predictions":
         folder = selected["folder"]
 
         try:
-
             with st.spinner("Loading match data..."):
-
                 results = get_competition_results(folder)
                 fixtures = get_competition_fixtures(folder)
 
             results["date"] = pd.to_datetime(
-                results["date"],
-                errors="coerce"
+                results["date"], errors="coerce"
             )
 
             fixtures["date"] = pd.to_datetime(
-                fixtures["date"],
-                errors="coerce"
+                fixtures["date"], errors="coerce"
             )
 
             results = results.dropna(
@@ -730,11 +724,9 @@ elif page == "Match Predictions":
             ].copy()
 
             if fixtures.empty:
-
                 st.info("No upcoming fixtures are available.")
 
             else:
-
                 fixtures = fixtures.sort_values("date")
 
                 fixture_index = st.selectbox(
@@ -748,7 +740,6 @@ elif page == "Match Predictions":
                 )
 
                 match = fixtures.iloc[fixture_index]
-
                 home_team = match["home"]
                 away_team = match["away"]
 
@@ -757,45 +748,132 @@ elif page == "Match Predictions":
                     type="primary"
                 ):
 
-                    home_form = calculate_team_form(
-                        results,
-                        home_team
-                    )
-
-                    away_form = calculate_team_form(
-                        results,
-                        away_team
-                    )
+                    home_form = calculate_team_form(results, home_team)
+                    away_form = calculate_team_form(results, away_team)
 
                     if home_form is None or away_form is None:
-
                         st.warning(
                             "Insufficient recent match data "
-                            "for one or both teams. No prediction generated."
+                            "for one or both teams."
                         )
 
-                    elif home_form["played"] < 3 or away_form["played"] < 3:
-
+                    elif (
+                        home_form["played"] < 3
+                        or away_form["played"] < 3
+                    ):
                         st.warning(
                             "At least three recent completed matches "
                             "are required for each team."
                         )
 
                     else:
-
                         avg_home_goals = results["ft_home"].mean()
                         avg_away_goals = results["ft_away"].mean()
 
-                        avg_team_goals = (
-                            avg_home_goals + avg_away_goals
-                        ) / 2
-
-                        if avg_team_goals <= 0:
+                        if avg_home_goals <= 0 or avg_away_goals <= 0:
                             st.warning(
                                 "Competition scoring data is insufficient."
                             )
 
                         else:
+
+                            def team_venue_rates(
+                                team,
+                                venue,
+                                league_for,
+                                league_against
+                            ):
+                                home_matches = results[
+                                    results["home"] == team
+                                ][["date", "ft_home", "ft_away"]].copy()
+
+                                home_matches.columns = [
+                                    "date", "goals_for", "goals_against"
+                                ]
+
+                                away_matches = results[
+                                    results["away"] == team
+                                ][["date", "ft_away", "ft_home"]].copy()
+
+                                away_matches.columns = [
+                                    "date", "goals_for", "goals_against"
+                                ]
+
+                                if venue == "home":
+                                    selected_matches = home_matches
+                                else:
+                                    selected_matches = away_matches
+
+                                if len(selected_matches) < 3:
+                                    selected_matches = pd.concat(
+                                        [home_matches, away_matches]
+                                    )
+
+                                recent = selected_matches.sort_values(
+                                    "date"
+                                ).tail(10)
+
+                                if recent.empty:
+                                    return league_for, league_against
+
+                                weights = [
+                                    0.85 ** (len(recent) - 1 - i)
+                                    for i in range(len(recent))
+                                ]
+
+                                weighted_for = (
+                                    recent["goals_for"].to_numpy() * weights
+                                ).sum() / sum(weights)
+
+                                weighted_against = (
+                                    recent["goals_against"].to_numpy() * weights
+                                ).sum() / sum(weights)
+
+                                reliability = (
+                                    len(recent) / (len(recent) + 5)
+                                )
+
+                                adjusted_for = (
+                                    weighted_for * reliability
+                                    + league_for * (1 - reliability)
+                                )
+
+                                adjusted_against = (
+                                    weighted_against * reliability
+                                    + league_against * (1 - reliability)
+                                )
+
+                                return adjusted_for, adjusted_against
+
+                            home_for, home_against = team_venue_rates(
+                                home_team,
+                                "home",
+                                avg_home_goals,
+                                avg_away_goals
+                            )
+
+                            away_for, away_against = team_venue_rates(
+                                away_team,
+                                "away",
+                                avg_away_goals,
+                                avg_home_goals
+                            )
+
+                            expected_home = (
+                                home_for * away_against / avg_home_goals
+                            )
+
+                            expected_away = (
+                                away_for * home_against / avg_away_goals
+                            )
+
+                            expected_home = max(
+                                0.05, min(expected_home, 5)
+                            )
+
+                            expected_away = max(
+                                0.05, min(expected_away, 5)
+                            )
 
                             def poisson_probability(goals, expected):
                                 return (
@@ -804,19 +882,13 @@ elif page == "Match Predictions":
                                     / math.factorial(goals)
                                 )
 
+                            score_probabilities = {}
+
                             for h in range(9):
                                 for a in range(9):
-
                                     probability = (
-                                        poisson_probability(
-                                            h,
-                                            expected_home
-                                        )
-                                        *
-                                        poisson_probability(
-                                            a,
-                                            expected_away
-                                        )
+                                        poisson_probability(h, expected_home)
+                                        * poisson_probability(a, expected_away)
                                     )
 
                                     score_probabilities[(h, a)] = probability
@@ -833,20 +905,17 @@ elif page == "Match Predictions":
 
                             home_win = sum(
                                 p for (h, a), p
-                                in score_probabilities.items()
-                                if h > a
+                                in score_probabilities.items() if h > a
                             )
 
                             draw = sum(
                                 p for (h, a), p
-                                in score_probabilities.items()
-                                if h == a
+                                in score_probabilities.items() if h == a
                             )
 
                             away_win = sum(
                                 p for (h, a), p
-                                in score_probabilities.items()
-                                if h < a
+                                in score_probabilities.items() if h < a
                             )
 
                             over_25 = sum(
@@ -869,10 +938,7 @@ elif page == "Match Predictions":
                             )
 
                             st.divider()
-
-                            st.subheader(
-                                f"{home_team} vs {away_team}"
-                            )
+                            st.subheader(f"{home_team} vs {away_team}")
 
                             col1, col2 = st.columns(2)
 
@@ -890,39 +956,17 @@ elif page == "Match Predictions":
 
                             col1, col2, col3 = st.columns(3)
 
-                            col1.metric(
-                                "Home Win",
-                                f"{home_win * 100:.1f}%"
-                            )
-
-                            col2.metric(
-                                "Draw",
-                                f"{draw * 100:.1f}%"
-                            )
-
-                            col3.metric(
-                                "Away Win",
-                                f"{away_win * 100:.1f}%"
-                            )
+                            col1.metric("Home Win", f"{home_win * 100:.1f}%")
+                            col2.metric("Draw", f"{draw * 100:.1f}%")
+                            col3.metric("Away Win", f"{away_win * 100:.1f}%")
 
                             st.subheader("Goals Markets")
 
                             col1, col2, col3 = st.columns(3)
 
-                            col1.metric(
-                                "Over 2.5 Goals",
-                                f"{over_25 * 100:.1f}%"
-                            )
-
-                            col2.metric(
-                                "Under 2.5 Goals",
-                                f"{under_25 * 100:.1f}%"
-                            )
-
-                            col3.metric(
-                                "Both Teams to Score",
-                                f"{btts * 100:.1f}%"
-                            )
+                            col1.metric("Over 2.5 Goals", f"{over_25 * 100:.1f}%")
+                            col2.metric("Under 2.5 Goals", f"{under_25 * 100:.1f}%")
+                            col3.metric("Both Teams to Score", f"{btts * 100:.1f}%")
 
                             st.subheader("Most Likely Scoreline")
 
@@ -933,13 +977,14 @@ elif page == "Match Predictions":
                             )
 
                             st.caption(
-                                "Model: basic Poisson baseline using "
-                                "recent five-match team form and "
-                                "competition scoring averages. "
+                                "Model: weighted recent home/away performance "
+                                "and competition scoring averages. "
                                 "Probabilities are estimates, not guarantees."
                             )
 
         except Exception as error:
+            st.error(f"Prediction error: {error}")
+
 
             st.error(
                 f"Prediction error: {error}"
@@ -1052,22 +1097,7 @@ elif page == "Backtesting":
 
                                          
 
-                            score_probabilities = {}
-
-                            for h in range(9):
-                                for a in range(9):
-
-                                    probability = (
-                                        poisson_probability(h, expected_home)
-                                        * poisson_probability(a, expected_away)
-                                    )
-
-                                    score_probabilities[(h, a)] = probability
-
-                            total_probability = sum(
-                                score_probabilities.values()
-                            )
-                                poisson_probability(h, expected_home)
+                            
                                 * poisson_probability(a, expected_away)
                             )
 

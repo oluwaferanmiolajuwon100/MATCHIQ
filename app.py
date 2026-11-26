@@ -1,5 +1,5 @@
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 import requests
@@ -130,13 +130,32 @@ def get_live_fixtures():
         })
 
     return pd.DataFrame(records)
+
+
+# ==========================================
 # RECENT TEAM MATCH RETRIEVAL
 # ==========================================
 
 def get_recent_team_matches(team_id, season):
-   matches = result.get("response", [])
+    now = datetime.now(ZoneInfo("Africa/Lagos"))
 
-                    completed = [
+    yesterday = now.date() - timedelta(days=1)
+    start_date = now.date() - timedelta(days=60)
+
+    result = api_get(
+        "fixtures",
+        {
+            "team": int(team_id),
+            "season": int(season),
+            "from": start_date.strftime("%Y-%m-%d"),
+            "to": yesterday.strftime("%Y-%m-%d"),
+            "timezone": "Africa/Lagos"
+        }
+    )
+
+    matches = result.get("response", [])
+
+    completed = [
         match for match in matches
         if match.get("fixture", {}).get("status", {}).get("short")
         in ["FT", "AET", "PEN"]
@@ -151,7 +170,7 @@ def get_recent_team_matches(team_id, season):
 
 
 # ==========================================
-# SIDEBAR
+# SIDEBAR NAVIGATION
 # ==========================================
 
 st.sidebar.title("MATCHIQ")
@@ -161,9 +180,9 @@ page = st.sidebar.radio(
     [
         "Overview",
         "Historical Predictions",
-       "Upcoming Fixtures",
-"Live API Connection",
-"Recent Team Data Test"
+        "Upcoming Fixtures",
+        "Live API Connection",
+        "Recent Team Data Test"
     ]
 )
 
@@ -211,6 +230,11 @@ if page == "Overview":
     st.write(
         "The current historical model uses an upgraded "
         "Poisson prediction engine."
+    )
+
+    st.warning(
+        "Historical model performance does not establish "
+        "the accuracy of predictions on current fixtures."
     )
 
 
@@ -330,8 +354,8 @@ elif page == "Live API Connection":
         st.success("API key detected in Streamlit Secrets.")
     else:
         st.error(
-            "API key not detected. Check the API_FOOTBALL_KEY "
-            "entry in Streamlit Secrets."
+            "API key not detected. Check API_FOOTBALL_KEY "
+            "in Streamlit Secrets."
         )
 
     if st.button(
@@ -366,10 +390,7 @@ elif page == "Live API Connection":
                     )
 
                 except requests.exceptions.HTTPError as error:
-                    st.error(
-                        f"API HTTP error: {error}. "
-                        "Check your subscription and API access."
-                    )
+                    st.error(f"API HTTP error: {error}")
 
                 except requests.exceptions.RequestException as error:
                     st.error(f"Connection error: {error}")
@@ -403,10 +424,11 @@ elif page == "Live API Connection":
             )
 
         st.warning(
-            "Retrieving fixtures does not automatically generate "
-            "predictions. Recent team data and model validation "
-            "must be completed first."
+            "Fixture retrieval does not automatically generate "
+            "predictions. Current team data must be retrieved "
+            "and validated first."
         )
+
 
 # ==========================================
 # RECENT TEAM DATA TEST
@@ -416,55 +438,141 @@ elif page == "Recent Team Data Test":
 
     st.header("Recent Team Data Retrieval Test")
 
+    st.write(
+        "This test checks whether API-Football allows "
+        "MATCHIQ to retrieve recent completed matches "
+        "for the teams in today's fixtures."
+    )
+
     if "live_fixtures" not in st.session_state:
+
         st.warning(
-            "First retrieve today's fixtures "
-            "from the Live API Connection page."
+            "First visit Live API Connection and retrieve "
+            "today's fixtures."
         )
 
     else:
+
         live_df = st.session_state["live_fixtures"]
 
         available = live_df.dropna(
-            subset=["home_team_id", "away_team_id"]
+            subset=[
+                "home_team_id",
+                "away_team_id",
+                "season"
+            ]
         )
 
         if available.empty:
-            st.warning("No teams available for testing.")
+
+            st.warning("No suitable fixtures are available for testing.")
 
         else:
-            fixture = available.iloc[0]
 
-            st.write(
-                f"Test fixture: {fixture['home_team']} "
-                f"vs {fixture['away_team']}"
+            fixture_index = st.selectbox(
+                "Choose a fixture to test",
+                options=range(len(available)),
+                format_func=lambda index: (
+                    f"{available.iloc[index]['home_team']} vs "
+                    f"{available.iloc[index]['away_team']}"
+                )
             )
 
-            if st.button("Test Recent Team Data"):
+            fixture = available.iloc[fixture_index]
 
-                for side in ["home", "away"]:
+            st.write(
+                f"Competition: {fixture['league']}"
+            )
 
-                    team_id = fixture[f"{side}_team_id"]
-                    team_name = fixture[f"{side}_team"]
+            st.write(
+                f"Season: {fixture['season']}"
+            )
+
+            if st.button(
+                "Test Recent Team Data",
+                type="primary"
+            ):
+
+                teams_to_test = [
+                    (
+                        "Home",
+                        fixture["home_team"],
+                        fixture["home_team_id"]
+                    ),
+                    (
+                        "Away",
+                        fixture["away_team"],
+                        fixture["away_team_id"]
+                    )
+                ]
+
+                for side, team_name, team_id in teams_to_test:
+
+                    st.divider()
+                    st.subheader(f"{side} Team: {team_name}")
 
                     try:
-                        matches = get_recent_team_matches(team_id, fixture["season"])
 
-                        st.success(
-                            f"{team_name}: "
-                            f"{len(matches)} matches retrieved."
+                        matches = get_recent_team_matches(
+                            team_id,
+                            fixture["season"]
                         )
 
                         if matches:
+
+                            st.success(
+                                f"{len(matches)} completed matches retrieved."
+                            )
+
+                            match_records = []
+
+                            for match in matches:
+
+                                match_fixture = match.get("fixture", {})
+                                match_teams = match.get("teams", {})
+                                match_goals = match.get("goals", {})
+                                match_league = match.get("league", {})
+
+                                match_records.append({
+                                    "date": match_fixture.get("date"),
+                                    "competition": match_league.get("name"),
+                                    "home_team": match_teams.get(
+                                        "home", {}
+                                    ).get("name"),
+                                    "away_team": match_teams.get(
+                                        "away", {}
+                                    ).get("name"),
+                                    "home_goals": match_goals.get("home"),
+                                    "away_goals": match_goals.get("away"),
+                                    "status": match_fixture.get(
+                                        "status", {}
+                                    ).get("short")
+                                })
+
                             st.dataframe(
-                                pd.json_normalize(matches),
+                                pd.DataFrame(match_records),
                                 width="stretch"
                             )
 
+                        else:
+
+                            st.warning(
+                                "The API returned no completed matches "
+                                "within the selected date range."
+                            )
+
                     except Exception as error:
+
                         st.error(
-                            f"{team_name}: {error}"
+                            f"Could not retrieve recent data: {error}"
                         )
+
+        st.caption(
+            "This is a data-access test only. It does not generate "
+            "football predictions."
+        )
+
+
 # ==========================================
 # FOOTER
 # ==========================================

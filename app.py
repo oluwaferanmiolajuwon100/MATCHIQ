@@ -1050,12 +1050,7 @@ elif page == "Backtesting":
                         min(avg_away * away_attack * home_defence, 5)
                     )
 
-                                           def poisson_probability(goals, expected):
-                                return (
-                                    math.exp(-expected)
-                                    * expected ** goals
-                                    / math.factorial(goals)
-                                )
+                                         
 
                             score_probabilities = {}
 

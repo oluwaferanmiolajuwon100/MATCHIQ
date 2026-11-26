@@ -1,3 +1,4 @@
+import math
 import json
 import os
 import re
@@ -260,6 +261,7 @@ page = st.sidebar.radio(
         "Competitions",
         "Upcoming Fixtures",
         "Team Form",
+        "Match Predictions",
         "Historical Records"
     ]
 )
@@ -671,6 +673,323 @@ elif page == "Team Form":
                 f"Could not retrieve team data: {error}"
             )
 
+# ==========================================
+# MATCH PREDICTIONS
+# ==========================================
+
+elif page == "Match Predictions":
+
+    st.header("MATCHIQ Match Predictions")
+
+    if competitions.empty:
+
+        st.warning("Competition data is unavailable.")
+
+    else:
+
+        selected_league = st.selectbox(
+            "Select Competition",
+            competitions["league"].tolist(),
+            key="prediction_league"
+        )
+
+        selected = competitions[
+            competitions["league"] == selected_league
+        ].iloc[0]
+
+        folder = selected["folder"]
+
+        try:
+
+            with st.spinner("Loading match data..."):
+
+                results = get_competition_results(folder)
+                fixtures = get_competition_fixtures(folder)
+
+            results["date"] = pd.to_datetime(
+                results["date"],
+                errors="coerce"
+            )
+
+            fixtures["date"] = pd.to_datetime(
+                fixtures["date"],
+                errors="coerce"
+            )
+
+            results = results.dropna(
+                subset=["date", "home", "away", "ft_home", "ft_away"]
+            )
+
+            today = pd.Timestamp.now(
+                tz="Africa/Lagos"
+            ).date()
+
+            fixtures = fixtures[
+                fixtures["date"].dt.date >= today
+            ].copy()
+
+            if fixtures.empty:
+
+                st.info("No upcoming fixtures are available.")
+
+            else:
+
+                fixtures = fixtures.sort_values("date")
+
+                fixture_index = st.selectbox(
+                    "Select Match",
+                    options=range(len(fixtures)),
+                    format_func=lambda i: (
+                        f"{fixtures.iloc[i]['date'].strftime('%d %b %Y')} | "
+                        f"{fixtures.iloc[i]['home']} vs "
+                        f"{fixtures.iloc[i]['away']}"
+                    )
+                )
+
+                match = fixtures.iloc[fixture_index]
+
+                home_team = match["home"]
+                away_team = match["away"]
+
+                if st.button(
+                    "Generate Match Prediction",
+                    type="primary"
+                ):
+
+                    home_form = calculate_team_form(
+                        results,
+                        home_team
+                    )
+
+                    away_form = calculate_team_form(
+                        results,
+                        away_team
+                    )
+
+                    if home_form is None or away_form is None:
+
+                        st.warning(
+                            "Insufficient recent match data "
+                            "for one or both teams. No prediction generated."
+                        )
+
+                    elif home_form["played"] < 3 or away_form["played"] < 3:
+
+                        st.warning(
+                            "At least three recent completed matches "
+                            "are required for each team."
+                        )
+
+                    else:
+
+                        avg_home_goals = results["ft_home"].mean()
+                        avg_away_goals = results["ft_away"].mean()
+
+                        avg_team_goals = (
+                            results["ft_home"].sum()
+                            + results["ft_away"].sum()
+                        ) / (2 * len(results))
+
+                        if avg_team_goals <= 0:
+
+                            st.warning(
+                                "Competition scoring data is insufficient."
+                            )
+
+                        else:
+
+                            home_attack = (
+                                home_form["goals_for"]
+                                / home_form["played"]
+                            ) / avg_team_goals
+
+                            home_defence = (
+                                home_form["goals_against"]
+                                / home_form["played"]
+                            ) / avg_team_goals
+
+                            away_attack = (
+                                away_form["goals_for"]
+                                / away_form["played"]
+                            ) / avg_team_goals
+
+                            away_defence = (
+                                away_form["goals_against"]
+                                / away_form["played"]
+                            ) / avg_team_goals
+
+                            expected_home = (
+                                avg_home_goals
+                                * home_attack
+                                * away_defence
+                            )
+
+                            expected_away = (
+                                avg_away_goals
+                                * away_attack
+                                * home_defence
+                            )
+
+                            expected_home = max(
+                                0.05,
+                                min(expected_home, 5)
+                            )
+
+                            expected_away = max(
+                                0.05,
+                                min(expected_away, 5)
+                            )
+
+                            def poisson_probability(goals, expected):
+
+                                return (
+                                    math.exp(-expected)
+                                    * expected ** goals
+                                    / math.factorial(goals)
+                                )
+
+                            score_probabilities = {}
+
+                            for h in range(9):
+                                for a in range(9):
+
+                                    probability = (
+                                        poisson_probability(
+                                            h,
+                                            expected_home
+                                        )
+                                        *
+                                        poisson_probability(
+                                            a,
+                                            expected_away
+                                        )
+                                    )
+
+                                    score_probabilities[(h, a)] = probability
+
+                            total_probability = sum(
+                                score_probabilities.values()
+                            )
+
+                            score_probabilities = {
+                                score: probability / total_probability
+                                for score, probability
+                                in score_probabilities.items()
+                            }
+
+                            home_win = sum(
+                                p for (h, a), p
+                                in score_probabilities.items()
+                                if h > a
+                            )
+
+                            draw = sum(
+                                p for (h, a), p
+                                in score_probabilities.items()
+                                if h == a
+                            )
+
+                            away_win = sum(
+                                p for (h, a), p
+                                in score_probabilities.items()
+                                if h < a
+                            )
+
+                            over_25 = sum(
+                                p for (h, a), p
+                                in score_probabilities.items()
+                                if h + a >= 3
+                            )
+
+                            under_25 = 1 - over_25
+
+                            btts = sum(
+                                p for (h, a), p
+                                in score_probabilities.items()
+                                if h > 0 and a > 0
+                            )
+
+                            most_likely_score = max(
+                                score_probabilities,
+                                key=score_probabilities.get
+                            )
+
+                            st.divider()
+
+                            st.subheader(
+                                f"{home_team} vs {away_team}"
+                            )
+
+                            col1, col2 = st.columns(2)
+
+                            col1.metric(
+                                "Expected Home Goals",
+                                f"{expected_home:.2f}"
+                            )
+
+                            col2.metric(
+                                "Expected Away Goals",
+                                f"{expected_away:.2f}"
+                            )
+
+                            st.subheader("1X2 Probabilities")
+
+                            col1, col2, col3 = st.columns(3)
+
+                            col1.metric(
+                                "Home Win",
+                                f"{home_win * 100:.1f}%"
+                            )
+
+                            col2.metric(
+                                "Draw",
+                                f"{draw * 100:.1f}%"
+                            )
+
+                            col3.metric(
+                                "Away Win",
+                                f"{away_win * 100:.1f}%"
+                            )
+
+                            st.subheader("Goals Markets")
+
+                            col1, col2, col3 = st.columns(3)
+
+                            col1.metric(
+                                "Over 2.5 Goals",
+                                f"{over_25 * 100:.1f}%"
+                            )
+
+                            col2.metric(
+                                "Under 2.5 Goals",
+                                f"{under_25 * 100:.1f}%"
+                            )
+
+                            col3.metric(
+                                "Both Teams to Score",
+                                f"{btts * 100:.1f}%"
+                            )
+
+                            st.subheader("Most Likely Scoreline")
+
+                            st.metric(
+                                "Predicted Score",
+                                f"{most_likely_score[0]} - "
+                                f"{most_likely_score[1]}"
+                            )
+
+                            st.caption(
+                                "Model: basic Poisson baseline using "
+                                "recent five-match team form and "
+                                "competition scoring averages. "
+                                "Probabilities are estimates, not guarantees."
+                            )
+
+        except Exception as error:
+
+            st.error(
+                f"Prediction error: {error}"
+            )
 
 
 # ==========================================

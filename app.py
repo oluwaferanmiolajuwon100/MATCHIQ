@@ -784,62 +784,6 @@ elif page == "Match Predictions":
                     else:
 
                         avg_home_goals = results["ft_home"].mean()
-                        avg_away_goals = results["ft_away"].mean()
-
-                        avg_team_goals = (
-                            results["ft_home"].sum()
-                            + results["ft_away"].sum()
-                        ) / (2 * len(results))
-
-                        if avg_team_goals <= 0:
-
-                            st.warning(
-                                "Competition scoring data is insufficient."
-                            )
-
-                        else:
-
-                            home_attack = (
-                                home_form["goals_for"]
-                                / home_form["played"]
-                            ) / avg_team_goals
-
-                            home_defence = (
-                                home_form["goals_against"]
-                                / home_form["played"]
-                            ) / avg_team_goals
-
-                            away_attack = (
-                                away_form["goals_for"]
-                                / away_form["played"]
-                            ) / avg_team_goals
-
-                            away_defence = (
-                                away_form["goals_against"]
-                                / away_form["played"]
-                            ) / avg_team_goals
-
-                            expected_home = (
-                                avg_home_goals
-                                * home_attack
-                                * away_defence
-                            )
-
-                            expected_away = (
-                                avg_away_goals
-                                * away_attack
-                                * home_defence
-                            )
-
-                            expected_home = max(
-                                0.05,
-                                min(expected_home, 5)
-                            )
-
-                            expected_away = max(
-                                0.05,
-                                min(expected_away, 5)
-                            )
 
                             def poisson_probability(goals, expected):
 

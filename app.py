@@ -1,13 +1,16 @@
 import os
-from datetime import datetime, timedelta
+import re
+from io import StringIO
+from datetime import datetime
 from zoneinfo import ZoneInfo
 
 import requests
 import pandas as pd
 import streamlit as st
 
+
 # ==========================================
-# MATCHIQ - FOOTBALL INTELLIGENCE PLATFORM
+# MATCHIQ - FREE FOOTBALL DATA PLATFORM
 # ==========================================
 
 st.set_page_config(
@@ -16,18 +19,25 @@ st.set_page_config(
     layout="wide"
 )
 
-API_BASE = "https://v3.football.api-sports.io"
+BASE_URL = (
+    "https://raw.githubusercontent.com/"
+    "oladeeayo/open-matchday/master"
+)
+
+DATA_URL = f"{BASE_URL}/data"
+
 DATA_FOLDER = os.path.dirname(os.path.abspath(__file__))
 
 st.title("⚽ MATCHIQ")
 st.caption("Football Intelligence & Prediction Platform")
 
 
+
 # ==========================================
-# DATA LOADING
+# LOCAL HISTORICAL DATA
 # ==========================================
 
-def load_data(filename):
+def load_local_data(filename):
     path = os.path.join(DATA_FOLDER, filename)
 
     if os.path.exists(path):
@@ -39,134 +49,218 @@ def load_data(filename):
     return pd.DataFrame()
 
 
-predictions = load_data("MATCHIQ_Final_V3_Predictions.csv")
-historical = load_data("MATCHIQ_Historical_Database.csv")
-upcoming = load_data("MATCHIQ_Upcoming_Fixtures.csv")
+historical = load_local_data(
+    "MATCHIQ_Historical_Database.csv"
+)
+
+historical_predictions = load_local_data(
+    "MATCHIQ_Final_V3_Predictions.csv"
+)
+
 
 
 # ==========================================
-# API CONFIGURATION
+# FREE DATA CONNECTION
 # ==========================================
 
-def get_api_key():
-    try:
-        return st.secrets.get("API_FOOTBALL_KEY", "")
-    except Exception:
-        return ""
-
-
-def api_get(endpoint, params=None):
-    key = get_api_key()
-
-    if not key:
-        raise ValueError(
-            "API key not found. Check Streamlit Secrets."
-        )
-
-    headers = {
-        "x-apisports-key": key
-    }
-
+@st.cache_data(ttl=3600, show_spinner=False)
+def download_file(url):
     response = requests.get(
-        f"{API_BASE}/{endpoint}",
-        headers=headers,
-        params=params,
+        url,
         timeout=30
     )
 
     response.raise_for_status()
 
-    result = response.json()
-
-    errors = result.get("errors")
-
-    if errors:
-        raise ValueError(str(errors))
-
-    return result
+    return response.text
 
 
-# ==========================================
-# LIVE FIXTURE RETRIEVAL
-# ==========================================
+@st.cache_data(ttl=3600, show_spinner=False)
+def get_competitions():
 
-def get_live_fixtures():
-    now = datetime.now(ZoneInfo("Africa/Lagos"))
-    today = now.strftime("%Y-%m-%d")
+    url = f"{BASE_URL}/LEAGUE_INDEX.md"
 
-    result = api_get(
-        "fixtures",
-        {
-            "date": today,
-            "timezone": "Africa/Lagos"
-        }
+    content = download_file(url)
+
+    competitions = []
+
+    for line in content.splitlines():
+
+        if not line.startswith("|"):
+            continue
+
+        parts = [
+            item.strip()
+            for item in line.split("|")
+        ]
+
+        if len(parts) < 4:
+            continue
+
+        folder = parts[1].strip("` ")
+        league = parts[2].strip()
+        country = parts[3].strip()
+
+        if (
+            folder
+            and league
+            and country
+            and folder.lower() != "folder"
+            and not folder.startswith("---")
+        ):
+
+            competitions.append({
+                "folder": folder,
+                "league": league,
+                "country": country
+            })
+
+    return pd.DataFrame(competitions)
+
+
+@st.cache_data(ttl=3600, show_spinner=False)
+def get_competition_results(folder):
+
+    url = (
+        f"{DATA_URL}/{folder}/results_2627.csv"
     )
+
+    content = download_file(url)
+
+    return pd.read_csv(
+        StringIO(content)
+    )
+
+
+@st.cache_data(ttl=3600, show_spinner=False)
+def get_competition_fixtures(folder):
+
+    url = (
+        f"{DATA_URL}/{folder}/fixtures_2627.csv"
+    )
+
+    content = download_file(url)
+
+    return pd.read_csv(
+        StringIO(content)
+    )
+
+
+
+# ==========================================
+# TEAM RECENT FORM
+# ==========================================
+
+def get_team_recent_matches(results, team_name, limit=5):
+
+    if results.empty:
+        return pd.DataFrame()
+
+    required_columns = [
+        "date",
+        "home",
+        "away",
+        "ft_home",
+        "ft_away"
+    ]
+
+    if not all(
+        column in results.columns
+        for column in required_columns
+    ):
+        return pd.DataFrame()
+
+    matches = results[
+        (results["home"] == team_name)
+        | (results["away"] == team_name)
+    ].copy()
+
+    matches["date"] = pd.to_datetime(
+        matches["date"],
+        errors="coerce"
+    )
+
+    matches = matches.dropna(
+        subset=["date", "ft_home", "ft_away"]
+    )
+
+    matches = matches.sort_values(
+        "date",
+        ascending=False
+    ).head(limit)
 
     records = []
 
-    for item in result.get("response", []):
-        fixture = item.get("fixture", {})
-        league = item.get("league", {})
-        teams = item.get("teams", {})
-        goals = item.get("goals", {})
-        status = fixture.get("status", {})
+    for _, match in matches.iterrows():
+
+        is_home = match["home"] == team_name
+
+        if is_home:
+
+            goals_for = match["ft_home"]
+            goals_against = match["ft_away"]
+            opponent = match["away"]
+            venue = "Home"
+
+        else:
+
+            goals_for = match["ft_away"]
+            goals_against = match["ft_home"]
+            opponent = match["home"]
+            venue = "Away"
+
+        if goals_for > goals_against:
+            outcome = "W"
+        elif goals_for == goals_against:
+            outcome = "D"
+        else:
+            outcome = "L"
 
         records.append({
-            "fixture_id": fixture.get("id"),
-            "date": fixture.get("date"),
-            "league_id": league.get("id"),
-            "league": league.get("name"),
-            "country": league.get("country"),
-            "season": league.get("season"),
-            "home_team_id": teams.get("home", {}).get("id"),
-            "home_team": teams.get("home", {}).get("name"),
-            "away_team_id": teams.get("away", {}).get("id"),
-            "away_team": teams.get("away", {}).get("name"),
-            "home_goals": goals.get("home"),
-            "away_goals": goals.get("away"),
-            "status": status.get("short"),
-            "data_status": "CURRENT FIXTURE RETRIEVED",
-            "prediction_status": "NOT GENERATED"
+            "Date": match["date"].strftime("%Y-%m-%d"),
+            "Opponent": opponent,
+            "Venue": venue,
+            "Goals For": int(goals_for),
+            "Goals Against": int(goals_against),
+            "Result": outcome
         })
 
     return pd.DataFrame(records)
 
 
+
 # ==========================================
-# RECENT TEAM MATCH RETRIEVAL
+# TEAM FORM SUMMARY
 # ==========================================
 
-def get_recent_team_matches(team_id, season):
-    now = datetime.now(ZoneInfo("Africa/Lagos"))
+def calculate_team_form(results, team_name):
 
-    yesterday = now.date() - timedelta(days=1)
-    start_date = now.date() - timedelta(days=60)
-
-    result = api_get(
-        "fixtures",
-        {
-            "team": int(team_id),
-            "season": int(season),
-            "from": start_date.strftime("%Y-%m-%d"),
-            "to": yesterday.strftime("%Y-%m-%d"),
-            "timezone": "Africa/Lagos"
-        }
+    matches = get_team_recent_matches(
+        results,
+        team_name,
+        limit=5
     )
 
-    matches = result.get("response", [])
+    if matches.empty:
+        return None
 
-    completed = [
-        match for match in matches
-        if match.get("fixture", {}).get("status", {}).get("short")
-        in ["FT", "AET", "PEN"]
-    ]
+    wins = (matches["Result"] == "W").sum()
+    draws = (matches["Result"] == "D").sum()
+    losses = (matches["Result"] == "L").sum()
 
-    completed.sort(
-        key=lambda match: match.get("fixture", {}).get("date", ""),
-        reverse=True
-    )
+    points = wins * 3 + draws
 
-    return completed[:5]
+    return {
+        "played": len(matches),
+        "wins": int(wins),
+        "draws": int(draws),
+        "losses": int(losses),
+        "points": int(points),
+        "goals_for": int(matches["Goals For"].sum()),
+        "goals_against": int(matches["Goals Against"].sum()),
+        "matches": matches
+    }
+
 
 
 # ==========================================
@@ -179,15 +273,41 @@ page = st.sidebar.radio(
     "Navigation",
     [
         "Overview",
-        "Historical Predictions",
+        "Competitions",
         "Upcoming Fixtures",
-        "Live API Connection",
-        "Recent Team Data Test"
+        "Team Form",
+        "Historical Records"
     ]
 )
 
-st.sidebar.markdown("---")
-st.sidebar.caption("MATCHIQ Football Analytics")
+st.sidebar.divider()
+
+st.sidebar.caption(
+    "Data source: open-matchday"
+)
+
+st.sidebar.caption(
+    "Free CSV football data"
+)
+
+
+
+# ==========================================
+# LOAD COMPETITIONS
+# ==========================================
+
+try:
+
+    competitions = get_competitions()
+
+except Exception as error:
+
+    competitions = pd.DataFrame()
+
+    st.error(
+        f"Could not connect to the free football dataset: {error}"
+    )
+
 
 
 # ==========================================
@@ -200,89 +320,148 @@ if page == "Overview":
 
     col1, col2, col3 = st.columns(3)
 
-    col1.metric("Historical Matches", f"{len(historical):,}")
-    col2.metric("Historical Predictions", f"{len(predictions):,}")
-    col3.metric("Uploaded Upcoming Fixtures", f"{len(upcoming):,}")
+    col1.metric(
+        "Historical Matches",
+        f"{len(historical):,}"
+    )
+
+    col2.metric(
+        "Historical Predictions",
+        f"{len(historical_predictions):,}"
+    )
+
+    col3.metric(
+        "Available Competitions",
+        f"{len(competitions):,}"
+    )
 
     st.divider()
 
+    st.subheader("Data Connection")
+
+    if not competitions.empty:
+
+        st.success(
+            "Free football data directory connected."
+        )
+
+        st.write(
+            f"MATCHIQ can access {len(competitions)} "
+            "listed competitions."
+        )
+
+    else:
+
+        st.warning(
+            "Competition data is currently unavailable."
+        )
+
     st.subheader("Historical Model Performance")
 
-    col1, col2, col3 = st.columns(3)
+    if not historical_predictions.empty:
 
-    col1.metric("V3 Accuracy", "45.34%")
-    col2.metric("Brier Score", "0.6504")
-    col3.metric("Log Loss", "1.0851")
+        col1, col2, col3 = st.columns(3)
 
-    st.info(
-        "Chronological holdout accuracy was 51.01% "
-        "across 447 matches. This is historical evaluation, "
-        "not a guarantee of future performance."
-    )
+        col1.metric(
+            "V3 Accuracy",
+            "45.34%"
+        )
+
+        col2.metric(
+            "Brier Score",
+            "0.6504"
+        )
+
+        col3.metric(
+            "Log Loss",
+            "1.0851"
+        )
+
+        st.caption(
+            "Historical backtest figures, not verified "
+            "current-season prediction accuracy."
+        )
+
+    else:
+
+        st.info(
+            "Historical prediction records have not been loaded."
+        )
+
+    st.divider()
 
     st.subheader("About MATCHIQ")
 
     st.write(
-        "MATCHIQ combines football data retrieval, "
-        "historical analysis and statistical prediction models."
+        "MATCHIQ is designed to retrieve football data, "
+        "analyse team performance and develop statistical "
+        "match predictions."
     )
 
     st.write(
-        "The current historical model uses an upgraded "
-        "Poisson prediction engine."
+        "The current data connection uses publicly accessible "
+        "CSV files rather than a paid API subscription."
     )
 
     st.warning(
-        "Historical model performance does not establish "
-        "the accuracy of predictions on current fixtures."
+        "This dataset is updated daily, not live. "
+        "Missing statistics are treated as unavailable, "
+        "not as zero."
     )
 
 
+
 # ==========================================
-# HISTORICAL PREDICTIONS
+# COMPETITIONS
 # ==========================================
 
-elif page == "Historical Predictions":
+elif page == "Competitions":
 
-    st.header("Historical Predictions")
+    st.header("Available Football Competitions")
 
-    if predictions.empty:
-        st.warning("Historical prediction data is unavailable.")
+    if competitions.empty:
+
+        st.warning(
+            "No competitions could be loaded."
+        )
 
     else:
-        search = st.text_input("Search team or competition")
 
-        filtered = predictions.copy()
+        search = st.text_input(
+            "Search competition or country"
+        )
+
+        display = competitions.copy()
 
         if search:
-            text_columns = filtered.select_dtypes(
-                include=["object"]
-            ).columns
 
-            if len(text_columns):
-                mask = filtered[text_columns].astype(str).apply(
-                    lambda col: col.str.contains(
-                        search,
-                        case=False,
-                        na=False
-                    )
-                ).any(axis=1)
+            mask = (
+                display["league"].str.contains(
+                    search,
+                    case=False,
+                    na=False
+                )
+                |
+                display["country"].str.contains(
+                    search,
+                    case=False,
+                    na=False
+                )
+            )
 
-                filtered = filtered[mask]
+            display = display[mask]
 
-        st.metric("Matching Records", len(filtered))
+        st.metric(
+            "Competitions Found",
+            len(display)
+        )
 
         st.dataframe(
-            filtered,
-            width="stretch"
+            display[["league", "country"]],
+            width="stretch",
+            hide_index=True
         )
 
-        st.download_button(
-            "Download Historical Predictions",
-            data=filtered.to_csv(index=False).encode("utf-8"),
-            file_name="MATCHIQ_Historical_Predictions.csv",
-            mime="text/csv"
-        )
 
 
 # ==========================================
@@ -293,284 +472,291 @@ elif page == "Upcoming Fixtures":
 
     st.header("Upcoming Fixtures")
 
-    st.caption(
-        "Uploaded historical fixture snapshot. "
-        "Use Live API Connection to retrieve today's fixtures."
-    )
+    if competitions.empty:
 
-    if upcoming.empty:
-        st.warning("No uploaded upcoming fixture records found.")
+        st.warning(
+            "Competition directory is unavailable."
+        )
 
     else:
-        search = st.text_input("Search teams or competitions")
 
-        filtered = upcoming.copy()
+        selected_league = st.selectbox(
+            "Select Competition",
+            competitions["league"].tolist()
+        )
 
-        if search:
-            text_columns = filtered.select_dtypes(
-                include=["object"]
-            ).columns
+        selected = competitions[
+            competitions["league"] == selected_league
+        ].iloc[0]
 
-            if len(text_columns):
-                mask = filtered[text_columns].astype(str).apply(
-                    lambda col: col.str.contains(
-                        search,
-                        case=False,
-                        na=False
+        folder = selected["folder"]
+
+        try:
+
+            with st.spinner(
+                "Retrieving fixtures..."
+            ):
+
+                fixtures = get_competition_fixtures(
+                    folder
+                )
+
+            if fixtures.empty:
+
+                st.info(
+                    "No fixtures are currently listed."
+                )
+
+            else:
+
+                fixtures["date"] = pd.to_datetime(
+                    fixtures["date"],
+                    errors="coerce"
+                )
+
+                today = pd.Timestamp.now(
+                    tz="Africa/Lagos"
+                ).date()
+
+                upcoming_fixtures = fixtures[
+                    fixtures["date"].dt.date >= today
+                ].copy()
+
+                upcoming_fixtures = upcoming_fixtures.sort_values(
+                    "date"
+                )
+
+                st.metric(
+                    "Upcoming Fixtures",
+                    len(upcoming_fixtures)
+                )
+
+                st.dataframe(
+                    upcoming_fixtures,
+                    width="stretch",
+                    hide_index=True
+                )
+
+                st.download_button(
+                    "Download Fixtures",
+                    data=upcoming_fixtures.to_csv(
+                        index=False
+                    ).encode("utf-8"),
+                    file_name="MATCHIQ_Upcoming_Fixtures.csv",
+                    mime="text/csv"
+                )
+
+        except Exception as error:
+
+            st.error(
+                f"Could not retrieve fixtures: {error}"
+            )
+
+
+
+# ==========================================
+# TEAM FORM
+# ==========================================
+
+elif page == "Team Form":
+
+    st.header("Team Performance & Recent Form")
+
+    if competitions.empty:
+
+        st.warning(
+            "Competition directory is unavailable."
+        )
+
+    else:
+
+        selected_league = st.selectbox(
+            "Select Competition",
+            competitions["league"].tolist()
+        )
+
+        selected = competitions[
+            competitions["league"] == selected_league
+        ].iloc[0]
+
+        folder = selected["folder"]
+
+        try:
+
+            with st.spinner(
+                "Loading completed matches..."
+            ):
+
+                results = get_competition_results(
+                    folder
+                )
+
+            if results.empty:
+
+                st.warning(
+                    "No completed matches are available."
+                )
+
+            else:
+
+                teams = sorted(
+                    set(results["home"].dropna().tolist())
+                    |
+                    set(results["away"].dropna().tolist())
+                )
+
+                selected_team = st.selectbox(
+                    "Select Team",
+                    teams
+                )
+
+                form = calculate_team_form(
+                    results,
+                    selected_team
+                )
+
+                if form is None:
+
+                    st.warning(
+                        "Insufficient completed matches "
+                        "to calculate recent form."
                     )
-                ).any(axis=1)
 
-                filtered = filtered[mask]
+                else:
 
-        st.metric("Available Records", len(filtered))
+                    st.subheader(selected_team)
+
+                    col1, col2, col3, col4 = st.columns(4)
+
+                    col1.metric(
+                        "Played",
+                        form["played"]
+                    )
+
+                    col2.metric(
+                        "Wins",
+                        form["wins"]
+                    )
+
+                    col3.metric(
+                        "Draws",
+                        form["draws"]
+                    )
+
+                    col4.metric(
+                        "Losses",
+                        form["losses"]
+                    )
+
+                    col1, col2, col3 = st.columns(3)
+
+                    col1.metric(
+                        "Points",
+                        form["points"],
+                        f"Out of {form['played'] * 3}"
+                    )
+
+                    col2.metric(
+                        "Goals Scored",
+                        form["goals_for"]
+                    )
+
+                    col3.metric(
+                        "Goals Conceded",
+                        form["goals_against"]
+                    )
+
+                    st.subheader(
+                        "Last Five Completed Matches"
+                    )
+
+                    st.dataframe(
+                        form["matches"],
+                        width="stretch",
+                        hide_index=True
+                    )
+
+                    st.caption(
+                        "Form is calculated from the latest "
+                        "completed matches available in the dataset."
+                    )
+
+        except Exception as error:
+
+            st.error(
+                f"Could not retrieve team data: {error}"
+            )
+
+
+
+# ==========================================
+# HISTORICAL RECORDS
+# ==========================================
+
+elif page == "Historical Records":
+
+    st.header("MATCHIQ Historical Records")
+
+    st.subheader("Historical Match Database")
+
+    if historical.empty:
+
+        st.info(
+            "Historical match database is unavailable."
+        )
+
+    else:
+
+        st.metric(
+            "Historical Matches",
+            len(historical)
+        )
 
         st.dataframe(
-            filtered,
+            historical,
             width="stretch"
         )
 
         st.download_button(
-            "Download Upcoming Fixtures",
-            data=filtered.to_csv(index=False).encode("utf-8"),
-            file_name="MATCHIQ_Upcoming_Fixtures.csv",
+            "Download Historical Database",
+            data=historical.to_csv(
+                index=False
+            ).encode("utf-8"),
+            file_name="MATCHIQ_Historical_Database.csv",
             mime="text/csv"
         )
 
+    st.divider()
 
-# ==========================================
-# LIVE API CONNECTION
-# ==========================================
+    st.subheader("Historical Model Predictions")
 
-elif page == "Live API Connection":
+    if historical_predictions.empty:
 
-    st.header("Live Football Data Connection")
-
-    st.write(
-        "Connect MATCHIQ to API-Football and retrieve "
-        "the latest fixtures for the current date."
-    )
-
-    if get_api_key():
-        st.success("API key detected in Streamlit Secrets.")
-    else:
-        st.error(
-            "API key not detected. Check API_FOOTBALL_KEY "
-            "in Streamlit Secrets."
-        )
-
-    if st.button(
-        "Test API Connection and Retrieve Today's Fixtures",
-        type="primary"
-    ):
-
-        if not get_api_key():
-            st.error("API key is missing.")
-
-        else:
-            with st.spinner("Connecting to API-Football..."):
-
-                try:
-                    status_result = api_get("status")
-
-                    st.success(
-                        "API authentication successful."
-                    )
-
-                    st.subheader("API Account Information")
-
-                    st.json(status_result.get("response", {}))
-
-                    live_df = get_live_fixtures()
-
-                    st.session_state["live_fixtures"] = live_df
-
-                    st.success(
-                        f"Successfully retrieved {len(live_df)} "
-                        "fixtures for today."
-                    )
-
-                except requests.exceptions.HTTPError as error:
-                    st.error(f"API HTTP error: {error}")
-
-                except requests.exceptions.RequestException as error:
-                    st.error(f"Connection error: {error}")
-
-                except Exception as error:
-                    st.error(f"API retrieval error: {error}")
-
-    if "live_fixtures" in st.session_state:
-
-        live_df = st.session_state["live_fixtures"]
-
-        st.divider()
-        st.subheader("Retrieved Live Fixtures")
-
-        st.metric("Fixtures Retrieved", len(live_df))
-
-        if live_df.empty:
-            st.info("The API returned no fixtures for today.")
-
-        else:
-            st.dataframe(
-                live_df,
-                width="stretch"
-            )
-
-            st.download_button(
-                "Download Live Fixtures",
-                data=live_df.to_csv(index=False).encode("utf-8"),
-                file_name="MATCHIQ_Live_Fixtures.csv",
-                mime="text/csv"
-            )
-
-        st.warning(
-            "Fixture retrieval does not automatically generate "
-            "predictions. Current team data must be retrieved "
-            "and validated first."
-        )
-
-
-# ==========================================
-# RECENT TEAM DATA TEST
-# ==========================================
-
-elif page == "Recent Team Data Test":
-
-    st.header("Recent Team Data Retrieval Test")
-
-    st.write(
-        "This test checks whether API-Football allows "
-        "MATCHIQ to retrieve recent completed matches "
-        "for the teams in today's fixtures."
-    )
-
-    if "live_fixtures" not in st.session_state:
-
-        st.warning(
-            "First visit Live API Connection and retrieve "
-            "today's fixtures."
+        st.info(
+            "Historical prediction database is unavailable."
         )
 
     else:
 
-        live_df = st.session_state["live_fixtures"]
-
-        available = live_df.dropna(
-            subset=[
-                "home_team_id",
-                "away_team_id",
-                "season"
-            ]
+        st.metric(
+            "Historical Predictions",
+            len(historical_predictions)
         )
 
-        if available.empty:
-
-            st.warning("No suitable fixtures are available for testing.")
-
-        else:
-
-            fixture_index = st.selectbox(
-                "Choose a fixture to test",
-                options=range(len(available)),
-                format_func=lambda index: (
-                    f"{available.iloc[index]['home_team']} vs "
-                    f"{available.iloc[index]['away_team']}"
-                )
-            )
-
-            fixture = available.iloc[fixture_index]
-
-            st.write(
-                f"Competition: {fixture['league']}"
-            )
-
-            st.write(
-                f"Season: {fixture['season']}"
-            )
-
-            if st.button(
-                "Test Recent Team Data",
-                type="primary"
-            ):
-
-                teams_to_test = [
-                    (
-                        "Home",
-                        fixture["home_team"],
-                        fixture["home_team_id"]
-                    ),
-                    (
-                        "Away",
-                        fixture["away_team"],
-                        fixture["away_team_id"]
-                    )
-                ]
-
-                for side, team_name, team_id in teams_to_test:
-
-                    st.divider()
-                    st.subheader(f"{side} Team: {team_name}")
-
-                    try:
-
-                        matches = get_recent_team_matches(
-                            team_id,
-                            fixture["season"]
-                        )
-
-                        if matches:
-
-                            st.success(
-                                f"{len(matches)} completed matches retrieved."
-                            )
-
-                            match_records = []
-
-                            for match in matches:
-
-                                match_fixture = match.get("fixture", {})
-                                match_teams = match.get("teams", {})
-                                match_goals = match.get("goals", {})
-                                match_league = match.get("league", {})
-
-                                match_records.append({
-                                    "date": match_fixture.get("date"),
-                                    "competition": match_league.get("name"),
-                                    "home_team": match_teams.get(
-                                        "home", {}
-                                    ).get("name"),
-                                    "away_team": match_teams.get(
-                                        "away", {}
-                                    ).get("name"),
-                                    "home_goals": match_goals.get("home"),
-                                    "away_goals": match_goals.get("away"),
-                                    "status": match_fixture.get(
-                                        "status", {}
-                                    ).get("short")
-                                })
-
-                            st.dataframe(
-                                pd.DataFrame(match_records),
-                                width="stretch"
-                            )
-
-                        else:
-
-                            st.warning(
-                                "The API returned no completed matches "
-                                "within the selected date range."
-                            )
-
-                    except Exception as error:
-
-                        st.error(
-                            f"Could not retrieve recent data: {error}"
-                        )
-
-        st.caption(
-            "This is a data-access test only. It does not generate "
-            "football predictions."
+        st.dataframe(
+            historical_predictions,
+            width="stretch"
         )
+
+        st.download_button(
+            "Download Historical Predictions",
+            data=historical_predictions.to_csv(
+                index=False
+            ).encode("utf-8"),
+            file_name="MATCHIQ_Final_V3_Predictions.csv",
+            mime="text/csv"
+        )
+
 
 
 # ==========================================
@@ -580,6 +766,10 @@ elif page == "Recent Team Data Test":
 st.divider()
 
 st.caption(
-    "MATCHIQ | Statistical football intelligence. "
-    "Predictions are not guaranteed outcomes."
+    "MATCHIQ | Football data and statistical analysis."
+)
+
+st.caption(
+    "External data source: open-matchday "
+    "| Updated daily | Not an in-play data feed"
 )

@@ -263,10 +263,6 @@ page = st.sidebar.radio(
         "Team Form",
         "Match Predictions",
 "Backtesting",
-# ==========================================
-# BACKTESTING
-
-elif page == "Backtesting":
 
     st.header("MATCHIQ Historical Backtesting")
 

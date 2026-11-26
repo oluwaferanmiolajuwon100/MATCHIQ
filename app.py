@@ -133,22 +133,8 @@ def get_live_fixtures():
 # RECENT TEAM MATCH RETRIEVAL
 # ==========================================
 
-def get_recent_team_matches(team_id):
-    now = datetime.now(ZoneInfo("Africa/Lagos"))
-    yesterday = now.date() - pd.Timedelta(days=1)
-    start_date = now.date() - pd.Timedelta(days=60)
-
-    result = api_get(
-        "fixtures",
-        {
-            "team": int(team_id),
-            "from": start_date.strftime("%Y-%m-%d"),
-            "to": yesterday.strftime("%Y-%m-%d"),
-            "timezone": "Africa/Lagos"
-        }
-    )
-
-    matches = result.get("response", [])
+def get_recent_team_matches(team_id, season):
+   matches = result.get("response", [])
 
     completed = [
         match for match in matches
@@ -162,7 +148,6 @@ def get_recent_team_matches(team_id):
     )
 
     return completed[:5]
-
 
 
 # ==========================================
@@ -463,7 +448,7 @@ elif page == "Recent Team Data Test":
                     team_name = fixture[f"{side}_team"]
 
                     try:
-                        matches = get_recent_team_matches(team_id)
+                        matches = get_recent_team_matches(team_id, fixture["season"])
 
                         st.success(
                             f"{team_name}: "

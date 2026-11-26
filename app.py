@@ -1,3 +1,4 @@
+import json
 import os
 import re
 from io import StringIO
@@ -78,41 +79,24 @@ def download_file(url):
 @st.cache_data(ttl=3600, show_spinner=False)
 def get_competitions():
 
-    url = f"{BASE_URL}/LEAGUE_INDEX.md"
+    url = f"{BASE_URL}/build_summary.json"
 
     content = download_file(url)
+    summary = json.loads(content)
 
     competitions = []
 
-    for line in content.splitlines():
+    for item in summary.get("leagues", []):
 
-        if not line.startswith("|"):
-            continue
+        folder_path = item.get("folder", "")
+        folder = folder_path.split("/")[-1]
+        league = item.get("league", "")
 
-        parts = [
-            item.strip()
-            for item in line.split("|")
-        ]
-
-        if len(parts) < 4:
-            continue
-
-        folder = parts[1].strip("` ")
-        league = parts[2].strip()
-        country = parts[3].strip()
-
-        if (
-            folder
-            and league
-            and country
-            and folder.lower() != "folder"
-            and not folder.startswith("---")
-        ):
-
+        if folder and league:
             competitions.append({
                 "folder": folder,
                 "league": league,
-                "country": country
+                "country": folder.split("_")[0]
             })
 
     return pd.DataFrame(competitions)

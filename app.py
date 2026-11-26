@@ -772,16 +772,37 @@ elif page == "Match Predictions":
                         st.warning(
                             "Insufficient recent match data "
                             "for one or both teams. No prediction generated."
-                   avg_home_goals = results["ft_home"].mean()
+                        )
 
-                   def poisson_probability(goals, expected):
+                    elif home_form["played"] < 3 or away_form["played"] < 3:
 
-                            return (
-                                math.exp(-expected)
-                                * expected ** goals
-                                / math.factorial(goals)
+                        st.warning(
+                            "At least three recent completed matches "
+                            "are required for each team."
+                        )
+
+                    else:
+
+                        avg_home_goals = results["ft_home"].mean()
+                        avg_away_goals = results["ft_away"].mean()
+
+                        avg_team_goals = (
+                            avg_home_goals + avg_away_goals
+                        ) / 2
+
+                        if avg_team_goals <= 0:
+                            st.warning(
+                                "Competition scoring data is insufficient."
                             )
-                            score_probabilities = {}
+
+                        else:
+
+                            def poisson_probability(goals, expected):
+                                return (
+                                    math.exp(-expected)
+                                    * expected ** goals
+                                    / math.factorial(goals)
+                                )
 
                             for h in range(9):
                                 for a in range(9):
@@ -1029,18 +1050,28 @@ elif page == "Backtesting":
                         min(avg_away * away_attack * home_defence, 5)
                     )
 
-                    def poisson_probability(goals, expected):
-                        return (
-                            math.exp(-expected)
-                            * expected ** goals
-                            / math.factorial(goals)
-                        )
+                                           def poisson_probability(goals, expected):
+                                return (
+                                    math.exp(-expected)
+                                    * expected ** goals
+                                    / math.factorial(goals)
+                                )
 
-                    score_probs = {}
+                            score_probabilities = {}
 
-                    for h in range(9):
-                        for a in range(9):
-                            score_probs[(h, a)] = (
+                            for h in range(9):
+                                for a in range(9):
+
+                                    probability = (
+                                        poisson_probability(h, expected_home)
+                                        * poisson_probability(a, expected_away)
+                                    )
+
+                                    score_probabilities[(h, a)] = probability
+
+                            total_probability = sum(
+                                score_probabilities.values()
+                            )
                                 poisson_probability(h, expected_home)
                                 * poisson_probability(a, expected_away)
                             )
